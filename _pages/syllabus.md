@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /fall2020/syllabus/
+permalink: /spring2022/syllabus/
 title: Syllabus
 ---
 
