@@ -2,11 +2,11 @@
 # Site settings
 # -----------------------------------------------------------------------------
 author: CMU MultiComp Lab
-name: 11-777 MMML
-title: Multimodal Machine Learning
+name: 11-877 AMMML
+title: Advanced Topics in Multimodal Machine Learning
 email:
 description: >
-  11-777 - Multimodal Machine Learning - Carnegie Mellon University - Fall 2020
+  11-877 - Advanced Topics in Multimodal Machine Learning - Carnegie Mellon University - Spring 2022
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 
