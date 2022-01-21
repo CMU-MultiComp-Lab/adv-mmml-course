@@ -2,7 +2,6 @@
   title: >
     Week 1: <strong>Course introduction</strong>
   slides:
-  video:
   topics:
     - Course syllabus and requirements
   readings:
@@ -11,7 +10,6 @@
   title: >
     Week 2: <strong>Cross-modal interactions</strong>
   slides:
-  video:
   topics:
     - TBD
   readings: TBD
@@ -20,7 +18,6 @@
   title: >
     Week 3: <strong>Multimodal co-learning</strong>
   slides:
-  video:
   topics:
     - TBD
   readings: TBD
@@ -29,7 +26,6 @@
   title: >
     Week 4: <strong>Pretraining paradigm</strong>
   slides:
-  video:
   topics:
     - TBD
   readings: TBD
@@ -38,7 +34,6 @@
   title: >
     Week 5: <strong>Multimodal reasoning</strong>
   slides:
-  video:
   topics:
     - TBD
   readings: TBD
@@ -47,7 +42,6 @@
   title: >
     Week 6: <strong>Memory and long-term interactions</strong>
   slides:
-  video:
   topics:
     - TBD
   readings: TBD
@@ -56,7 +50,6 @@
   title: >
     Week 7: <strong>No classes – Spring break</strong>
   slides:
-  video:
   topics:
     - TBD
   readings: TBD
@@ -65,7 +58,6 @@
   title: >
     Week 8: <strong>No classes – Spring break</strong>
   slides:
-  video:
   topics:
     - TBD
   readings: TBD
@@ -74,7 +66,6 @@
   title: >
     Week 9: <strong>Brain and multimodal perception</strong>
   slides:
-  video:
   topics:
     - TBD
   readings: TBD
@@ -83,7 +74,6 @@
   title: >
     Week 10: <strong>Beyond language and vision</strong>
   slides:
-  video:
   topics:
     - TBD
   readings: TBD
@@ -92,7 +82,6 @@
   title: >
     Week 11: <strong>Subjectivity and dataset biases</strong>
   slides:
-  video:
   topics:
     - TBD
   readings: TBD
@@ -101,7 +90,6 @@
   title: >
     Week 12: <strong>No classes – CMU Carnival</strong>
   slides:
-  video:
   topics:
     - TBD
   readings: TBD
@@ -110,7 +98,6 @@
   title: >
     Week 13: <strong>Fairness and real-world constraints</strong>
   slides:
-  video:
   topics:
     - TBD
   readings: TBD
@@ -119,7 +106,6 @@
   title: >
     Week 14: <strong>Multimodal generalization</strong>
   slides:
-  video:
   topics:
     - TBD
   readings: TBD
@@ -128,7 +114,6 @@
   title: >
     Week 15: <strong>Low-resource settings</strong>
   slides:
-  video:
   topics:
     - TBD
   readings: TBD
