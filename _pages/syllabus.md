@@ -85,6 +85,37 @@ The course is expected to be in-person given its discussion-based approach. Stud
     - 7 points for the synopsis created by the two leads to summarize the main take-home messages of these discussions
   - The final score will be computers by taking the top 2 scores, if the student was discussion synopsis lead more than twice during the semester. 
 
+**Grading breakdown for 12-unit version (with course project)**
+- Grading breakdown of the 6-unit version will be scaled to 50%. The second 50% comes from the course project:
+  - Pre-proposal and project preferences 5%
+  - Proposal and literature review 15%
+  - Weekly updates 30%
+  - Mid-term report 20%
+  - Final report 30%
+- Project preference form
+  - This form is designed to help students with the team matching process, for the course research project.
+- Pre-proposal
+  - This short 1-page pre-proposal is designed to confirm teams and share initial thoughts about the research project, including which dataset is planned to be used as part of the project
+- Proposal and literature review
+  - The proposal report should present the initial research ideas for the course project. Students are expected to explore new research ideas as part of the course research project. The proposal should summarize these research ideas. It should also give an overview of the dataset and main research tasks that will be addressed.
+  - An important part of this proposal report will be a detailed literature review, including recent papers and models related to the dataset, research tasks and the new research ideas. 
+- Weekly updates
+  - Project teams are expected to meet with instructors on a regular basis. 
+    - Project meetings will be about 20-30 minutes long. 
+    - Each meeting will be usually with one instructor. 
+    - Each team should plan to have one project meeting per week.
+  - To help streamline the project meetings, team members should prepare some update document before each meeting
+    - Each team can decide to use either an online Google Docs or Google Slides for these updates.
+    - The goal is to keep these updates informal, with only the main points highlighted in the updates. 
+      - For example, a bullet list with 3-4 items may be sufficient. 
+    - The same online document should be used for all weekly meetings, so that instructors can easily review previous updates.
+  - Weekly updates will be graded by instructors, 3 points per update meeting.
+  - The final score will be computed by taking the top 10 scores for the whole semester. 
+- Midterm report
+  - The goal of the midterm report is to summarize the current research progress. Students should have started already exploring new research ideas. The midterm report should summarize these initial results and discuss them. This report should also present the updated list of research ideas that the team plan to explore.
+- Final report
+  - The final report should follow similar structure of a research paper. It should motivate the problem and research ideas. It should present the novel approaches, describe the experiment and discuss the results. 
+
 
 #### Notes about absences and late submissions
 
