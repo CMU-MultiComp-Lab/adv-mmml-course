@@ -12,3 +12,98 @@ Latest version (in pdf) available [on Piazza](https://piazza-syllabus.s3.amazona
 ***
 
 ### Course Format
+
+The course is expected to be in-person given its discussion-based approach. Students are expected to read papers ahead of each course session, and discussions will be moderated to ensure deep understanding of all papers and critical thinking of the paper’s strengths and possible avenues for future directions and improvements. The course is planned for 6 credit units. Optionally, students can register for 12 credit units, with the expectation to do a comprehensive research project as part of the semester. These course projects are expected to be done in teams, with the research topic to be in the realm of multimodal machine learning and pre-approved by the course instructors.
+
+**Website:** The main course website is available on online:
+
+[https://cmu-multicomp-lab.github.io/adv-mmml-course/spring2022/](https://cmu-multicomp-lab.github.io/adv-mmml-course/spring2022/ )
+
+**Piazza:** We will be using Piazza for class communication and announcement. The system is highly catered to getting you help fast and efficiently from classmates and the instructors. Rather than emailing questions to the teaching staff, you are encouraged to post your questions on Piazza. You can post privately to the instructor and TAs through Piazza website.
+
+[https://piazza.com/cmu/spring2022/11877/home](https://piazza.com/cmu/spring2022/11877/home)
+
+**Canvas:** Students are asked to submit their project assignments through the website Canvas. This platform will be used for grading and to handle any request for re-grading. 
+
+[https://canvas.cmu.edu/courses/28476](https://canvas.cmu.edu/courses/28476)
+
+### Course Material
+
+**Required:**
+- Reading material will be based on published technical papers available via the ACM/IEEE/Springer digital libraries or freely available online (e.g., arxiv.org).  All CMU students have already free access to these digital archives.
+- For project assignments, previous experience in Python and deep learning (e.g., Pytorch) programming is expected
+
+### Course Project Timeline
+(This section applies only to 12-unit version of the course. Exact timeline subject to change.)
+
+- Project preferences (Due Monday 1/24 at 8m ET) – Online form to share your interests about research projects and help with team matching.
+- Pre-proposal (Due Wednesday 1/31 at 8pm ET) – You should have selected your teammates, dataset, and task. Submit a 1-page pre-proposal plan.
+- Proposal and Literature Review (Due Wednesday 2/16 at 8pm ET) - 
+- Midterm report (Due Wednesday 3/16 at 8pm ET) – Intermediate report documenting the initial results exploring new research ideas.
+- Final report (Due Monday 5/2 at 8pm ET) – Final report describing explored research ideas, with experimental results and discussion.
+
+### Grades
+
+#### Notes about absences and late submissions
+
+In general, submitting assignments on time lets the instructional team provide feedback in a more timely and efficient manner. Timely submissions are particularly important for assignments with discussions and peer feedback.  Also, it is expected that students will attend the lectures in person (or via Zoom when the course is required to be performed remotely). Live attendance is an essential component of this course given it is centered around live discussions. Given the live nature of the discussions, course lectures will not be recorded.
+
+**Medical-related absences:** If for medical reason you require some extra time for an assignment or may not be able to attend the lecture in person, please contact instructors as soon as possible (the best option is usually via Piazza) and we will help define a new plan that aligns with your constraints.
+- Absence requests
+  - Students should contact instructors as promptly as possible regarding course absences, with a preference before the course lecture itself.
+  - If you plan to be absent for more than one course lecture, it will be important to contact instructors as promptly as possible. 
+
+**Late submission wildcards:** We offer students and project teams some late submission wildcards to help deal with potential overlaps with other courses or research deadlines. The details are expressed below:
+- Reading assignment wildcards (3 per students)
+  - Each wildcard gives the student a 24-hour extension for the reading assignment deadline.
+  - Maximum of 1 wildcard per week
+    - This constraint is to ensure that sufficient time is made available to prepare for the Friday discussion.
+- Project assignment wildcards (2 per team)
+  - This gives the project team a 24-hour extension for their project assignment deadline.
+  - These can be used for proposal, midterm and/or final deadlines
+  - It is possible to use 2 wildcards for the same deadline, giving the team 48 hours extension.
+  - Teams are required to message instructors via Piazza before the deadline, to inform that they will be using 1 or 2 wildcards.
+
+#### Statement on Student Wellness
+
+This semester is unlike any other. We are all under a lot of stress and uncertainty at this time.
+Attending Zoom classes all day can take its toll on our mental health. Make sure to move regularly,
+eat well, and reach out to your support system or me [(morency@cs.cmu.edu)](mailto:morency@cs.cmu.edu)
+if you need to. We can all benefit from support in times of stress, and this semester is no exception.
+
+As a student, you may experience a range of challenges that can interfere with learning, such as
+strained relationships, increased anxiety, substance use, feeling down, difficulty concentrating
+and/or lack of motivation. These mental health concerns or stressful events may diminish your
+academic performance and/or reduce your ability to participate in daily activities. CMU services
+are available, and treatment does work. You can learn more about confidential mental health
+services available on campus at: [http://www.cmu.edu/counseling/](http://www.cmu.edu/counseling/).
+Support is always available (24/7) from Counseling and Psychological Services: 412-268-2922.
+
+#### Diversity statement
+
+**Every individual must be treated with respect.** The ways we are diverse are many and are
+fundamental to building and maintaining an equitable and an inclusive campus community. These
+include but are not limited to: race, color, national origin, sex, disability, age, sexual orientation,
+gender identity, religion, creed, ancestry, belief, veteran status, or genetic information. We at
+CMU, will work to promote diversity, equity and inclusion not only because it is necessary for
+excellence and innovation, but because it is just. Therefore, while we are imperfect, we all need to
+fully commit to work, both inside and outside of our classrooms to increase our commitment to
+build and sustain a campus community that embraces these core values.
+
+It is the responsibility of each of us to create a safer and more inclusive environment. Incidents of
+bias or discrimination, whether intentional or unintentional in their occurrence, contribute to
+creating an unwelcoming environment for individuals and groups at the university. If you
+experience or observe unfair or hostile treatment on the basis of identity, we encourage you to
+speak out for justice and support in the moment and/or share your experience using the following
+resources:
+
+- Center for Student Diversity and Inclusion: [csdi@andrew.cmu.edu](mailto:csdi@andrew.cmu.edu),
+(412) 268 2150, [http://www.cmu.edu/student-diversity](http://www.cmu.edu/student-diversity/).
+
+- Report-It online anonymous reporting platform: [http://www.reportit.net](http://www.reportit.net)
+username: tartans
+password: plaid
+
+All reports will be acknowledged, documented, and a determination will be made regarding a
+course of action. All experiences shared will be used to transform the campus climate to be more
+equitable and just.
