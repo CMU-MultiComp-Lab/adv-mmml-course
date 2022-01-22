@@ -4,7 +4,6 @@
   slides:
   topics:
     - Course syllabus and requirements
-  readings:
 
 - date: 1/28
   title: >
@@ -14,7 +13,7 @@
     - What are the advantages and drawbacks of designing models to capture each type of cross-modal interaction? Consider not just prediction performance, but tradeoffs in time/space complexity, interpretability, and so on. <br/>
     - Given an arbitrary dataset and prediction task, how can we systematically decide what type of cross-modal interactions exist, and how can that inform our modeling decisions? <br/>
     - Given trained multimodal models, how can we understand or visualize the nature of cross-modal interactions?
-  readings:
+  topics:
     - [Does my multimodal model learn cross-modal interactions? It’s harder to tell than you might think!](https://aclanthology.org/2020.emnlp-main.62/) <br/>
     - [What Does BERT with Vision Look At?](https://aclanthology.org/2020.acl-main.469.pdf) <br/>
     - [Multiplicative Interactions and Where to Find Them](https://openreview.net/pdf?id=rylnK6VtDH) <br/>
