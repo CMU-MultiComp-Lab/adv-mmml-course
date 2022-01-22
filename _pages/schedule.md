@@ -49,7 +49,7 @@ title: Schedule
         ]
     </td>
     <td>
-        <p>{{ lecture.readings }}</p>
+        <p>{{ lecture.topics }}</p>
     </td>
     {% endif %}
 </tr>
