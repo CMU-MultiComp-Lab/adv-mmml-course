@@ -11,12 +11,12 @@
     Week 2: <strong>Cross-modal interactions</strong>
   topics:
   <ul>  
-    <li> What are the different ways in which modalities can interact with each other in multimodal tasks? Can we formalize a taxonomy of such cross-modal interactions, which will enable us to compare and contrast them more precisely? </li>
-    <li> What are the design decisions (aka inductive biases) that can be used when modeling these cross-modal interactions in machine learning models? </li>
-    <li> What are the advantages and drawbacks of designing models to capture each type of cross-modal interaction? Consider not just prediction performance, but tradeoffs in time/space complexity, interpretability, and so on. </li>
-    <li> Given an arbitrary dataset and prediction task, how can we systematically decide what type of cross-modal interactions exist, and how can that inform our modeling decisions? </li>
-    <li> Given trained multimodal models, how can we understand or visualize the nature of cross-modal interactions? </li>
-    </ul>
+    <li> 1. What are the different ways in which modalities can interact with each other in multimodal tasks? Can we formalize a taxonomy of such cross-modal interactions, which will enable us to compare and contrast them more precisely? </li>
+    <li> 2. What are the design decisions (aka inductive biases) that can be used when modeling these cross-modal interactions in machine learning models? </li>
+    <li> 3. What are the advantages and drawbacks of designing models to capture each type of cross-modal interaction? Consider not just prediction performance, but tradeoffs in time/space complexity, interpretability, and so on. </li>
+    <li> 4. Given an arbitrary dataset and prediction task, how can we systematically decide what type of cross-modal interactions exist, and how can that inform our modeling decisions? </li>
+    <li> 5. Given trained multimodal models, how can we understand or visualize the nature of cross-modal interactions? </li>
+  </ul>
   readings: TBD
 
 - date: 2/4
