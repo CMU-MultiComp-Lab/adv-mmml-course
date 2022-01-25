@@ -33,7 +33,7 @@ title: Schedule
         <h2>{{ lecture.title }}<h2> <br/>
             <ul>
                 {% for topic in lecture.topics %}
-            <li>
+                <li style="font-size:10px;">
                 {topic}
                 </li>
                 {% endfor %}
