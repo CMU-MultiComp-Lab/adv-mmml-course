@@ -30,16 +30,17 @@ title: Schedule
     <td colspan="4">{{ lecture.title }}</td>
     {% else %}
     <td>
-        {{ lecture.title }}
+        <h2>{{ lecture.title }}<h2> <br/>
+            <ul>
+                {% for topic in lecture.topics %}
+            <li>
+                {topic}
+                </li>
+                {% endfor %}
+            </ul>
     </td>
     <td>
-        <ul>
-        {% for topic in lecture.topics %}
-            <li>
-            {{ topic }}
-            </li>
-        {% endfor %}
-        </ul>
+        {{ lecture.readings }}
     </td>
     {% endif %}
 </tr>
