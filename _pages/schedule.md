@@ -40,7 +40,9 @@ title: Schedule
             </ul>
     </td>
     <td>
-        {{ lecture.readings }}
+        {% for reading in lecture.readings %}
+        <p style="font-size:12px;">{{ reading }} </p>
+        {% endfor %}
     </td>
     {% endif %}
 </tr>
