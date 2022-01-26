@@ -34,7 +34,7 @@ title: Schedule
             <ul>
                 {% if lecture.topics|length == 1 %}
                     {{lecture.topics}}
-                {% elif lecture.topics|length > 1 %}
+                {% elsif lecture.topics|length > 1 %}
                    {% for topic in lecture.topics %}
                       <li style="font-size:10px;">
                          {{topic}}
@@ -47,7 +47,7 @@ title: Schedule
         <ul>
                 {% if lecture.readings|length == 1 %}
                     {{lecture.readings}}
-                {% elif lecture.readings|length > 1 %}
+                {% elsif lecture.readings|length > 1 %}
                    {% for reading in lecture.readings %}
                       <li style="font-size:10px;">
                          {{reading}}
