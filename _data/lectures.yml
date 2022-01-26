@@ -15,8 +15,13 @@
     - What are the advantages and drawbacks of designing models to capture each type of cross-modal interaction? Consider not just prediction performance, but tradeoffs in time/space complexity, interpretability, and so on. <br/>
     - Given an arbitrary dataset and prediction task, how can we systematically decide what type of cross-modal interactions exist, and how can that inform our modeling decisions? <br/>
     - Given trained multimodal models, how can we understand or visualize the nature of cross-modal interactions? <br/>
-  readings: TBD
-
+  readings:
+    - <a href="https://aclanthology.org/2020.emnlp-main.62/">Does my multimodal model learn cross-modal interactions? It’s harder to tell than you might think!</a> <br/>
+    - <a href="https://aclanthology.org/2020.acl-main.469.pdf>What Does BERT with Vision Look At?</a> <br/>
+    - <a href="https://openreview.net/pdf?id=rylnK6VtDH>Multiplicative Interactions and Where to Find Them</a> <br/>
+    - <a href="https://arxiv.org/pdf/2112.12337.pdf>Cooperative Learning for Multi-view Analysis</a> <br/>
+    - <a href="https://arxiv.org/abs/2109.04448>Vision-and-Language or Vision-for-Language? On Cross-Modal Influence in Multimodal Transformers</a> <br/>
+    - <a href="https://arxiv.org/abs/2012.12352>Seeing past words: Testing the cross-modal capabilities of pretrained V&L models on counting tasks</a> <br/>
 - date: 2/4
   title: >
     Week 3: <strong>Multimodal co-learning</strong>
