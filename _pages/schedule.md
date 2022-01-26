@@ -32,17 +32,29 @@ title: Schedule
     <td>
         {{ lecture.title }} <br/>
             <ul>
-                {% for topic in lecture.topics %}
-                <li style="font-size:10px;">
-                {{topic}}
-                </li>
-                {% endfor %}
-            </ul>
+                {% if lecture.topics|length == 1 %}
+                    {{lecture.topics}}
+                {% elif lecture.topics|length > 1 %}
+                   {% for topic in lecture.topics %}
+                      <li style="font-size:10px;">
+                         {{topic}}
+                      </li>
+                   {% endfor %}
+                {% endif %}
+        </ul>
     </td>
     <td>
-        {% for reading in lecture.readings %}
-        <p style="font-size:12px;">{{ reading }} </p>
-        {% endfor %}
+        <ul>
+                {% if lecture.readings|length == 1 %}
+                    {{lecture.readings}}
+                {% elif lecture.readings|length > 1 %}
+                   {% for reading in lecture.readings %}
+                      <li style="font-size:10px;">
+                         {{reading}}
+                      </li>
+                   {% endfor %}
+                {% endif %}
+        </ul>
     </td>
     {% endif %}
 </tr>
