@@ -30,7 +30,7 @@ title: Schedule
     <td colspan="4">{{ lecture.title }}</td>
     {% else %}
     <td>
-        <h2>{{ lecture.title }}<h2> <br/>
+        {{ lecture.title }} <br/>
             <ul>
                 {% for topic in lecture.topics %}
                 <li style="font-size:10px;">
