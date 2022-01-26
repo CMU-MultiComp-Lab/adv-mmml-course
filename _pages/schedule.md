@@ -33,10 +33,10 @@ title: Schedule
         {{ lecture.title }} <br/>
             <ul>
                 {% if lecture.topics.size == 1 %}
-                <p style="font-size:10px;"> {{lecture.topics}} </p>
+                <p style="font-size:12px;"> {{lecture.topics}} </p>
                 {% elsif lecture.topics.size > 1 %}
                    {% for topic in lecture.topics %}
-                      <li style="font-size:10px;">
+                      <li style="font-size:12px;">
                          {{topic}}
                       </li>
                    {% endfor %}
@@ -46,10 +46,10 @@ title: Schedule
     <td>
         <ul>
                 {% if lecture.readings.size == 1 %}
-            <p style="font-size:10px;">{{lecture.readings}}</p>
+            <p style="font-size:12px;">{{lecture.readings}}</p>
                 {% elsif lecture.readings.size > 1 %}
                    {% for reading in lecture.readings %}
-                      <li style="font-size:10px;">
+                      <li style="font-size:12px;">
                          {{reading}}
                       </li>
                    {% endfor %}
