@@ -33,11 +33,15 @@
     - How can we formally, empirically, or intuitively measure the additional information provided by auxiliary modality? How can we design controlled experiments to test these hypotheses? <br/>
     - What are the advantages and drawbacks of information transfer during co-learning? Consider not just prediction performance, but also tradeoffs with complexity, interpretability, fairness, etc. <br/>
   readings:
-    - <a href=" "> </a> <br/>
-    - 
-    
-    
-    Multimodal Prototypical Networks for Few-shot Learning
+    - <a href="https://arxiv.org/abs/2011.08899">Multimodal Prototypical Networks for Few-shot Learning</a> <br/>
+    - <a href="https://arxiv.org/abs/2103.05677">SMIL: Multimodal Learning with Severely Missing Modality</a> <br/>
+    - <a href="https://arxiv.org/abs/2107.13782">Multimodal Co-learning: Challenges, Applications with Datasets, Recent Advances and Future Directions</a> <br/>
+    - <a href="https://arxiv.org/abs/2010.06775">Vokenization: Improving Language Understanding with Contextualized, Visual-Grounded Supervision</a> <br/>
+    - <a href="https://arxiv.org/abs/2106.04538">What Makes Multi-modal Learning Better than Single (Provably)</a> <br/>
+    - <a href="https://arxiv.org/abs/1812.07809">Found in Translation: Learning Robust Joint Representations by Cyclic Translations Between Modalities</a> <br/>
+    - <a href="https://arxiv.org/abs/1301.3666">Zero-Shot Learning Through Cross-Modal Transfer</a> <br/>
+    - <a href="https://arxiv.org/abs/1912.02315">12-in-1: Multi-Task Vision and Language Representation Learning</a> <br/>
+    - <a href="https://arxiv.org/abs/1906.03926">A Survey of Reinforcement Learning Informed by Natural Language</a> <br/>
   
 - date: 2/11
   title: >
