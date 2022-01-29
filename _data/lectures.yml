@@ -25,10 +25,19 @@
 - date: 2/4
   title: >
     Week 3: <strong>Multimodal co-learning</strong>
-  slides:
   topics:
-    - TBD
-  readings: TBD
+    - What are the types of cross-modal interactions involved to enable such co-learning scenarios where multimodal training ends up generalizing to unimodal testing? <br/>
+    - What are some design decisions (inductive bias) that could be made to promote transfer of information from one modality to another? <br/>
+    - How do we ensure that during co-learning, only useful information is transferred, and not some undesirable bias? This may become a bigger issue in low-resource settings. <br/>
+    - How can we know if co-learning has succeeded? Or failed? What approaches could we develop to visualize and probe the success of co-learning? <br/>
+    - How can we formally, empirically, or intuitively measure the additional information provided by auxiliary modality? How can we design controlled experiments to test these hypotheses? <br/>
+    - What are the advantages and drawbacks of information transfer during co-learning? Consider not just prediction performance, but also tradeoffs with complexity, interpretability, fairness, etc. <br/>
+  readings:
+    - <a href=" "> </a> <br/>
+    - 
+    
+    
+    Multimodal Prototypical Networks for Few-shot Learning
   
 - date: 2/11
   title: >
