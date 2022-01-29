@@ -4,7 +4,10 @@
   slides:
   topics:
     - Course syllabus and requirements
-  readings: N/A
+    - Dimensions of multimodal heterogenity
+  readings:
+    - <a href="https://arxiv.org/abs/1705.09406">Multimodal Machine Learning&#58; A Survey and Taxonomy</a> <br/>
+    - <a href="https://arxiv.org/abs/1206.5538">Representation Learning&#58; A Review and New Perspectives</a> <br/>
 
 - date: 1/28
   title: >
