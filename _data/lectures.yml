@@ -50,10 +50,23 @@
 - date: 2/11
   title: >
     Week 4: <strong>Pretraining paradigm</strong>
-  slides:
   topics:
-    - TBD
-  readings: TBD
+    - Is large-scale pre-training the way forward for building general AI models? What information potentially cannot be captured by pre-training? What are the risks of pre-training? <br/>
+    - What are the types of cross-modal interactions that are likely to be modeled by current pre-training models? What are the cross-modal interactions that will be harder to model with these large-scale pre-training methods? <br/>
+    - How can we best integrate multimodality into pre-trained language models? What kind of additional data and modeling/optimization decisions do we need? <br/>
+    - What are the different design decisions when integrating multimodal information in pre-training models and objectives? What are the main advantages and drawbacks of these design choices? Consider not just prediction performance, but tradeoffs in time/space complexity, interpretability, and so on. <br/>
+    - How can we evaluate the type of multimodal information learned in pre-trained models? One approach is to look at downstream tasks, but what are other ways to uncover the knowledge stored in pre-trained models? <br/>
+  readings:
+    - <a href="https://arxiv.org/abs/2102.00529">Decoupling the Role of Data, Attention, and Losses in Multimodal Transformers</a> <br/>
+    - <a href="https://arxiv.org/abs/2005.07310">Behind the Scene&#58; Revealing the Secrets of Pre-trained Vision-and-Language Models</a> <br/>
+    - <a href="https://arxiv.org/abs/2102.02779">Unifying Vision-and-Language Tasks via Text Generation</a> <br/>
+    - <a href="https://arxiv.org/abs/2112.04482">FLAVA&#58; A Foundational Language And Vision Alignment Model</a> <br/>
+    - <a href="https://arxiv.org/abs/2103.05247">Pretrained Transformers as Universal Computation Engines</a> <br/>
+    - <a href="https://arxiv.org/abs/2106.13884">Multimodal Few-Shot Learning with Frozen Language Models</a> <br/>
+    - <a href="https://arxiv.org/abs/2108.07258">On the Opportunities and Risks of Foundation Models</a> <br/>
+    - <a href="https://arxiv.org/abs/2109.10246">Does Vision-and-Language Pretraining Improve Lexical Grounding?</a> <br/>
+    - <a href="https://arxiv.org/abs/1908.05787">Integrating Multimodal Information in Large Pretrained Transformers</a> <br/>
+    - <a href="https://arxiv.org/abs/2102.12092">Zero-Shot Text-to-Image Generation</a> <br/>
   
 - date: 2/18
   title: >
