@@ -58,11 +58,11 @@
     - How can we evaluate the type of multimodal information learned in pre-trained models? One approach is to look at downstream tasks, but what are other ways to uncover the knowledge stored in pre-trained models? <br/>
   readings:
     - <a href="https://arxiv.org/abs/2102.00529">Decoupling the Role of Data, Attention, and Losses in Multimodal Transformers</a> <br/>
-    - <a href="https://arxiv.org/abs/2005.07310">Behind the Scene&#58; Revealing the Secrets of Pre-trained Vision-and-Language Models</a> <br/>
+    - <a href="https://arxiv.org/abs/2106.13884">Multimodal Few-Shot Learning with Frozen Language Models</a> <br/>
     - <a href="https://arxiv.org/abs/2102.02779">Unifying Vision-and-Language Tasks via Text Generation</a> <br/>
     - <a href="https://arxiv.org/abs/2112.04482">FLAVA&#58; A Foundational Language And Vision Alignment Model</a> <br/>
     - <a href="https://arxiv.org/abs/2103.05247">Pretrained Transformers as Universal Computation Engines</a> <br/>
-    - <a href="https://arxiv.org/abs/2106.13884">Multimodal Few-Shot Learning with Frozen Language Models</a> <br/>
+    - <a href="https://arxiv.org/abs/2005.07310">Behind the Scene&#58; Revealing the Secrets of Pre-trained Vision-and-Language Models</a> <br/>
     - <a href="https://arxiv.org/abs/2108.07258">On the Opportunities and Risks of Foundation Models</a> <br/>
     - <a href="https://arxiv.org/abs/2109.10246">Does Vision-and-Language Pretraining Improve Lexical Grounding?</a> <br/>
     - <a href="https://arxiv.org/abs/1908.05787">Integrating Multimodal Information in Large Pretrained Transformers</a> <br/>
