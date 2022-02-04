@@ -50,7 +50,7 @@ The course is expected to be in-person given its discussion-based approach. Stud
 - Discussion synopsis leads 28%
 
 - Reading assignments
-  - There is a total of 11 reading assignments planned this semester. Each reading assignment will consist of 2 main parts:
+  -  There are a total of 11 reading assignments planned this semester. Each reading assignment will consist of 2 main parts:
     - Assigned reading paper: Reading the assigned papers and summarizing the main take-away points of each paper
     - Research question probes: Reflect on the question probes related to the reading papers and prepare discussion points. 
   - The grading for each reading assignment is planned as:
@@ -60,6 +60,7 @@ The course is expected to be in-person given its discussion-based approach. Stud
   - Reading assignments will also contain a section for students to share their clarification questions about the reading papers. This section is optional and is not directly graded. This section will be used to help instructors and discussion leads prepare for the main discussion during lecture time.
   - The final score will be computed by taking the top 8 scores, out of 11 reading assignments
     - Students are expected to submit all reading assignments. If a reading assignment is not submitted (see late submission section below for details), then 2 points will be removed from the final score for each missing submission. 
+
 - Participation and discussions
   - A core component of this course is centered around live discussions during the course lecture times. Students are expected to be active participants of these discussions. Discussions will be usually performed in smaller groups (8-10 students per group).
   - Small group discussions will be performed in a round table setting, where all students are given opportunity to share their observations and discussion points. 
@@ -72,13 +73,14 @@ The course is expected to be in-person given its discussion-based approach. Stud
     - Given the live nature of the discussions, students are expected to attend all discussion sessions. 
     - Although the final grades are computed with the top 8 scores, an absences unproperly justified (see Attendance section below for more details about absences) will remove 2 points from the final grade.
 
+
 - Discussion synopsis leads
   - 2, 3 or 4 times during the semester (depending on the number of registered students), each student will be scheduled to be leading the effort of summarizing the discussion and create a synopsis.
     - We plan to have 2 discussion synopsis leads per lecture, one lead for each small group.
   - The main tasks of the discussion synopsis leads are 
     - Reading support: The discussion synopsis leads are also expected to read the assigned papers with extra details, to assist other students with follow-up questions, when possible. 
     - Note-taking: during the discussion sessions, the lead will be in charge to take detailed notes from the discussions. These notes will be shared internally with discussion members, but not shared outside the course.
-    - Synopsis: both leads will be tasked to meet and create a coherent synopsis from both discussions. These synopses are planned to be made public on the course website.
+    - Synopsis: both leads will be tasked to meet and create a coherent synopsis from both discussions. These synopses are planned to be made public on the course website. 
   - The grading of each lead assignment is planned as follows:
     - 3 points for interaction and support for other students who have questions regarding the assigned papers
     - 4 points for notes summarizing the observations and points made during small group discussions
