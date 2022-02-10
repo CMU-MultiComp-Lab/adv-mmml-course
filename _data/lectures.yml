@@ -11,7 +11,7 @@
 
 - date: 1/28
   title: >
-    Week 2: <strong>Cross-modal interactions</strong>
+    Week 2: <strong>Cross-modal interactions</strong> <a href="11877_week_2.pdf">[notes]</a>
   topics:
     - What are the different ways in which modalities can interact with each other in multimodal tasks? Can we formalize a taxonomy of such cross-modal interactions, which will enable us to compare and contrast them more precisely? <br/>
     - What are the design decisions (aka inductive biases) that can be used when modeling these cross-modal interactions in machine learning models? <br/>
