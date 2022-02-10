@@ -71,10 +71,26 @@
 - date: 2/18
   title: >
     Week 5: <strong>Multimodal reasoning</strong>
-  slides:
   topics:
-    - TBD
-  readings: TBD
+    - What are the various reasoning processes required in multimodal tasks, where data comes from heterogeneous sources? What could be a taxonomy of the main processes involved in multimodal reasoning? <br/>
+    - Are there unique technical challenges that arise because reasoning is performed on multimodal data? What are these unique challenges? How can we start studying these challenges in future research? <br/>
+    - How should we model cross-modal interactions when performing reasoning over multimodal data? Grounding words with visual objects could be an example of a reasoning step required with multimodal data. Other reasoning involved in modeling the different types of cross-modal interactions (e.g., additive, multiplicative)? <br/>
+    - What are the main advantages of reasoning-based approaches, when compared to the large-scale pre-training methods discussed last week? What are the potential issues with reasoning? Can we perform reasoning on very large datasets? Can pre-training methods eventually learn reasoning processes similar to humans? Or will we still need human and domain knowledge to some extent? <br/>
+    - Can you imagine a way to uncover the reasoning capabilities of black-box model, such as a large-scale pre-trained model? How can one discover specifically the cross-modal reasoning processes in such a black-box model? <br/>
+    - To what extent do we need external knowledge when performing reasoning, specifically multimodal reasoning? What type of external knowledge is likely to be needed to succeed in multimodal reasoning? <br/>
+  readings:
+    - <a href="https://arxiv.org/abs/1910.01442">CLEVRER&#58; CoLlision Events for Video REpresentation and Reasoning</a> <br/>
+    - <a href="https://arxiv.org/abs/2006.11524">Neuro-Symbolic Visual Reasoning&#58; Disentangling “Visual” from “Reasoning”</a> <br/>
+    - <a href="https://arxiv.org/abs/1906.01784">Learning to Compose and Reason with Language Tree Structures for Visual Grounding</a> <br/>
+    - <a href="https://arxiv.org/abs/1910.11475">Heterogeneous Graph Learning for Visual Commonsense Reasoning</a> <br/>
+    - <a href="https://arxiv.org/abs/1906.03952">Multimodal Logical Inference System for Visual-Textual Entailment</a> <br/>
+    - <a href="https://arxiv.org/abs/2012.08673">A Closer Look at the Robustness of Vision-and-Language Pre-trained Models</a> <br/>
+    - <a href="https://arxiv.org/abs/1612.06890">CLEVR&#58; A Diagnostic Dataset for Compositional Language and Elementary Visual Reasoning</a> <br/>
+    - <a href="https://arxiv.org/abs/2002.08325">VQA-LOL&#58; Visual Question Answering under the Lens of Logic</a> <br/>
+    - <a href="https://arxiv.org/abs/1511.02799">Deep Compositional Question Answering with Neural Module Networks</a> <br/>
+    - <a href="https://arxiv.org/abs/1912.07538">Towards Causal VQA&#58; Revealing and Reducing Spurious Correlations by Invariant and Covariant Semantic Editing</a> <br/>
+    - <a href="https://arxiv.org/abs/1507.05670">Building a Large-scale Multimodal Knowledge Base System for Answering Visual Queries</a> <br/>
+    - <a href="https://arxiv.org/abs/2112.08614">KAT&#58; A Knowledge Augmented Transformer for Vision-and-Language</a> <br/>
   
 - date: 2/25
   title: >
