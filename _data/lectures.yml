@@ -95,11 +95,27 @@
 - date: 2/25
   title: >
     Week 6: <strong>Memory and long-term interactions</strong>
-  slides:
   topics:
-    - TBD
-  readings: TBD
-  
+    - What are the scenarios in which memory for long-term interactions is required in multimodal tasks, where data comes from heterogeneous sources? What could be a taxonomy of long-range cross-modal interactions that may need to be stored in memory? <br/>
+    - What are certain methods of parametrizing memory in unimodal models that may be applied for multimodal settings, and the various strengths/weaknesses of each approach? <br/>
+    - How should we model long-term cross-modal interactions? How can we design models (perhaps with memory mechanisms) to ensure that these long-term cross-modal interactions are captured? <br/>
+    - What are the main advantages of explicitly building memory-based modules into our architectures, as compared to the large-scale pre-training methods/Transformer models discussed in week 4? Do Transformer models already capture memory and long-term interactions implicitly? <br/>
+    - To what extent do we need external knowledge when performing reasoning, specifically multimodal reasoning? What type of external knowledge is likely to be needed to succeed in multimodal reasoning? <br/>
+    - A related topic is multimodal summarization: how to summarize the main events from a long multimodal sequence. How can we summarize long sequences while keeping cross-modal interactions? What is unique about multimodal summarization? <br/>
+  readings:
+    - <a href="https://arxiv.org/abs/2011.04006">Long Range Arena&#58; A Benchmark for Efficient Transformers</a> <br/>
+    - <a href="https://arxiv.org/abs/1907.05242">Large Memory Layers with Product Keys</a> <br/>
+    - <a href="https://arxiv.org/abs/1603.01417">Dynamic Memory Networks for Visual and Textual Question Answering</a> <br/>
+    - <a href="https://arxiv.org/abs/1611.05592">Multimodal Memory Modelling for Video Captioning</a> <br/>
+    - <a href="https://arxiv.org/abs/1906.01076">Episodic Memory in Lifelong Language Learning</a> <br/>
+    - <a href="https://aclanthology.org/D18-1280.pdf">ICON&#58; Interactive Conversational Memory Network for Multimodal Emotion Detection</a> <br/>
+    - <a href="https://www.nature.com/articles/nature20101">Hybrid computing using a neural network with dynamic external memory</a> <br/>
+    - <a href="https://arxiv.org/abs/2110.13309">History Aware Multimodal Transformer for Vision-and-Language Navigation</a> <br/>
+    - <a href="https://arxiv.org/abs/2007.03356">Do Transformers Need Deep Long-Range Memory?</a> <br/>
+    - <a href="https://arxiv.org/abs/1901.02860">Transformer-XL&#58; Attentive Language Models Beyond a Fixed-Length Context</a> <br/>
+    - <a href="https://arxiv.org/abs/1410.5401">Neural Turing Machines</a> <br/>
+    - <a href="https://proceedings.mlr.press/v48/santoro16.pdf">Meta-Learning with Memory-Augmented Neural Networks</a> <br/>
+
 - date: 3/4
   title: >
     Week 7: <strong>No classes – Spring break</strong>
