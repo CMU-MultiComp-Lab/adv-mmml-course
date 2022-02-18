@@ -101,7 +101,7 @@
     - How should we model long-term cross-modal interactions? How can we design models (perhaps with memory mechanisms) to ensure that these long-term cross-modal interactions are captured? <br/>
     - What are the main advantages of explicitly building memory-based modules into our architectures, as compared to the large-scale pre-training methods/Transformer models discussed in week 4? Do Transformer models already capture memory and long-term interactions implicitly? <br/>
     - To what extent do we need external knowledge when performing reasoning, specifically multimodal reasoning? What type of external knowledge is likely to be needed to succeed in multimodal reasoning? <br/>
-    - A related topic is multimodal summarization: how to summarize the main events from a long multimodal sequence. How can we summarize long sequences while keeping cross-modal interactions? What is unique about multimodal summarization? <br/>
+    - A related topic is multimodal summarization&#58; how to summarize the main events from a long multimodal sequence. How can we summarize long sequences while keeping cross-modal interactions? What is unique about multimodal summarization? <br/>
   readings:
     - <a href="https://arxiv.org/abs/2011.04006">Long Range Arena&#58; A Benchmark for Efficient Transformers</a> <br/>
     - <a href="https://arxiv.org/abs/1907.05242">Large Memory Layers with Product Keys</a> <br/>
