@@ -1,6 +1,6 @@
 - date: 1/21
   title: >
-    Week 1: <strong>Course introduction</strong>  <a href="lecture1-Introduction.pdf">[slides]</a> <a href="11877_week1.pdf">[notes]</a>
+    Week 1: <strong>Course introduction</strong>  <a href="lecture1-Introduction.pdf">[slides]</a> <a href="11877_week1.pdf">[synopsis]</a>
   slides:
   topics:
     - Course syllabus and requirements
@@ -11,7 +11,7 @@
 
 - date: 1/28
   title: >
-    Week 2: <strong>Cross-modal interactions</strong> <a href="11877_week2.pdf">[notes]</a>
+    Week 2: <strong>Cross-modal interactions</strong> <a href="11877_week2.pdf">[synopsis]</a>
   topics:
     - What are the different ways in which modalities can interact with each other in multimodal tasks? Can we formalize a taxonomy of such cross-modal interactions, which will enable us to compare and contrast them more precisely? <br/>
     - What are the design decisions (aka inductive biases) that can be used when modeling these cross-modal interactions in machine learning models? <br/>
@@ -28,7 +28,7 @@
 
 - date: 2/4
   title: >
-    Week 3: <strong>Multimodal co-learning</strong> <a href="11877_week3.pdf">[notes]</a>
+    Week 3: <strong>Multimodal co-learning</strong> <a href="11877_week3.pdf">[synopsis]</a>
   topics:
     - What are the types of cross-modal interactions involved to enable such co-learning scenarios where multimodal training ends up generalizing to unimodal testing? <br/>
     - What are some design decisions (inductive bias) that could be made to promote transfer of information from one modality to another? <br/>
@@ -49,7 +49,7 @@
   
 - date: 2/11
   title: >
-    Week 4: <strong>Pretraining paradigm</strong>
+    Week 4: <strong>Pretraining paradigm</strong> <a href="11877_week4.pdf">[synopsis]</a>
   topics:
     - Is large-scale pretraining the way forward for building general AI models? What information potentially cannot be captured by pretraining? What are the risks of pretraining? <br/>
     - What are the types of cross-modal interactions that are likely to be modeled by current pretrained models? What are the cross-modal interactions that will be harder to model with these large-scale pretraining methods? <br/>
