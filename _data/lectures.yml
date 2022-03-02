@@ -70,7 +70,7 @@
   
 - date: 2/18
   title: >
-    Week 5: <strong>Multimodal reasoning</strong>
+    Week 5: <strong>Multimodal reasoning</strong> <a href="11877_week5.pdf">[synopsis]</a>
   topics:
     - What are the various reasoning processes required in multimodal tasks, where data comes from heterogeneous sources? What could be a taxonomy of the main processes involved in multimodal reasoning? <br/>
     - Are there unique technical challenges that arise because reasoning is performed on multimodal data? What are these unique challenges? How can we start studying these challenges in future research? <br/>
