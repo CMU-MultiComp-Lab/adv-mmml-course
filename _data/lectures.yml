@@ -133,10 +133,28 @@
 - date: 3/18
   title: >
     Week 9: <strong>Brain and multimodal perception</strong>
-  slides:
   topics:
-    - TBD
-  readings: TBD
+    - What are the main takeaways from neuroscience regarding unimodal and multimodal processing, integration, alignment, translation, and co-learning? <br/>
+    - How can these insights inform our design of multimodal models, following the topics we covered previously (cross-modal interactions, co-learning, pre-training, reasoning)? <br/>
+    - To what extent should we design AI models with the explicit goal to mirror human perception and reasoning, versus relying on large-scale pre-training methods and general neural network models? <br/>
+    - What different paradigms for multimodal perception and learning could be better aligned with how the brain processes multiple heterogeneous modalities? <br/>
+    - How does the human brain represent different modalities (visual, acoustic)? Are these different modalities represented in very heterogeneous ways? How is information linked between modalities? <br/>
+    - What are several challenges and opportunities in multimodal learning from high-resolution signals such as fMRI and MEG/EEG? <br/>
+    - What are some ways in which multimodal learning can help in the future analysis of data collected in neuroscience? <br/>
+  readings:
+    - <a href="https://books.google.com/books?hl=en&lr=&id=69WESyZJNz0C&oi=fnd&pg=PA3&dq=multimodal+brain+neuroscience&ots=UoYoruz3_o&sig=HLXOevgpm67Lwqk_sCShHeRqYb8#v=onepage&q=multimodal%20brain%20neuroscience&f=false">The Neurophysiological Foundations of Mental and Motor Imagery, chapter 1&#58; Multimodal Images in the Brain</a> <br/>
+    - <a href="https://www.sciencedirect.com/science/article/pii/S0010945217302277">Multimodal Mental Imagery</a> <br/>
+    - <a href="https://academic.oup.com/cercor/article/11/12/1110/492310">Crossmodal Processing in the Human Brain&#58; Insights from Functional Neuroimaging Studies</a> <br/>
+    - <a href="https://arxiv.org/abs/1711.07998">Deep Sparse Coding for Invariant Multimodal Halle Berry Neurons</a> <br/>
+    - <a href="https://arxiv.org/abs/2011.09850">A Theoretical Computer Science Perspective on Consciousness</a> <br/>
+    - <a href="https://arxiv.org/abs/1911.03268">Inducing brain-relevant bias in natural language processing models</a> <br/>
+    - <a href="https://aclanthology.org/2020.lrec-1.85.pdf">The Brain-IHM Dataset&#58; a New Resource for Studying the Brain Basis of Human-Human and Human-Machine Conversations</a> <br/>
+    - <a href="https://nobaproject.com/modules/multi-modal-perception">Multi-Modal Perception</a> <br/>
+    - <a href="https://arxiv.org/abs/1810.10974">Decoding Brain Representations by Multimodal Learning of Neural Activity and Visual Features</a> <br/>
+    - <a href="http://userpage.fu-berlin.de/rmcichy/publication_pdfs/Cichy_et_al_CC_2016.pdf">Similarity-Based Fusion of MEG and fMRI Reveals Spatio-Temporal Dynamics in Human Cortex During Visual Object Recognition</a> <br/>
+    - <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.269.2537&rep=rep1&type=pdf">Thought Recognition&#58; Predicting and Decoding Brain Activity Using the Zero-Shot Learning Model, chapter 5</a> <br/>
+    - <a href="https://www.cs.cmu.edu/~hyunahs/papers/SDM2017_1.pdf">BRAINZOOM&#58; High Resolution Reconstruction from Multi-modal Brain Signals</a> <br/>
+    - <a href="https://arxiv.org/abs/1911.03268">Inducing brain-relevant bias in natural language processing models</a> <br/>
   
 - date: 3/25
   title: >
