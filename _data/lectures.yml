@@ -142,7 +142,7 @@
     - What are several challenges and opportunities in multimodal learning from high-resolution signals such as fMRI and MEG/EEG? <br/>
     - What are some ways in which multimodal learning can help in the future analysis of data collected in neuroscience? <br/>
   readings:
-    - <a href="https://books.google.com/books?hl=en&lr=&id=69WESyZJNz0C&oi=fnd&pg=PA3&dq=multimodal+brain+neuroscience&ots=UoYoruz3_o&sig=HLXOevgpm67Lwqk_sCShHeRqYb8#v=onepage&q=multimodal%20brain%20neuroscience&f=false">The Neurophysiological Foundations of Mental and Motor Imagery, chapter 1&#58; Multimodal Images in the Brain</a> <br/>
+    - <a href="https://books.google.com/books?hl=en&lr=&id=69WESyZJNz0C&oi=fnd&pg=PA3&dq=multimodal+brain+neuroscience&ots=UoYoruz3_o&sig=HLXOevgpm67Lwqk_sCShHeRqYb8#v=onepage&q=multimodal%20brain%20neuroscience&f=false">Multimodal Images in the Brain</a> <br/>
     - <a href="https://www.sciencedirect.com/science/article/pii/S0010945217302277">Multimodal Mental Imagery</a> <br/>
     - <a href="https://academic.oup.com/cercor/article/11/12/1110/492310">Crossmodal Processing in the Human Brain&#58; Insights from Functional Neuroimaging Studies</a> <br/>
     - <a href="https://arxiv.org/abs/1711.07998">Deep Sparse Coding for Invariant Multimodal Halle Berry Neurons</a> <br/>
@@ -152,7 +152,7 @@
     - <a href="https://nobaproject.com/modules/multi-modal-perception">Multi-Modal Perception</a> <br/>
     - <a href="https://arxiv.org/abs/1810.10974">Decoding Brain Representations by Multimodal Learning of Neural Activity and Visual Features</a> <br/>
     - <a href="http://userpage.fu-berlin.de/rmcichy/publication_pdfs/Cichy_et_al_CC_2016.pdf">Similarity-Based Fusion of MEG and fMRI Reveals Spatio-Temporal Dynamics in Human Cortex During Visual Object Recognition</a> <br/>
-    - <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.269.2537&rep=rep1&type=pdf">Thought Recognition&#58; Predicting and Decoding Brain Activity Using the Zero-Shot Learning Model, chapter 5</a> <br/>
+    - <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.269.2537&rep=rep1&type=pdf">Thought Recognition&#58; Predicting & Decoding Brain Activity Using the Zero-Shot Learning Model, chapter 5</a> <br/>
     - <a href="https://www.cs.cmu.edu/~hyunahs/papers/SDM2017_1.pdf">BRAINZOOM&#58; High Resolution Reconstruction from Multi-modal Brain Signals</a> <br/>
     - <a href="https://arxiv.org/abs/1911.03268">Inducing brain-relevant bias in natural language processing models</a> <br/>
   
