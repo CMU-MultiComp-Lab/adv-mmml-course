@@ -94,7 +94,7 @@
   
 - date: 2/25
   title: >
-    Week 6: <strong>Memory and long-term interactions</strong>
+    Week 6: <strong>Memory and long-term interactions</strong> <a href="11877_week6.pdf">[synopsis]</a>
   topics:
     - What are the scenarios in which memory for long-term interactions is required in multimodal tasks, where data comes from heterogeneous sources? What could be a taxonomy of long-range cross-modal interactions that may need to be stored in memory? <br/>
     - What are certain methods of parametrizing memory in unimodal models that may be applied for multimodal settings, and the various strengths/weaknesses of each approach? <br/>
