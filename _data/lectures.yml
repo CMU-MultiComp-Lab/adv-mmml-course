@@ -158,10 +158,29 @@
 - date: 3/25
   title: >
     Week 10: <strong>Beyond language and vision</strong>
-  slides:
   topics:
-    - TBD
-  readings: TBD
+    - What are the modalities beyond language and vision that are important for real-world applications? What unique structure do they contain, and what are the main challenges in performing multimodal learning with them? <br/>
+    - When reflecting on the heterogeneous aspect of multimodal learning, how are the other modalities different from language, speech, and vision? What dimensions of heterogeneity are important for these other modalities? <br/>
+    - What are the cross-modal interactions that you expect in these other modalities? Could you see ways to model cross-modal interactions with these other modalities and with language and vision? <br/>
+    - How do the core research problems of unimodal and multimodal processing, integration, alignment, translation, and co-learning generalize to modalities beyond language and vision? What core insights from these ‘common’ modalities have yet to be explored in understudied modalities? <br/>
+    - What is the best way to visualize these relatively understudied modalities? How can we best analyze and characterize the multimodal interactions present between these other modalities? <br/>
+    - How to learn models for many modalities (10+ modalities)? What are the chances to create multimodal learning algorithms that work for all modalities? What are the tradeoffs between modality-specific multimodal models and general-purpose multimodal models? <br/>
+    - If two modalities are very far from each other (strong heterogeneity and/or encoding very different information), how can we address the problem of multimodal learning? <br/>
+  readings:
+    - <a href="https://www.sciencedirect.com/science/article/pii/S1566253521001330">A comprehensive survey on multimodal medical signals fusion for smart healthcare systems</a> <br/>
+    - <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9341579&tag=1">Multimodal Sensor Fusion with Differentiable Filters</a> <br/>
+    - <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=1657787">Integration of EEG/MEG with MRI and fMRI</a> <br/>
+    - <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6907100">A Multi-Sensor Fusion System for Moving Object Detection and Tracking in Urban Driving Environments</a> <br/>
+    - <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9561847">Detect, Reject, Correct&#58; Crossmodal Compensation of Corrupted Sensors</a> <br/>
+    - <a href="https://arxiv.org/abs/1907.13098">Making Sense of Vision and Touch&#58; Learning Multimodal Representations for Contact-Rich Tasks</a> <br/>
+    - <a href="https://www.sciencedirect.com/science/article/pii/S156625351630077X">Multi-sensor fusion in body sensor networks&#58; State-of-the-art and research challenges</a> <br/>
+    - <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=126184">Multi-Sensor Fusion&#58; A Perspective</a> <br/>
+    - <a href="https://arxiv.org/abs/2107.07502">MultiBench&#58; Multiscale Benchmarks for Multimodal Representation Learning</a> <br/>
+    - <a href="https://arxiv.org/abs/2203.01311">HighMMT&#58; Towards Modality and Task Generalization for High-Modality Representation Learning</a> <br/>
+    - <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=554212">Sensor Fusion for Mobile Robot Navigation</a> <br/>
+    - <a href="https://www.sciencedirect.com/science/article/pii/S1566253520304085">Multi-source information fusion based on rough set theory&#58; A review</a> <br/>
+    - <a href="https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/jmri.20577">Combining EEG and fMRI&#58; A Multimodal Tool for Epilepsy Research</a> <br/>
+    - <a href="https://arxiv.org/abs/1905.11436">Kalman Filter, Sensor Fusion, and Constrained Regression&#58; Equivalences and Insights</a> <br/>
   
 - date: 4/1
   title: >
