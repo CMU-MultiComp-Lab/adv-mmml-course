@@ -213,15 +213,13 @@
 - date: 4/8
   title: >
     Week 12: <strong>No classes – CMU Carnival</strong>
-  slides:
   topics:
-    - TBD
-  readings: TBD
+    - None!
+  readings: None!
   
 - date: 4/15
   title: >
-    Week 13: <strong>Fairness and real-world constraints</strong>
-  slides:
+    Week 13: <strong>Real-world constraints</strong>
   topics:
     - TBD
   readings: TBD
@@ -229,7 +227,6 @@
 - date: 4/22
   title: >
     Week 14: <strong>Multimodal generalization</strong>
-  slides:
   topics:
     - TBD
   readings: TBD
@@ -237,7 +234,6 @@
 - date: 4/29
   title: >
     Week 15: <strong>Low-resource settings</strong>
-  slides:
   topics:
     - TBD
   readings: TBD
