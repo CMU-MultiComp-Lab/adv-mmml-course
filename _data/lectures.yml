@@ -183,11 +183,32 @@
   
 - date: 4/1
   title: >
-    Week 11: <strong>Subjectivity and dataset biases</strong>
-  slides:
+    Week 11: <strong>Dataset and model biases</strong>
   topics:
-    - TBD
-  readings: TBD
+    - What could be a taxonomy of biases in multimodal datasets and models? <br/>
+    - What are some risks related to biases (e.g., social biases) when creating new datasets? How are these risks potentially amplified or reduced when the dataset is multimodal, with heterogeneous modalities? Are there any biases that are specific to multimodal data? <br/>
+    - What are the imperfections that may arise during human annotations? How do these imperfections in data and labels affect multimodal learning of multimodal representations, cross-modal interactions, co-learning, and pre-training? <br/>
+    - Can biases also emerge not only from the multimodal training data, but also from the modeling design decisions themselves? What aspects of multimodal modeling are most prone to learning and possibly emphasizing biases? <br/>
+    - What are potential solutions for tackling these risks and biases in multimodal datasets and models? How can we properly identify, visualize and eventually reduce these biases in multimodal datasets and models? <br/>
+    - How can we better interpret multimodal datasets and models to check for potential biases? What specific dimensions should we strive to understand? <br/>
+    - What are the tradeoffs between large-scale, noisily-collected and annotated multimodal datasets versus small-scale, carefully-curated and annotated datasets? How do these affect multimodal modeling? How does it relate to the popular pre-training paradigm? <br/>
+  readings:
+    - <a href="https://www.nature.com/articles/s42256-020-00257-z">Shortcut learning in deep neural networks</a> <br/>
+    - <a href="https://aclanthology.org/2021.naacl-main.78.pdf">Measuring Social Biases in Grounded Vision and Language Embeddings</a> <br/>
+    - <a href="https://arxiv.org/abs/2110.01963">Multimodal datasets&#58; misogyny, pornography, and malignant stereotypes</a> <br/>
+    - <a href="https://www.aaai.org/AAAI21Papers/AAAI-9821.YeK.pdf">A Case Study of the Shortcut Effects in Visual Commonsense Reasoning</a> <br/>
+    - <a href="https://arxiv.org/abs/1908.07898">Are We Modeling the Task or the Annotator? An Investigation of Annotator Bias in Natural Language Understanding Datasets</a> <br/>
+    - <a href="https://arxiv.org/abs/2103.06254">Interpretable Machine Learning&#58; Moving From Mythos to Diagnostics</a> <br/>
+    - <a href="https://arxiv.org/abs/2202.04053">DALL-Eval&#58; Probing the Reasoning Skills and Social Biases of Text-to-Image Generative Transformers</a> <br/>
+    - <a href="https://arxiv.org/abs/1606.08390">Revisiting Visual Question Answering Baselines</a> <br/>
+    - <a href="https://arxiv.org/abs/1606.07356">Analyzing the Behavior of Visual Question Answering Models</a> <br/>
+    - <a href="https://arxiv.org/abs/2002.04108">Adversarial Filters of Dataset Biases</a> <br/>
+    - <a href="https://arxiv.org/abs/2009.10795">Dataset Cartography&#58; Mapping and Diagnosing Datasets with Training Dynamics</a> <br/>
+    - <a href="https://arxiv.org/abs/1803.02324">Annotation Artifacts in Natural Language Inference Data</a> <br/>
+    - <a href="https://arxiv.org/abs/2111.15366">AI and the Everything in the Whole Wide World Benchmark</a> <br/>
+    - <a href="https://arxiv.org/abs/2110.14375">Perceptual Score&#58; What Data Modalities Does Your Model Perceive?</a> <br/>
+    - <a href="https://arxiv.org/abs/2108.02922">Mitigating Dataset Harms Requires Stewardship&#58; Lessons from 1000 Papers</a> <br/>
+    - <a href="https://www.sciencedirect.com/science/article/pii/S0893608005000407">Challenges in real-life emotion annotation and machine learning based detection</a> <br/>
   
 - date: 4/8
   title: >
