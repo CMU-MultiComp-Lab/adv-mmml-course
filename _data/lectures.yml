@@ -132,7 +132,7 @@
   
 - date: 3/18
   title: >
-    Week 9: <strong>Brain and multimodal perception</strong>
+    Week 9: <strong>Brain and multimodal perception</strong> <a href="11877_week9.pdf">[synopsis]</a>
   topics:
     - What are the main takeaways from neuroscience regarding unimodal and multimodal processing, integration, alignment, translation, and co-learning? <br/>
     - How can these insights inform our design of multimodal models, following the topics we covered previously (cross-modal interactions, co-learning, pre-training, reasoning)? <br/>
