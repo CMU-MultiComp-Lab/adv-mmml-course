@@ -220,7 +220,7 @@
   title: >
     Week 13: <strong>Explainability and Interpretability</strong>
   topics:
-    - What is a taxonomy of all the multimodal phenomena that we should aim to interpret? <br/>
+    - What is a taxonomy of multimodal phenomena we should aim to interpret? <br/>
     - In a perfect world, what multimodal information would you expect to be available when interpreting a multimodal model? What multimodal phenomena and characteristics would you want from this “perfect” interpretable model? <br/>
     - What aspects of multimodal interpretability extend beyond the unimodal case? What are the dependencies between unimodal and multimodal interpretability? In other words, what needs to be solved on the unimodal side so that we are successful in multimodal interpretability? <br/>
     - What approaches and techniques can you imagine being best suited for multimodal interpretation? How should we visualize the results of these multimodal interpretations? Black-box model interpretation vs interpretation by design (white-box)? <br/>
