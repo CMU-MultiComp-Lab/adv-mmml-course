@@ -224,10 +224,10 @@
     - In a perfect world, what multimodal information would you expect to be available when interpreting a multimodal model? What multimodal phenomena and characteristics would you want from this “perfect” interpretable model? <br/>
     - What aspects of multimodal interpretability extend beyond the unimodal case? What are the dependencies between unimodal and multimodal interpretability? In other words, what needs to be solved on the unimodal side so that we are successful in multimodal interpretability? <br/>
     - What approaches and techniques can you imagine being best suited for multimodal interpretation? How should we visualize the results of these multimodal interpretations? Black-box model interpretation vs interpretation by design (white-box)? <br/>
-    - How can we evaluate that a specific multimodal phenomena (e.g., bimodal interactions) was properly interpreted? What are good measures of success for multimodal interpretability? <br/>
+    - How can we evaluate that a specific multimodal phenomena (e.g., bimodal interactions) was properly interpreted? How do we measure success in multimodal interpretability? <br/>
     - Separate from model interpretation, there is also the topic of dataset interpretation&#58; characterizing and interpreting the multimodal phenomena present in the data itself, independent of a specific model or prediction task. How can we perform multimodal data interpretation, and are there any differences with multimodal model interpretation? <br/>
     - What is the best way to visualize relatively understudied modalities beyond language and vision? How can we best analyze and characterize the multimodal interactions present between these other modalities? <br/>
-    - Going beyond interpretation, what are the unique challenges to multimodal explainability, where not only the model is multimodal but also the explanation is potentially multimodal? <br/>
+    - What are the unique challenges to multimodal explainability, where not only the model is multimodal but also the explanation is potentially multimodal? <br/>
   readings:
     - <a href="https://arxiv.org/abs/2107.08264">M2Lens&#58; Visualizing and Explaining Multimodal Models for Sentiment Analysis</a> <br/>
     - <a href="https://arxiv.org/abs/2203.17247">VL-InterpreT&#58; An Interactive Visualization Tool for Interpreting Vision-Language Transformers</a> <br/>
