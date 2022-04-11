@@ -183,7 +183,7 @@
   
 - date: 4/1
   title: >
-    Week 11: <strong>Dataset and model biases</strong>
+    Week 11: <strong>Dataset and model biases</strong> <a href="11877_week11.pdf">[synopsis]</a>
   topics:
     - What could be a taxonomy of biases in multimodal datasets and models? <br/>
     - What are some risks related to biases (e.g., social biases) when creating new datasets? How are these risks potentially amplified or reduced when the dataset is multimodal, with heterogeneous modalities? Are there any biases that are specific to multimodal data? <br/>
