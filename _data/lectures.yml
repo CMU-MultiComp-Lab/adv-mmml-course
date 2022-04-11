@@ -218,7 +218,7 @@
   
 - date: 4/15
   title: >
-    Week 13: <strong>Explainability and Interpretability</strong>
+    Week 13: <strong>Explainability and interpretability</strong>
   topics:
     - What is a taxonomy of multimodal phenomena we should aim to interpret? <br/>
     - In a perfect world, what multimodal information would you expect to be available when interpreting a multimodal model? What multimodal phenomena and characteristics would you want from this “perfect” interpretable model? <br/>
@@ -247,14 +247,14 @@
   
 - date: 4/22
   title: >
-    Week 14: <strong>Multimodal generalization</strong>
+    Week 14: <strong>Multimodal generation</strong>
   topics:
     - TBD
   readings: TBD
   
 - date: 4/29
   title: >
-    Week 15: <strong>Low-resource settings</strong>
+    Week 15: <strong>Generalization and low-resource settings</strong>
   topics:
     - TBD
   readings: TBD
