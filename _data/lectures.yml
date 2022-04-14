@@ -247,10 +247,31 @@
   
 - date: 4/22
   title: >
-    Week 14: <strong>Multimodal generation</strong>
+    Week 14: <strong>Multimodal generation and ethical concerns</strong>
   topics:
-    - TBD
-  readings: TBD
+    - What are some challenges in multimodal generation beyond generating each modality individually? How can we synchronize generation across multiple modalities? <br/>
+    - What degree of multimodal modeling is required for these cross-modal generation to be possible? For example, how much do models need to learn regarding cross-modal interactions, alignment, reasoning, etc? <br/>
+    - What are the qualities we should consider when evaluating outputs from multimodal generation? What do you think is the best practice to evaluate these qualities? Can we efficiently evaluate these qualities, at scale? <br/>
+    - What are the opportunities and challenges of automatic and human evaluation? How can we combine the best of both worlds? <br/>
+    - What are the real-world ethical issues regarding generation? How are these risks potentially amplified or reduced when the dataset is multimodal, with heterogeneous modalities? Are there any ethical issues that are specific to multimodal generation? <br/>
+    - How can we build a taxonomy of the main ethical concerns related to multimodal generation? <br/>
+    - How can we update our best practices to help address these ethical concerns? Who is better placed to start this dialogue? How can we make significant changes in this direction of reducing ethical issues? <br/>
+  readings:
+    - <a href="https://arxiv.org/abs/2102.10407">VisualGPT&#58; Data-efficient Adaptation of Pretrained Language Models for Image Captioning</a> <br/>
+    - <a href="https://openai.com/blog/dall-e/">DALL·E&#58; Creating Images from Text</a> <br/>
+    - <a href="https://openai.com/dall-e-2/">DALL·E 2</a> <br/>
+    - <a href="https://dl.acm.org/doi/abs/10.1145/3442188.3445922">On the Dangers of Stochastic Parrots&#58; Can Language Models Be Too Big?</a> <br/>
+    - <a href="https://www.liebertpub.com/doi/full/10.1089/cyber.2021.29208.jth">The Social Impact of Deepfakes</a> <br/>
+    - <a href="https://www.theverge.com/21298762/face-depixelizer-ai-machine-learning-tool-pulse-stylegan-obama-bias">What a machine learning tool that turns Obama white can (and can’t) tell us about AI bias</a> <br/>
+    - <a href="https://arxiv.org/abs/2005.03201">What comprises a good talking-head video generation?&#58; A Survey and Benchmark</a> <br/>
+    - <a href="https://arxiv.org/abs/1905.12616">Defending Against Neural Fake News</a> <br/>
+    - <a href="https://thegradient.pub/pulse-lessons/">Lessons from the PULSE Model and Discussion</a> <br/>
+    - <a href="https://arxiv.org/abs/2011.03775">Text-to-Image Generation Grounded by Fine-Grained User Attention</a> <br/>
+    - <a href="https://aclanthology.org/D18-1084.pdf">Training for Diversity in Image Paragraph Captioning</a> <br/>
+    - <a href="https://arxiv.org/abs/1906.07901">Multimodal Abstractive Summarization for How2 Videos</a> <br/>
+    - <a href="https://arxiv.org/abs/2012.07805">Extracting Training Data from Large Language Models</a> <br/>
+    - <a href="https://openaccess.thecvf.com/content_iccv_2015/papers/Suwajanakorn_What_Makes_Tom_ICCV_2015_paper.pdf">What Makes Tom Hanks Look Like Tom Hanks</a> <br/>
+    - <a href="https://arxiv.org/abs/1710.00421">Video Generation From Text</a> <br/>
   
 - date: 4/29
   title: >
