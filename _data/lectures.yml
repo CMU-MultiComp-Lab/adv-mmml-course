@@ -274,7 +274,23 @@
   
 - date: 4/29
   title: >
-    Week 15: <strong>Generalization and low-resource settings</strong>
+    Week 15: <strong>Generalization, low-resource, and robustness</strong>
   topics:
-    - TBD
-  readings: TBD
+    - One general claim is that pre-trained models can help with low-resource settings (e.g., few-shot fine-tuning). What are the multimodal problems where the paradigm of pre-training and fine-tuning may not generalize? What are the technical challenges? <br/>
+    - What are new research paradigms that should be explored to address the challenges of multimodal low-resource problems? Can you propose a taxonomy of the challenges that should be addressed to make progress in this direction, for low-resource modalities? <br/>
+    - How can we develop new models that generalize across many modalities, going beyond only 2 or 3 modalities? What are the tradeoffs between modality-specific multimodal models and general-purpose multimodal models? <br/>
+    - What are the commonalities and underlying principles shared across diverse modalities and tasks that can enable good generalization? In other words, what are the pre-requirement for generalization to succeed? <br/>
+    - What are the limits of generalization? In other words, in which cases is generalization across modalities and tasks not possible due to possibly to data heterogeneity or some other reasons? What are these scenarios where generalization may not be possible? <br/>
+    - How can we potentially perform generalization of multimodal models in the absence of explicit alignment (e.g., paired data) between modalities? How can we tackle the challenges of learning cross-modal interactions, alignment, reasoning, etc? <br/>
+    - One other aspect of generalization is with real-world settings where noise is present and modalities may be even missing. How can we robustly handle these noisy situations? How can multimodal help? Can multimodal also make these noisy situations harder? <br/>
+  readings:
+    - <a href="https://arxiv.org/abs/2204.00598">Socratic Models&#58; Composing Zero-Shot Multimodal Reasoning with Language</a> <br/>
+    - <a href="https://arxiv.org/abs/2201.04309">Robust Contrastive Learning against Noisy Views</a> <br/>
+    - <a href="https://arxiv.org/abs/2010.12831">Unsupervised Vision-and-Language Pre-training Without Parallel Images and Captions</a> <br/>
+    - <a href="https://arxiv.org/abs/1811.10787">Unsupervised Image Captioning</a> <br/>
+    - <a href="https://arxiv.org/abs/2111.07991">LiT&#58; Zero-Shot Transfer with Locked-image text Tuning</a> <br/>
+    - <a href="https://openaccess.thecvf.com/content_cvpr_2017/html/Tran_Missing_Modalities_Imputation_CVPR_2017_paper.html">Missing Modalities Imputation via Cascaded Residual Autoencoder</a> <br/>
+    - <a href="https://dl.acm.org/doi/pdf/10.1145/3394486.3403234">Multimodal Learning with Incomplete Modalities by Knowledge Distillation</a> <br/>
+    - <a href="https://arxiv.org/abs/1811.08615">Unsupervised Multimodal Representation Learning across Medical Images and Reports</a> <br/>
+    - <a href="https://arxiv.org/abs/2011.08899">Multimodal Prototypical Networks for Few-shot Learning</a> <br/>
+    - <a href="https://arxiv.org/abs/2107.07502">MultiBench&#58; Multiscale Benchmarks for Multimodal Representation Learning</a> <br/>
