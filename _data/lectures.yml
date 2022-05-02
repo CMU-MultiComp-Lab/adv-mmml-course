@@ -247,7 +247,7 @@
   
 - date: 4/22
   title: >
-    Week 14: <strong>Multimodal generation and ethical concerns</strong>
+    Week 14: <strong>Multimodal generation and ethical concerns</strong> <a href="11877_week14.pdf">[synopsis]</a>
   topics:
     - What are some challenges in multimodal generation beyond generating each modality individually? How can we synchronize generation across multiple modalities? <br/>
     - What degree of multimodal modeling is required for these cross-modal generation to be possible? For example, how much do models need to learn regarding cross-modal interactions, alignment, reasoning, etc? <br/>
