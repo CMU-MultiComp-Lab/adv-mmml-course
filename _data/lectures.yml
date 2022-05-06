@@ -274,7 +274,7 @@
   
 - date: 4/29
   title: >
-    Week 15: <strong>Generalization, low-resource, and robustness</strong>
+    Week 15: <strong>Generalization, low-resource, and robustness</strong> <a href="11877_week15.pdf">[synopsis]</a>
   topics:
     - One general claim is that pre-trained models can help with low-resource settings (e.g., few-shot fine-tuning). What are the multimodal problems where the paradigm of pre-training and fine-tuning may not generalize? What are the technical challenges? <br/>
     - What are new research paradigms that should be explored to address the challenges of multimodal low-resource problems? Can you propose a taxonomy of the challenges that should be addressed to make progress in this direction, for low-resource modalities? <br/>
