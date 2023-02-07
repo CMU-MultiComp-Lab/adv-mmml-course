@@ -1,0 +1,146 @@
+- date: 1/21
+  title: >
+    Week 1: <strong>Course introduction</strong>  <a href="lecture1-Introduction.pdf">[slides]</a> <a href="11877_week1.pdf">[synopsis]</a>
+  slides:
+  topics:
+    - Course syllabus and requirements
+    - Dimensions of multimodal heterogenity
+  readings:
+    - <a href="https://arxiv.org/abs/1705.09406">Multimodal Machine Learning&#58; A Survey and Taxonomy</a> <br/>
+    - <a href="https://arxiv.org/abs/1206.5538">Representation Learning&#58; A Review and New Perspectives</a> <br/>
+
+- date: 1/28
+  title: >
+    Week 2: <strong>Cross-modal interactions</strong> <a href="11877_week2.pdf">[synopsis]</a>
+  topics:
+    - What are the different ways in which modalities can interact with each other in multimodal tasks? Can we formalize a taxonomy of such cross-modal interactions, which will enable us to compare and contrast them more precisely? <br/>
+    - What are the design decisions (aka inductive biases) that can be used when modeling these cross-modal interactions in machine learning models? <br/>
+    - What are the advantages and drawbacks of designing models to capture each type of cross-modal interaction? Consider not just prediction performance, but tradeoffs in time/space complexity, interpretability, etc. <br/>
+    - Given an arbitrary dataset and prediction task, how can we systematically decide what type of cross-modal interactions exist, and how can that inform our modeling decisions? <br/>
+    - Given trained multimodal models, how can we understand or visualize the nature of cross-modal interactions? <br/>
+  readings:
+    - <a href="https://aclanthology.org/2020.emnlp-main.62/">Does my multimodal model learn cross-modal interactions? It’s harder to tell than you might think!</a> <br/>
+    - <a href="https://aclanthology.org/2020.acl-main.469/">What Does BERT with Vision Look At?</a> <br/>
+    - <a href="https://openreview.net/pdf?id=rylnK6VtDH">Multiplicative Interactions and Where to Find Them</a> <br/>
+    - <a href="https://arxiv.org/abs/2112.12337">Cooperative Learning for Multi-view Analysis</a> <br/>
+    - <a href="https://arxiv.org/abs/2109.04448">Vision-and-Language or Vision-for-Language? On Cross-Modal Influence in Multimodal Transformers</a> <br/>
+    - <a href="https://arxiv.org/abs/2012.12352">Seeing past words&#58; Testing the cross-modal capabilities of pretrained V&L models on counting tasks</a> <br/>
+
+- date: 2/4
+  title: >
+    Week 3: <strong>Multimodal co-learning</strong> <a href="11877_week3.pdf">[synopsis]</a>
+  topics:
+    - What are the types of cross-modal interactions involved to enable such co-learning scenarios where multimodal training ends up generalizing to unimodal testing? <br/>
+    - What are some design decisions (inductive bias) that could be made to promote transfer of information from one modality to another? <br/>
+    - How do we ensure that during co-learning, only useful information is transferred, and not some undesirable bias? This may become a bigger issue in low-resource settings. <br/>
+    - How can we know if co-learning has succeeded? Or failed? What approaches could we develop to visualize and probe the success of co-learning? <br/>
+    - How can we formally, empirically, or intuitively measure the additional information provided by auxiliary modality? How can we design controlled experiments to test these hypotheses? <br/>
+    - What are the advantages and drawbacks of information transfer during co-learning? Consider not just prediction performance, but also tradeoffs with complexity, interpretability, fairness, etc. <br/>
+  readings:
+    - <a href="https://arxiv.org/abs/2011.08899">Multimodal Prototypical Networks for Few-shot Learning</a> <br/>
+    - <a href="https://arxiv.org/abs/2103.05677">SMIL&#58; Multimodal Learning with Severely Missing Modality</a> <br/>
+    - <a href="https://arxiv.org/abs/2107.13782">Multimodal Co-learning&#58; Challenges, Applications with Datasets, Recent Advances and Future Directions</a> <br/>
+    - <a href="https://arxiv.org/abs/2010.06775">Vokenization&#58; Improving Language Understanding with Contextualized, Visual-Grounded Supervision</a> <br/>
+    - <a href="https://arxiv.org/abs/2106.04538">What Makes Multi-modal Learning Better than Single (Provably)</a> <br/>
+    - <a href="https://arxiv.org/abs/1812.07809">Found in Translation&#58; Learning Robust Joint Representations by Cyclic Translations Between Modalities</a> <br/>
+    - <a href="https://arxiv.org/abs/1301.3666">Zero-Shot Learning Through Cross-Modal Transfer</a> <br/>
+    - <a href="https://arxiv.org/abs/1912.02315">12-in-1&#58; Multi-Task Vision and Language Representation Learning</a> <br/>
+    - <a href="https://arxiv.org/abs/1906.03926">A Survey of Reinforcement Learning Informed by Natural Language</a> <br/>
+  
+- date: 2/11
+  title: >
+    Week 4: <strong>Pretraining paradigm</strong> <a href="11877_week4.pdf">[synopsis]</a>
+  topics:
+    - Is large-scale pretraining the way forward for building general AI models? What information potentially cannot be captured by pretraining? What are the risks of pretraining? <br/>
+    - What are the types of cross-modal interactions that are likely to be modeled by current pretrained models? What are the cross-modal interactions that will be harder to model with these large-scale pretraining methods? <br/>
+    - How can we best integrate multimodality into pretrained language models? What kind of additional data and modeling/optimization decisions do we need? <br/>
+    - What are the different design decisions when integrating multimodal information in pretraining models and objectives? What are the main advantages and drawbacks of these design choices? Consider not just prediction performance, but tradeoffs in time/space complexity, interpretability, and so on. <br/>
+    - How can we evaluate the type of multimodal information learned in pretrained models? One approach is to look at downstream tasks, but what are other ways to uncover the knowledge stored in pretrained models? <br/>
+  readings:
+    - <a href="https://arxiv.org/abs/2102.00529">Decoupling the Role of Data, Attention, and Losses in Multimodal Transformers</a> <br/>
+    - <a href="https://arxiv.org/abs/2106.13884">Multimodal Few-Shot Learning with Frozen Language Models</a> <br/>
+    - <a href="https://arxiv.org/abs/2102.02779">Unifying Vision-and-Language Tasks via Text Generation</a> <br/>
+    - <a href="https://arxiv.org/abs/2112.04482">FLAVA&#58; A Foundational Language And Vision Alignment Model</a> <br/>
+    - <a href="https://arxiv.org/abs/2103.05247">Pretrained Transformers as Universal Computation Engines</a> <br/>
+    - <a href="https://arxiv.org/abs/2108.07258">On the Opportunities and Risks of Foundation Models</a> <br/>
+    - <a href="https://arxiv.org/abs/2109.10246">Does Vision-and-Language Pretraining Improve Lexical Grounding?</a> <br/>
+    - <a href="https://arxiv.org/abs/2005.07310">Behind the Scene&#58; Revealing the Secrets of Pre-trained Vision-and-Language Models</a> <br/>
+    - <a href="https://arxiv.org/abs/1908.05787">Integrating Multimodal Information in Large Pretrained Transformers</a> <br/>
+    - <a href="https://arxiv.org/abs/2102.12092">Zero-Shot Text-to-Image Generation</a> <br/>
+
+- date: 4/29
+  title: >
+    Week 5: <strong>Project presentations</strong> [synopsis]
+  topics:
+  
+  readings:
+
+- date: 4/29
+  title: >
+    Week 6: <strong>Project presentations</strong> [synopsis]
+  topics:
+  
+  readings:
+
+- date: 4/29
+  title: >
+    Week 7: <strong>Project presentations</strong> [synopsis]
+  topics:
+  
+  readings:
+  
+- date: 4/29
+  title: >
+    Week 8: <strong>Project presentations</strong> [synopsis]
+  topics:
+  
+  readings:
+
+- date: 4/29
+  title: >
+    Week 9: <strong>Project presentations</strong> [synopsis]
+  topics:
+  
+  readings:
+  
+- date: 4/29
+  title: >
+    Week 10: <strong>Project presentations</strong> [synopsis]
+  topics:
+  
+  readings:
+  
+- date: 4/29
+  title: >
+    Week 11: <strong>Project presentations</strong> [synopsis]
+  topics:
+  
+  readings:
+
+- date: 4/8
+  title: >
+    Week 12: <strong>No classes – CMU Carnival</strong>
+  topics:
+    - None!
+  readings: None!
+  
+- date: 4/29
+  title: >
+    Week 13: <strong>Project presentations</strong> [synopsis]
+  topics:
+  
+  readings:
+  
+- date: 4/29
+  title: >
+    Week 14: <strong>Project presentations</strong> [synopsis]
+  topics:
+  
+  readings:
+  
+- date: 4/29
+  title: >
+    Week 15: <strong>Project presentations</strong> [synopsis]
+  topics:
+  
+  readings:
