@@ -23,7 +23,7 @@
     - What are some risks if we were to ignore modality or task heterogeneity? What if we are unable to estimate modality or task heterogeneity accurately?
   readings:
     - <a href="https://arxiv.org/abs/2104.13478">Geometric Deep Learning&#58; Grids, Groups, Graphs, Geodesics, and Gauges</a> <br/>
-    - <a href="https://link.springer.com/article/10.1186/s40537-017-0089-0">A survey on heterogeneous transfer learning</a> <br/>
+    - <a href="https://link.springer.com/article/10.1186/s40537-017-0089-0">A Survey on Heterogeneous Transfer Learning</a> <br/>
     - <a href="https://arxiv.org/abs/1804.08328">Taskonomy&#58; Disentangling Task Transfer Learning</a> <br/>
     - <a href="https://arxiv.org/abs/1905.07553">Which Tasks Should Be Learned Together in Multi-task Learning?</a> <br/>
     - <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9084352">Federated Learning&#58; Challenges, Methods, and Future Directions</a> <br/>
@@ -31,7 +31,7 @@
     - <a href="https://arxiv.org/abs/1802.03916">Detecting and Correcting for Label Shift with Black Box Predictors</a> <br/>
     - <a href="https://arxiv.org/abs/2002.02923">Geometric Dataset Distances via Optimal Transport</a> <br/>
     - <a href="https://arxiv.org/abs/2203.01311">HighMMT&#58; Quantifying Modality & Interaction Heterogeneity for High-Modality Representation Learning</a> <br/>
-    - <a href="https://link.springer.com/content/pdf/10.1023/A:1007379606734.pdf">Multitask Learning*</a> <br/>
+    - <a href="https://link.springer.com/content/pdf/10.1023/A:1007379606734.pdf">Multitask Learning</a> <br/>
     - <a href="https://link.springer.com/chapter/10.1007/978-3-540-45167-9_41">Exploiting Task Relatedness for Multiple Task Learning</a> <br/>
     
 - date: 2/3
