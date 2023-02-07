@@ -1,4 +1,4 @@
-# 11877 - Spring 2022, Spring 2023
+# 11877 - Advanced Topics in Multimodal Machine Learning
 
 Course webpage for CMU course 11-877, Advanced Topics in Multimodal Machine Learning, Spring 2022 and Spring 2023
 
