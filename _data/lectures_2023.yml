@@ -15,7 +15,21 @@
   title: >
     Week 2: <strong>Dimensions of heterogeneity</strong>
   topics:
-    - 
+    -  What is a taxonomy of the dimensions in which modalities can be heterogeneous?
+    - Heterogeneity is also often seen in several other ML subfields (e.g., domain adaptation,
+    domain shift, transfer learning, multitask learning, federated learning, etc). What are
+    some similarities and differences between the notions of heterogeneity between MMML
+    and these fields? Can definitions or methods in each area be adapted to benefit other
+    research areas?
+    - How can we formalize these dimensions of heterogeneity, and subsequently estimate
+    these measures to quantify the degree in which modalities are different?
+    - Modality heterogeneity often implies the design of specialized models capturing the
+    unique properties of each modality. What are some tradeoffs in modality-specific vs
+    modality-general models?
+    - What are other modeling considerations that ideally should be informed based on how
+    heterogeneous the input modalities are?
+    - What are some risks if we were to ignore modality or task heterogeneity? What if we are
+    unable to estimate modality or task heterogeneity accurately?
   readings:
     - 
     
@@ -23,7 +37,24 @@
   title: >
     Week 3: <strong>Modality connections</strong>
   topics:
-    - 
+    - What are the reasons why modalities can be connected with each other? Come up with
+    a taxonomy of various dimensions. Think along both statistical, data-driven dimensions
+    and semantic, hypothesis or knowledge driven dimensions. What are the pros and cons
+    of either approach in understanding modality connections?
+    - Are connections always strong and one-to-one? Reflect on what could make some
+    cross-modal connections stronger or weaker, including many-to-many connections,
+    ambiguity or noises?
+    - Given trained multimodal models, how can we understand or visualize the nature of
+    connections captured by the model?
+    - What formalism or framework could be used to formalize cross-modal connections? How
+    can we subsequently define estimators, where we can accurately quantify the presence
+    of each type of connection given a dataset? How much knowledge of each modality do
+    we need in order to estimate modality connections?
+    - Linking back to week 1’s discussion on heterogeneity, how would you relate the
+    concepts of heterogeneity and connections? How is heterogeneity affecting the study of
+    crossmodal connections and inversely, how connections should be taken into
+    consideration when heterogeneity is studied? Are connections also present in
+    homogenous settings?
   readings:
     - 
   
@@ -31,9 +62,39 @@
   title: >
     Week 4: <strong>Modality interactions</strong>
   topics:
-    - 
+    - What are the different ways in which modalities can interact with each other when used 
+    for a prediction tasks? Think across both semantic and statistical perspectives. Can we 
+    formalize a taxonomy of such interactions, which will enable us to compare and contrast
+    them more precisely? In fact, should we even try creating such a taxonomy?
+    - Can you think of ways modalities could interact with each others, even if there is no
+    prediction task? How are modalities interacting during cross-modal translation? During
+    multimodal generation?
+    - Linking back to last week’s discussion, are there cases where modalities are connected
+    but do not interact? Or interact but are not connected? Can we design formal
+    experiments to test either hypotheses?
+    - What mathematical or empirical frameworks can be used to formalize the meaning of
+    interactions? How can we subsequently define estimators, where we can accurately
+    quantify the presence of each type of interactions given a dataset?
+    - Some definitions (from the semantic category) typically require human interactions to
+    detect and quantify interactions. What are some opportunities and limitations of using
+    human judgment to analyze interactions? Can we potentially design estimators to
+    automate the human labeling process?
+    - What are the design decisions (aka inductive biases) that can be used when modeling
+    each type of interaction in machine learning models?
+    - What are the advantages and drawbacks of designing models to capture each type of
+    cross-modal interaction? Consider not just prediction performance, but tradeoffs in
+    time/space complexity, interpretability, etc.
   readings:
-    - 
+    - <a href="https://www.journals.uchicago.edu/doi/epdf/10.1086/431246">Issues in the Classification of Multimodal Communication Signals</a> <br/>
+    - <a href="https://arxiv.org/abs/1004.2515">Nonnegative Decomposition of Multivariate Information</a> <br/>
+    - <a href="https://www.sciencedirect.com/science/article/pii/S0378216608003056">Language and image interaction in cartoons&#58; Towards a multimodal theory of humor</a> <br/>
+    - <a href="https://piazza.com/class_profile/get_resource/lcv0w9mqjzy1kx/lds3ewt4t4g6w4">Multimodality and reading&#58; The construction of meaning through image-text interaction</a> <br/>
+    - <a href="https://dl.acm.org/doi/abs/10.1145/1228175.1228254">Examining the redundancy of multimodal input</a> <br/>
+    - <a href="https://aclanthology.org/2020.emnlp-main.62/">Does my multimodal model learn cross-modal interactions? It’s harder to tell than you might think!</a> <br/>
+    - <a href="https://drive.google.com/file/d/1txIMRy3AAiS7qDCmayzfsN3HmjPipVjd/view?usp=share_link">Quantifying & Modeling Feature Interactions&#58; An Information Decomposition Framework</a> <br/>
+    - <a href="https://arxiv.org/abs/2006.10965">How does this interaction affect me? Interpretable attribution for feature interactions</a> <br/>
+    - <a href="https://arxiv.org/abs/cs/0308002">Quantifying and Visualizing Attribute Interactions</a> <br/>
+    - <a href="https://www.sesp.org/files/The%20Moderator-Baron.pdf">The Moderator-Mediator Variable Distinction in Social Psychological Research&#58; Conceptual, Strategic, and Statistical Considerations</a> <br/>
 
 - date: 2/17
   title: >
