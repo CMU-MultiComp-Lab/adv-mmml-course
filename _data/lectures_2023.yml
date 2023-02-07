@@ -66,7 +66,19 @@
     consideration when heterogeneity is studied? Are connections also present in
     homogenous settings?
   readings:
-    - 
+    - <a href="https://arxiv.org/abs/2005.10243">What Makes for Good Views for Contrastive Learning?</a> <br/>
+    - <a href="https://link.springer.com/article/10.1007/s13735-019-00187-6">Characterization and classification of semantic image-text relations</a> <br/>
+    - <a href="https://www.emerald.com/insight/content/doi/10.1108/00220410310506303/full/pdf?title=a-taxonomy-of-relationships-between-images-and-text">A taxonomy of relationships between images and text</a> <br/>
+    - <a href="https://arxiv.org/abs/1511.06361">Order-Embeddings of Images and Language</a> <br/>
+    - <a href="https://link.springer.com/content/pdf/10.1007/s10994-005-0913-1.pdf">Corpus-based Learning of Analogies and Semantic Relations</a> <br/>
+    - <a href="https://distill.pub/2021/multimodal-neurons/">Multimodal Neurons in Artificial Neural Networks</a> <br/>
+    - <a href="https://arxiv.org/abs/1607.07295">Learning Aligned Cross-Modal Representations from Weakly Aligned Data</a> <br/>
+    - <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9363924">Toward Causal Representation Learning</a> <br/>
+    - <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7358050">A Review of Relational Machine Learning for Knowledge Graphs</a> <br/>
+    - <a href="https://chinese.wooster.edu/files/barthes.pdf">Image-Music-Text</a> <br/>
+    - <a href="https://arxiv.org/abs/1805.11222">Unsupervised Alignment of Embeddings with Wasserstein Procrustes</a> <br/>
+    - <a href="https://arxiv.org/abs/1905.06922">On Variational Bounds of Mutual Information</a> <br/>
+    - <a href="https://journals.sagepub.com/doi/epdf/10.1177/1470357205055928">A system for image–text relations in new (and old) media</a> <br/>
   
 - date: 2/10
   title: >
