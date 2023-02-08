@@ -1,6 +1,6 @@
 - date: 1/20
   title: >
-    Week 1: <strong>Course introduction</strong> <a href="lecture1-Introduction.pdf">[slides]</a> <a href="11877_week1.pdf">[synopsis]</a>
+    Week 1: <strong>Course introduction</strong> <a href="lecture1-Introduction.pdf">[slides]</a>
   slides:
   topics:
     - Course syllabus and requirements
@@ -13,7 +13,7 @@
 
 - date: 1/27
   title: >
-    Week 2: <strong>Dimensions of heterogeneity</strong>
+    Week 2: <strong>Dimensions of heterogeneity</strong> <a href="11877_week2.pdf">[synopsis]</a>
   topics:
     - What is a taxonomy of the dimensions in which modalities can be heterogeneous?
     - Heterogeneity is also often seen in several other ML subfields (e.g., domain adaptation, domain shift, transfer learning, multitask learning, federated learning, etc). What are some similarities and differences between the notions of heterogeneity between MMML and these fields? Can definitions or methods in each area be adapted to benefit other research areas?
