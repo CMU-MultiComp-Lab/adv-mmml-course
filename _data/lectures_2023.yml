@@ -87,7 +87,7 @@
   topics:
     - What are the different ways in which modalities can be useful for a task? How can we measure the utility of a modality for a task, given only access to the dataset (i.e., before designing and training a model)?
     - What are the criterion for which we should add or select modalities for a task? Is minimizing redundancy the only goal? Are there benefits in maximizing redundancy? Are there other criterion we should consider too?
-    - There has been substantial work in feature selection. Is modality selection the same as feature selection? What are the potential differences and new technical challenges in modality selection but not present in conventional feature selection? 
+    - Is modality selection the same as feature selection? What are the potential differences and new technical challenges in modality selection but not present in conventional feature selection? 
     - Given trained models, how can we estimate how important each modality was when making the prediction? How were these modalities used separately and in interaction with other modalities?
     - What are the different ways in which modalities can be harmful for a task? Think about a list of reasons why we would prefer to not use a modality. How can we quantify these potential risks?
     - What are some solutions for tackling these risks and biases in multimodal datasets and models? How can we properly identify, visualize and eventually reduce these risks in multimodal datasets and models?
