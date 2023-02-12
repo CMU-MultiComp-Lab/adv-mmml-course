@@ -83,10 +83,27 @@
 
 - date: 2/17
   title: >
-    Week 5: <strong>Modality utility and selection</strong>
+    Week 5: <strong>Modality utility, tradeoffs, and selection</strong>
   topics:
-  
+    - What are the different ways in which modalities can be useful for a task? How can we measure the utility of a modality for a task, given only access to the dataset (i.e., before designing and training a model)?
+    - What are the criterion for which we should add or select modalities for a task? Is minimizing redundancy the only goal? Are there benefits in maximizing redundancy? Are there other criterion we should consider too?
+    - There has been substantial work in feature selection. Is modality selection the same as feature selection? What are the potential differences and new technical challenges in modality selection but not present in conventional feature selection? 
+    - Given trained models, how can we estimate how important each modality was when making the prediction? How were these modalities used separately and in interaction with other modalities?
+    - What are the different ways in which modalities can be harmful for a task? Think about a list of reasons why we would prefer to not use a modality. How can we quantify these potential risks?
+    - What are some solutions for tackling these risks and biases in multimodal datasets and models? How can we properly identify, visualize and eventually reduce these risks in multimodal datasets and models?
+    - Can we come up with guidelines that compare the tradeoffs between modality benefits and risks? How can we then integrate these insights into multimodal model design? Will integrating these insights help?
   readings:
+    - <a href="https://proceedings.mlr.press/v180/cheng22a.html">Greedy modality selection via approximate submodular maximization</a> <br/>
+    - <a href="https://proceedings.mlr.press/v162/wu22d.html">Characterizing and Overcoming the Greedy Nature of Learning in Multi-modal Deep Neural Networks</a> <br/>
+    - <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4082064">Information Value Theory</a> <br/>
+    - <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1100705">A New Look at the Statistical Model Identification</a> <br/>
+    - <a href="https://www.jmlr.org/papers/volume5/yu04a/yu04a.pdf">Efficient Feature Selection via Analysis of Relevance and Redundancy</a> <br/>
+    - <a href="https://dl.acm.org/doi/pdf/10.1145/3462244.3479897">Bias and Fairness in Multimodal Machine Learning&#58; A Case Study of Automated Video Interviews</a> <br/>
+    - <a href="https://arxiv.org/abs/2110.14375">Perceptual Score&#58; What Data Modalities Does Your Model Perceive?</a> <br/>
+    - <a href="https://www.nature.com/articles/s42256-020-00257-z">Shortcut learning in deep neural networks</a> <br/>
+    - <a href="https://arxiv.org/abs/2110.01963">Multimodal datasets&#58; misogyny, pornography, and malignant stereotypes</a> <br/>
+    - <a href="https://arxiv.org/abs/2107.07502">MultiBench&#58; Multiscale Benchmarks for Multimodal Representation Learning</a> <br/>
+    - <a href="https://par.nsf.gov/servlets/purl/10090424#:~:text=Conditional%20entropy%20is%20an%20information,9%2C20%2C21%5D">Submodularity issues in value-of-information-based sensor placement</a> <br/>
 
 - date: 2/24
   title: >
