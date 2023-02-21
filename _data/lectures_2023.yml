@@ -107,10 +107,26 @@
 
 - date: 2/24
   title: >
-    Week 6: <strong>Quantification and visualization</strong>
+    Week 6: <strong>Pretraining and scaling</strong>
   topics:
-  
+    - Is large-scale pretraining the way forward for building general AI models? What information potentially cannot be captured by pretraining? What are some potential risks of pretraining and scenarios where we should not use pretrained models?
+    - How can we, in an academic environment, do impactful research in multimodal pretraining? What would be your proposed multi-year research agenda in this topic?
+    - What are the types of cross-modal interactions that are likely to be modeled by current pretrained models? What cross-modal interactions will be harder to model with these methods? Do you have proposals for different pretraining data, architectures, or objectives that can better capture these interactions?
+    - How can we best integrate multimodality into pretrained language models? What kind of additional data and modeling/optimization decisions do we need?
+    - What are the different design decisions when integrating multimodal information in pretraining models and objectives? What are the main advantages and drawbacks of these design choices? Consider not just prediction performance, but tradeoffs in time/space complexity, interpretability, and so on.
+    - How can we evaluate the type of multimodal information learned in pretrained models? One approach is to look at downstream tasks, but what are other ways to uncover the knowledge stored in pretrained models?  
   readings:
+    - <a href="https://arxiv.org/abs/2301.03728">Scaling Laws for Generative Mixed-Modal Language Models</a> <br/>
+    - <a href="https://arxiv.org/abs/2205.06175">A Generalist Agent</a> <br/>
+    - <a href="https://arxiv.org/abs/2010.14701">Scaling Laws for Autoregressive Generative Modeling</a> <br/>
+    - <a href="https://arxiv.org/abs/2301.12597">BLIP-2&#58; Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models</a> <br/>
+    - <a href="https://arxiv.org/abs/2203.17247">VL-InterpreT&#58; An Interactive Visualization Tool for Interpreting Vision-Language Transformers</a> <br/>
+    - <a href="https://arxiv.org/abs/2210.09263">Vision-Language Pre-training&#58; Basics, Recent Advances, and Future Trends</a> <br/>
+    - <a href="https://arxiv.org/abs/2112.06825">VL-Adapter&#58; Parameter-Efficient Transfer Learning for Vision-and-Language Tasks</a> <br/>
+    - <a href="https://arxiv.org/abs/2203.15556">Training Compute-Optimal Large Language Models</a> <br/>
+    - <a href="https://arxiv.org/abs/2011.15124">Multimodal Pretraining Unmasked&#58; A Meta-Analysis and a Unified Framework of Vision-and-Language BERTs</a> <br/>
+    - <a href="https://arxiv.org/abs/2108.07258">On the Opportunities and Risks of Foundation Models</a> <br/>
+    - <a href="https://arxiv.org/abs/2204.14198">Flamingo&#58; a Visual Language Model for Few-Shot Learning</a> <br/>
 
 - date: 3/3
   title: >
@@ -143,7 +159,7 @@
   
 - date: 3/31
   title: >
-    Week 11: <strong>Pretraining and scaling</strong>
+    Week 11: <strong>Quantification and visualization</strong>
   topics:
   
   readings:
