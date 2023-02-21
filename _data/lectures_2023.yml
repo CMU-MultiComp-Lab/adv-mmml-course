@@ -46,7 +46,7 @@
   readings:
     - <a href="https://arxiv.org/abs/2005.10243">What Makes for Good Views for Contrastive Learning?</a> <br/>
     - <a href="https://link.springer.com/article/10.1007/s13735-019-00187-6">Characterization and classification of semantic image-text relations</a> <br/>
-    - <a href="https://www.emerald.com/insight/content/doi/10.1108/00220410310506303/full/pdf?title=a-taxonomy-of-relationships-between-images-and-text">A taxonomy of relationships between images and text</a> <br/>
+    - <a href="https://www.emerald.com/insight/content/doi/10.1108/00220410310506303/full/pdf?title=a-taxonomy-of-relationships-between-images-and-text">A Taxonomy of Relationships Between Images and Text</a> <br/>
     - <a href="https://arxiv.org/abs/1511.06361">Order-Embeddings of Images and Language</a> <br/>
     - <a href="https://link.springer.com/content/pdf/10.1007/s10994-005-0913-1.pdf">Corpus-based Learning of Analogies and Semantic Relations</a> <br/>
     - <a href="https://distill.pub/2021/multimodal-neurons/">Multimodal Neurons in Artificial Neural Networks</a> <br/>
@@ -56,7 +56,7 @@
     - <a href="https://chinese.wooster.edu/files/barthes.pdf">Image-Music-Text</a> <br/>
     - <a href="https://arxiv.org/abs/1805.11222">Unsupervised Alignment of Embeddings with Wasserstein Procrustes</a> <br/>
     - <a href="https://arxiv.org/abs/1905.06922">On Variational Bounds of Mutual Information</a> <br/>
-    - <a href="https://journals.sagepub.com/doi/epdf/10.1177/1470357205055928">A system for image–text relations in new (and old) media</a> <br/>
+    - <a href="https://journals.sagepub.com/doi/epdf/10.1177/1470357205055928">A System for Image–text Relations in New (and Old) Media</a> <br/>
   
 - date: 2/10
   title: >
@@ -72,9 +72,9 @@
   readings:
     - <a href="https://www.journals.uchicago.edu/doi/epdf/10.1086/431246">Issues in the Classification of Multimodal Communication Signals</a> <br/>
     - <a href="https://arxiv.org/abs/1004.2515">Nonnegative Decomposition of Multivariate Information</a> <br/>
-    - <a href="https://www.sciencedirect.com/science/article/pii/S0378216608003056">Language and image interaction in cartoons&#58; Towards a multimodal theory of humor</a> <br/>
-    - <a href="https://piazza.com/class_profile/get_resource/lcv0w9mqjzy1kx/lds3ewt4t4g6w4">Multimodality and reading&#58; The construction of meaning through image-text interaction</a> <br/>
-    - <a href="https://dl.acm.org/doi/abs/10.1145/1228175.1228254">Examining the redundancy of multimodal input</a> <br/>
+    - <a href="https://www.sciencedirect.com/science/article/pii/S0378216608003056">Language and Image Interaction in Cartoons&#58; Towards a Multimodal Theory of Humor</a> <br/>
+    - <a href="https://piazza.com/class_profile/get_resource/lcv0w9mqjzy1kx/lds3ewt4t4g6w4">Multimodality and Reading&#58; The Construction of Meaning Through Image-text Interaction</a> <br/>
+    - <a href="https://dl.acm.org/doi/abs/10.1145/1228175.1228254">Examining the Redundancy of Multimodal Input</a> <br/>
     - <a href="https://aclanthology.org/2020.emnlp-main.62/">Does my multimodal model learn cross-modal interactions? It’s harder to tell than you might think!</a> <br/>
     - <a href="https://drive.google.com/file/d/1txIMRy3AAiS7qDCmayzfsN3HmjPipVjd/view?usp=share_link">Quantifying & Modeling Feature Interactions&#58; An Information Decomposition Framework</a> <br/>
     - <a href="https://arxiv.org/abs/2006.10965">How does this interaction affect me? Interpretable attribution for feature interactions</a> <br/>
@@ -93,17 +93,17 @@
     - What are some solutions for tackling these risks and biases in multimodal datasets and models? How can we properly identify, visualize and eventually reduce these risks in multimodal datasets and models?
     - Can we come up with guidelines that compare the tradeoffs between modality benefits and risks? How can we then integrate these insights into multimodal model design? Will integrating these insights help?
   readings:
-    - <a href="https://proceedings.mlr.press/v180/cheng22a.html">Greedy modality selection via approximate submodular maximization</a> <br/>
+    - <a href="https://proceedings.mlr.press/v180/cheng22a.html">Greedy Modality Selection via Approximate Submodular Maximization</a> <br/>
     - <a href="https://proceedings.mlr.press/v162/wu22d.html">Characterizing and Overcoming the Greedy Nature of Learning in Multi-modal Deep Neural Networks</a> <br/>
     - <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4082064">Information Value Theory</a> <br/>
     - <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1100705">A New Look at the Statistical Model Identification</a> <br/>
     - <a href="https://www.jmlr.org/papers/volume5/yu04a/yu04a.pdf">Efficient Feature Selection via Analysis of Relevance and Redundancy</a> <br/>
     - <a href="https://dl.acm.org/doi/pdf/10.1145/3462244.3479897">Bias and Fairness in Multimodal Machine Learning&#58; A Case Study of Automated Video Interviews</a> <br/>
     - <a href="https://arxiv.org/abs/2110.14375">Perceptual Score&#58; What Data Modalities Does Your Model Perceive?</a> <br/>
-    - <a href="https://www.nature.com/articles/s42256-020-00257-z">Shortcut learning in deep neural networks</a> <br/>
-    - <a href="https://arxiv.org/abs/2110.01963">Multimodal datasets&#58; misogyny, pornography, and malignant stereotypes</a> <br/>
+    - <a href="https://www.nature.com/articles/s42256-020-00257-z">Shortcut Learning in Deep Neural Networks</a> <br/>
+    - <a href="https://arxiv.org/abs/2110.01963">Multimodal Datasets&#58; Misogyny, Pornography, and Malignant Stereotypes</a> <br/>
     - <a href="https://arxiv.org/abs/2107.07502">MultiBench&#58; Multiscale Benchmarks for Multimodal Representation Learning</a> <br/>
-    - <a href="https://par.nsf.gov/servlets/purl/10090424#:~:text=Conditional%20entropy%20is%20an%20information,9%2C20%2C21%5D">Submodularity issues in value-of-information-based sensor placement</a> <br/>
+    - <a href="https://par.nsf.gov/servlets/purl/10090424#:~:text=Conditional%20entropy%20is%20an%20information,9%2C20%2C21%5D">Submodularity Issues in Value-of-information-based Sensor Placement</a> <br/>
 
 - date: 2/24
   title: >
