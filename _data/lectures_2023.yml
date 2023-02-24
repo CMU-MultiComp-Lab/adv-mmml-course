@@ -60,7 +60,7 @@
   
 - date: 2/10
   title: >
-    Week 4: <strong>Modality interactions</strong>
+    Week 4: <strong>Modality interactions</strong> <a href="11877_week4.pdf">[synopsis]</a>
   topics:
     - What are the different ways in which modalities can interact with each other when used for a prediction tasks? Think across both semantic and statistical perspectives. Can we formalize a taxonomy of such interactions, which will enable us to compare and contrast them more precisely? In fact, should we even try creating such a taxonomy?
     - Can you think of ways modalities could interact with each others, even if there is no prediction task? How are modalities interacting during cross-modal translation? During multimodal generation?
