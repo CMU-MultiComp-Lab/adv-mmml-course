@@ -130,10 +130,26 @@
 
 - date: 3/3
   title: >
-    Week 7: <strong>Empirical and theoretical frameworks</strong>
+    Week 7: <strong>Multimodal reasoning</strong>
   topics:
-  
+    - What is reasoning, and what are its subchallenges? What could be a taxonomy of the main processes involved in reasoning? What are some potential formal definitions for reasoning?
+    - Are there unique technical challenges that arise because reasoning is performed on multimodal versus unimodal data? How can we start studying these challenges in future research? Try to link it back to our previous definition of heterogeneity, connections, and interactions when thinking about multimodal reasoning challenges.
+    - What are the main advantages of reasoning-based approaches, when compared to the large-scale pre-training methods discussed last week? What are the potential issues with reasoning-based methods? Can we come up with a research agenda that combines the best of both worlds?
+    - Can we perform reasoning on very large datasets? Can pre-training methods eventually learn reasoning processes similar to humans? Or will we still need human and domain knowledge to some extent?
+    - What are some ways to uncover the reasoning capabilities of multimodal models? What additional techniques do we need over measuring reasoning of unimodal models?
+    - To what extent do we need external knowledge when performing reasoning, specifically multimodal reasoning? What type of external knowledge is likely to be needed to succeed in multimodal reasoning?
   readings:
+    - <a href="https://arxiv.org/abs/2302.00923">Multimodal Chain-of-Thought Reasoning in Language Models</a> <br/>
+    - <a href="https://arxiv.org/abs/1905.13211">What Can Neural Networks Reason About?</a> <br/>
+    - <a href="https://www.amacad.org/publication/curious-case-commonsense-intelligence">The Curious Case of Commonsense Intelligence</a> <br/>
+    - <a href="https://arxiv.org/abs/2212.10403">Towards Reasoning in Large Language Models&#58; A Survey</a> <br/>
+    - <a href="https://arxiv.org/abs/2210.00312">Multimodal Analogical Reasoning over Knowledge Graphs</a> <br/>
+    - <a href="https://arxiv.org/abs/2210.15037">Generalization Differences between End-to-End and Neuro-Symbolic Vision-Language Reasoning Systems</a> <br/>
+    - <a href="https://arxiv.org/abs/2204.00598">Socratic Models&#58; Composing Zero-Shot Multimodal Reasoning with Language</a> <br/>
+    - <a href="https://arxiv.org/abs/2204.03162">Winoground&#58; Probing Vision and Language Models for Visio-Linguistic Compositionality</a> <br/>
+    - <a href="https://arxiv.org/abs/2209.09513">Learn to Explain&#58; Multimodal Reasoning via Thought Chains for Science Question Answering</a> <br/>
+    - <a href="https://aclanthology.org/2020.acl-tutorials.7.pdf">Commonsense Reasoning for Natural Language Processing</a> <br/>
+    - <a href="https://proceedings.mlr.press/v176/chang22a/chang22a.pdf">WebQA&#58; A Multimodal Multihop NeurIPS Challenge</a> <br/>
   
 - date: 3/10
   title: >
@@ -152,7 +168,7 @@
   
 - date: 3/24
   title: >
-    Week 10: <strong>Multimodal reasoning</strong>
+    Week 10: <strong>Empirical and theoretical frameworks</strong>
   topics:
   
   readings:
