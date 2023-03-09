@@ -83,7 +83,7 @@
 
 - date: 2/17
   title: >
-    Week 5: <strong>Modality utility, tradeoffs, and selection</strong>
+    Week 5: <strong>Modality utility, tradeoffs, and selection</strong> <a href="11877_week5.pdf">[synopsis]</a>
   topics:
     - What are the different ways in which modalities can be useful for a task? How can we measure the utility of a modality for a task, given only access to the dataset (i.e., before designing and training a model)?
     - What are the criterion for which we should add or select modalities for a task? Is minimizing redundancy the only goal? Are there benefits in maximizing redundancy? Are there other criterion we should consider too?
@@ -107,7 +107,7 @@
 
 - date: 2/24
   title: >
-    Week 6: <strong>Pretraining and scaling</strong>
+    Week 6: <strong>Pretraining and scaling</strong> <a href="11877_week6.pdf">[synopsis]</a>
   topics:
     - Is large-scale pretraining the way forward for building general AI models? What information potentially cannot be captured by pretraining? What are some potential risks of pretraining and scenarios where we should not use pretrained models?
     - How can we, in an academic environment, do impactful research in multimodal pretraining? What would be your proposed multi-year research agenda in this topic?
