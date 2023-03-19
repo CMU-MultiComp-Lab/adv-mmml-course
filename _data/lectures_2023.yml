@@ -1,6 +1,6 @@
 - date: 1/20
   title: >
-    Week 1: <strong>Course introduction</strong> <a href="lecture1-Introduction.pdf">[slides]</a>
+    Week 1: <strong>Course Introduction</strong> <a href="lecture1-Introduction.pdf">[slides]</a>
   slides:
   topics:
     - Course syllabus and requirements
@@ -13,7 +13,7 @@
 
 - date: 1/27
   title: >
-    Week 2: <strong>Dimensions of heterogeneity</strong> <a href="11877_week2.pdf">[synopsis]</a>
+    Week 2: <strong>Dimensions of Heterogeneity</strong> <a href="11877_week2.pdf">[synopsis]</a>
   topics:
     - What is a taxonomy of the dimensions in which modalities can be heterogeneous?
     - Heterogeneity is also often seen in several other ML subfields (e.g., domain adaptation, domain shift, transfer learning, multitask learning, federated learning, etc). What are some similarities and differences between the notions of heterogeneity between MMML and these fields? Can definitions or methods in each area be adapted to benefit other research areas?
@@ -36,7 +36,7 @@
     
 - date: 2/3
   title: >
-    Week 3: <strong>Modality connections</strong> <a href="11877_week3.pdf">[synopsis]</a>
+    Week 3: <strong>Modality Connections</strong> <a href="11877_week3.pdf">[synopsis]</a>
   topics:
     - What are the reasons why modalities can be connected with each other? Come up with a taxonomy of various dimensions. Think along both statistical, data-driven dimensions and semantic, hypothesis or knowledge driven dimensions. What are the pros and cons of either approach in understanding modality connections?
     - Are connections always strong and one-to-one? Reflect on what could make some cross-modal connections stronger or weaker, including many-to-many connections, ambiguity or noises?
@@ -60,7 +60,7 @@
   
 - date: 2/10
   title: >
-    Week 4: <strong>Modality interactions</strong> <a href="11877_week4.pdf">[synopsis]</a>
+    Week 4: <strong>Modality Interactions</strong> <a href="11877_week4.pdf">[synopsis]</a>
   topics:
     - What are the different ways in which modalities can interact with each other when used for a prediction tasks? Think across both semantic and statistical perspectives. Can we formalize a taxonomy of such interactions, which will enable us to compare and contrast them more precisely? In fact, should we even try creating such a taxonomy?
     - Can you think of ways modalities could interact with each others, even if there is no prediction task? How are modalities interacting during cross-modal translation? During multimodal generation?
@@ -83,7 +83,7 @@
 
 - date: 2/17
   title: >
-    Week 5: <strong>Modality utility, tradeoffs, and selection</strong> <a href="11877_week5.pdf">[synopsis]</a>
+    Week 5: <strong>Modality Utility, Tradeoffs, and Selection</strong> <a href="11877_week5.pdf">[synopsis]</a>
   topics:
     - What are the different ways in which modalities can be useful for a task? How can we measure the utility of a modality for a task, given only access to the dataset (i.e., before designing and training a model)?
     - What are the criterion for which we should add or select modalities for a task? Is minimizing redundancy the only goal? Are there benefits in maximizing redundancy? Are there other criterion we should consider too?
@@ -107,7 +107,7 @@
 
 - date: 2/24
   title: >
-    Week 6: <strong>Pretraining and scaling</strong> <a href="11877_week6.pdf">[synopsis]</a>
+    Week 6: <strong>Pretraining and Scaling</strong> <a href="11877_week6.pdf">[synopsis]</a>
   topics:
     - Is large-scale pretraining the way forward for building general AI models? What information potentially cannot be captured by pretraining? What are some potential risks of pretraining and scenarios where we should not use pretrained models?
     - How can we, in an academic environment, do impactful research in multimodal pretraining? What would be your proposed multi-year research agenda in this topic?
@@ -131,7 +131,7 @@
 
 - date: 3/3
   title: >
-    Week 7: <strong>Multimodal reasoning</strong>
+    Week 7: <strong>Multimodal Reasoning</strong>
   topics:
     - What is reasoning, and what are its subchallenges? What could be a taxonomy of the main processes involved in reasoning? What are some potential formal definitions for reasoning?
     - Are there unique technical challenges that arise because reasoning is performed on multimodal versus unimodal data? How can we start studying these challenges in future research? Try to link it back to our previous definition of heterogeneity, connections, and interactions when thinking about multimodal reasoning challenges.
@@ -162,7 +162,7 @@
 
 - date: 3/17
   title: >
-    Week 9: <strong>Multimodal co-learning</strong>
+    Week 9: <strong>Multimodal Co-learning</strong>
   topics:
     - We define co-learning broadly as multimodal data and training helping performance on unimodal tasks. Under what scenarios will co-learning occur? Why is that research has demonstrated both positive and negative results? What assumptions do we have to make on the heterogeneity of data sources and the nature of connections and interactions between modalities for co-learning to be successful?
     - How can we formally, empirically, or intuitively measure the additional information provided by auxiliary modalities for co-learning? How can we design controlled experiments to test these hypotheses?
