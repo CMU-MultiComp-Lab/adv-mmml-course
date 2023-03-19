@@ -162,10 +162,26 @@
 
 - date: 3/17
   title: >
-    Week 9: <strong>Brain and multimodal perception</strong>
+    Week 9: <strong>Multimodal co-learning</strong>
   topics:
-  
+    - We define co-learning broadly as multimodal data and training helping performance on unimodal tasks. Under what scenarios will co-learning occur? Why is that research has demonstrated both positive and negative results? What assumptions do we have to make on the heterogeneity of data sources and the nature of connections and interactions between modalities for co-learning to be successful?
+    - How can we formally, empirically, or intuitively measure the additional information provided by auxiliary modalities for co-learning? How can we design controlled experiments to test these hypotheses?
+    - What are some design decisions (modeling, training, objective functions) that could be made to promote co-learning from one modality to another? What is a taxonomy of approaches and their pros and cons?
+    - Text is usually the modality used for additional supervision. Why is text such a popular choice? Can other modalities also be used for additional supervision, and how would co-learning methods work differently?
+    - How do we measure what information is transferred during co-learning? How do we ensure that only useful information is transferred, and not some undesirable bias or shortcuts?
+    - How can we know if co-learning has succeeded or failed? What approaches could we develop to visualize and probe the success of co-learning, beyond target task performance?
+    - What are the advantages and drawbacks of information transfer during co-learning? Consider not just prediction performance, but also tradeoffs with increased complexity, interpretability, biases, etc. Can we come up with a guideline for when we should use co-learning, when the benefits outweigh the additional costs?
   readings:
+    - <a href="https://arxiv.org/abs/2102.05918">Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision</a> <br/>
+    - <a href="https://arxiv.org/abs/2109.10246">Does Vision-and-Language Pretraining Improve Lexical Grounding?</a> <br/>
+    - <a href="https://arxiv.org/abs/2107.13782">Multimodal Co-learning&#58; Challenges, Applications with Datasets, Recent Advances and Future Directions</a> <br/>
+    - <a href="https://arxiv.org/abs/1903.11101">Cross-Modal Data Programming Enables Rapid Medical Machine Learning</a> <br/>
+    - <a href="https://arxiv.org/abs/2010.06775">Vokenization&#58; Improving Language Understanding with Contextualized, Visual-Grounded Supervision</a> <br/>
+    - <a href="https://arxiv.org/abs/2106.02192">Grounding Grounding in NLP</a> <br/>
+    - <a href="https://arxiv.org/abs/1906.03926">A Survey of Reinforcement Learning Informed by Natural Language</a> <br/>
+    - <a href="https://dl.acm.org/doi/pdf/10.1145/354756.354805">Analyzing the Effectiveness and Applicability of Co-training</a> <br/>
+    - <a href="https://www.learningtheory.org/colt2008/papers/94-Sridharan.pdf">An Information Theoretic Framework for Multi-view Learning</a> <br/>
+    - <a href="https://arxiv.org/abs/2004.10151">Experience Grounds Language</a> <br/>
   
 - date: 3/24
   title: >
