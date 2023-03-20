@@ -196,7 +196,7 @@
     - How can we build a taxonomy of the main ethical concerns related to multimodal generation?
     - How can we update our best practices to help address these ethical concerns? Who is better placed to start this dialogue? How can we make significant changes in this direction of reducing ethical issues?
   readings:
-    - <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Han_Show_Me_What_and_Tell_Me_How_Video_Synthesis_via_CVPR_2022_paper.pdf">Show Me What and Tell Me How: Video Synthesis via Multimodal Conditioning</a> <br/>
+    - <a href="https://arxiv.org/abs/2203.02573">Show Me What and Tell Me How&#58; Video Synthesis via Multimodal Conditioning</a> <br/>
     - <a href="https://arxiv.org/abs/2301.13823">Grounding Language Models to Images for Multimodal Generation</a> <br/>
     - <a href="https://arxiv.org/abs/2303.04671">Visual ChatGPT&#58; Talking, Drawing and Editing with Visual Foundation Models</a> <br/>
     - <a href="https://arxiv.org/abs/2209.14792">Make-A-Video&#58; Text-to-Video Generation without Text-Video Data</a> <br/>
