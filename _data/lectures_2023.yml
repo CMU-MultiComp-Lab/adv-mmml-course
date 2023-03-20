@@ -185,10 +185,26 @@
   
 - date: 3/24
   title: >
-    Week 10: <strong>Empirical and theoretical frameworks</strong>
+    Week 10: <strong>Multimodal Generation and Ethics</strong>
   topics:
-  
+    - What are the qualities we should consider when evaluating outputs from multimodal generation? What do you think is the best practice to evaluate these qualities? Can we efficiently evaluate these qualities, at scale?
+    - What are some challenges in multimodal generation beyond generating each modality individually? How can we synchronize generation across multiple modalities?
+    - What aspects of multimodal are prerequisites for generation to be possible? For example, how much do models need to learn regarding heterogeneity, connections, and interactions?
+    - There have been many directions towards conditional generation without fully paired data, or paired data at more coarse granularities (e.g., text-video generation using only text-image data). What is a taxonomy of weak supervision approaches for generation? How do we know what type of data is necessary for accurate generation?
+    - What are the opportunities and challenges of automatic and human evaluation? How can we combine the best of both worlds?
+    - What are the real-world ethical issues regarding generation? How are these risks potentially amplified or reduced when the dataset is multimodal, with heterogeneous modalities? Are there any ethical issues that are specific to multimodal generation?
+    - How can we build a taxonomy of the main ethical concerns related to multimodal generation?
+    - How can we update our best practices to help address these ethical concerns? Who is better placed to start this dialogue? How can we make significant changes in this direction of reducing ethical issues?
   readings:
+    - <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Han_Show_Me_What_and_Tell_Me_How_Video_Synthesis_via_CVPR_2022_paper.pdf">Show Me What and Tell Me How: Video Synthesis via Multimodal Conditioning</a> <br/>
+    - <a href="https://arxiv.org/abs/2301.13823">Grounding Language Models to Images for Multimodal Generation</a> <br/>
+    - <a href="https://arxiv.org/abs/2303.04671">Visual ChatGPT&#58; Talking, Drawing and Editing with Visual Foundation Models</a> <br/>
+    - <a href="https://arxiv.org/abs/2209.14792">Make-A-Video&#58; Text-to-Video Generation without Text-Video Data</a> <br/>
+    - <a href="https://arxiv.org/abs/2211.09110">Holistic Evaluation of Language Models</a> <br/>
+    - <a href="https://arxiv.org/abs/2005.03201">What comprises a good talking-head video generation? A Survey and Benchmark</a> <br/>
+    - <a href="https://arxiv.org/abs/2302.04023">A Multitask, Multilingual, Multimodal Evaluation of ChatGPT on Reasoning, Hallucination, and Interactivity</a> <br/>
+    - <a href="https://proceedings.mlr.press/v162/goel22a.html">It’s Raw! Audio Generation with State-Space Models</a> <br/>
+    - <a href="https://proceedings.mlr.press/v162/hoogeboom22a.html">Equivariant Diffusion for Molecule Generation in 3D</a> <br/>
   
 - date: 3/31
   title: >
