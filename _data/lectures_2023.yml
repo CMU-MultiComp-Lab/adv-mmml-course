@@ -208,10 +208,26 @@
   
 - date: 3/31
   title: >
-    Week 11: <strong>Quantification and visualization</strong>
+    Week 11: <strong>Multimodal language models and the future</strong>
   topics:
-  
+    - Think of multimodal research problems and technical challenges that are becoming more important and possibly enabled by GPT-like models. Out of these, which problems are academia particularly well suited to work on?
+    - Think of multimodal research problems and technical challenges that became less relevant or maybe even solved by GPT-like models.
+    - At a high-level (1-minute elevator pitch), describe one specific multimodal research project that you could embark on enabled by GPT-like models. Describe the key research questions, technical challenges, evaluation criteria, and broader impact.
+    - At a high-level (1-minute elevator pitch), describe one real-world product idea enabled by GPT-like models. Prepare a sales pitch&#58; current shortcomings, motivation, broad impact, potential technical challenges, any real-world deployment issues you could face, and evaluating success and impact. Who are the stakeholders who might use the product? How do you think this product will help them?
+    - What could the future of pretrained models look like? More modalities, more generative capabilities, more personalization, more efficiency, or what else? Which fundamental multimodal technical challenges will arise as more multimodal pretrained models are created?
+    - How can we, in an academic environment, do impactful research in multimodal given the success of these pretrained models? What would be your proposed 10-year research agenda in multimodal ML, assuming you had access to funding and researchers?
   readings:
+    - <a href="https://arxiv.org/abs/2303.12712">Sparks of Artificial General Intelligence&#58; Early experiments with GPT-4</a> <br/>
+    - <a href="https://arxiv.org/abs/2303.10130">GPTs are GPTs&#58; An Early Look at the Labor Market Impact Potential of Large Language Models</a> <br/>
+    - <a href="https://arxiv.org/abs/2303.08774">GPT-4 Technical Report</a> <br/>
+    - <a href="https://arxiv.org/abs/2303.12003">Artificial Muses&#58; Generative Artificial Intelligence Chatbots Have Risen to Human-Level Creativity</a> <br/>
+    - <a href="https://lingbuzz.net/lingbuzz/007180">Modern Language Models Refute Chomsky’s Approach to Language</a> <br/>
+    - <a href="https://garymarcus.substack.com/p/gpt-4s-successes-and-gpt-4s-failures">GPT-4’s successes, and GPT-4’s failures</a> <br/>
+    - <a href="https://serwiss.bib.hs-hannover.de/frontdoor/index/index/docId/2467">The Future of AI and Higher Education</a> <br/>
+    - <a href="https://arxiv.org/abs/2303.10420">A Comprehensive Capability Analysis of GPT-3 and GPT-3.5 Series Models</a> <br/>
+    - <a href="https://www.microsoft.com/en-us/research/uploads/prod/2023/03/GPT-4_medical_benchmarks.pdf">Capabilities of GPT-4 on Medical Challenge Problems</a> <br/>
+    - <a href="https://www.nature.com/articles/d41586-023-00816-5">GPT-4 is here&#58; what scientists think</a> <br/>
+    - <a href="https://www.sciencedirect.com/science/article/pii/S221156842300027X">Revolutionizing radiology with GPT-based models&#58; Current applications, future possibilities and limitations of ChatGPT</a> <br/>
 
 - date: 4/7
   title: >
