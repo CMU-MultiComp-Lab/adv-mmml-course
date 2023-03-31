@@ -131,7 +131,7 @@
 
 - date: 3/3
   title: >
-    Week 7: <strong>Multimodal Reasoning</strong>
+    Week 7: <strong>Multimodal Reasoning</strong> <a href="11877_week7.pdf">[synopsis]</a>
   topics:
     - What is reasoning, and what are its subchallenges? What could be a taxonomy of the main processes involved in reasoning? What are some potential formal definitions for reasoning?
     - Are there unique technical challenges that arise because reasoning is performed on multimodal versus unimodal data? How can we start studying these challenges in future research? Try to link it back to our previous definition of heterogeneity, connections, and interactions when thinking about multimodal reasoning challenges.
@@ -162,7 +162,7 @@
 
 - date: 3/17
   title: >
-    Week 9: <strong>Multimodal Co-learning</strong>
+    Week 9: <strong>Multimodal Co-learning</strong> <a href="11877_week9.pdf">[synopsis]</a>
   topics:
     - We define co-learning broadly as multimodal data and training helping performance on unimodal tasks. Under what scenarios will co-learning occur? Why is that research has demonstrated both positive and negative results? What assumptions do we have to make on the heterogeneity of data sources and the nature of connections and interactions between modalities for co-learning to be successful?
     - How can we formally, empirically, or intuitively measure the additional information provided by auxiliary modalities for co-learning? How can we design controlled experiments to test these hypotheses?
@@ -185,7 +185,7 @@
   
 - date: 3/24
   title: >
-    Week 10: <strong>Multimodal Generation and Ethics</strong>
+    Week 10: <strong>Multimodal Generation and Ethics</strong> <a href="11877_week10.pdf">[synopsis]</a>
   topics:
     - What are the qualities we should consider when evaluating outputs from multimodal generation? What do you think is the best practice to evaluate these qualities? Can we efficiently evaluate these qualities, at scale?
     - What are some challenges in multimodal generation beyond generating each modality individually? How can we synchronize generation across multiple modalities?
@@ -208,7 +208,7 @@
   
 - date: 3/31
   title: >
-    Week 11: <strong>Multimodal language models and the future</strong>
+    Week 11: <strong>Multimodal Language Models and the Future</strong>
   topics:
     - Think of multimodal research problems and technical challenges that are becoming more important and possibly enabled by GPT-like models. Out of these, which problems are academia particularly well suited to work on?
     - Think of multimodal research problems and technical challenges that became less relevant or maybe even solved by GPT-like models.
