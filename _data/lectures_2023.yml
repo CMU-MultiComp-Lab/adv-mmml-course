@@ -233,8 +233,23 @@
   title: >
     Week 12: <strong>Brain and Multimodal Perception</strong>
   topics:
-  
+    - What are the main takeaways from neuroscience regarding unimodal and multimodal processing, integration, translation, and co-learning, that are less known in conventional multimodal ML?
+    - How can these insights inform our design of multimodal models, following the challenges we covered previously (connections, interactions, co-learning, pre-training, reasoning etc.)?
+    - To what extent should we design AI models with the explicit goal to mirror human perception and reasoning, versus relying on large-scale pre-training methods and general neural networks?
+    - How does the human brain represent different modalities (visual, acoustic, touch)? Are these different modalities represented in very heterogeneous ways? How is information linked between modalities?
+    - What are several challenges and opportunities in multimodal learning from brain imaging modalities? How do these modalities introduce new challenges not seen in conventional language and vision research?
+    - What are some ways in which multimodal learning can help in the future analysis of data collected in neuroscience? What unique challenges arise in this new research direction, beyond classical multimodal learning?
   readings:
+    - <a href="https://pubmed.ncbi.nlm.nih.gov/15477032/">Multisensory Integration&#58; Methodological Approaches and Emerging Principles in the Human Brain</a> <br/>
+    - <a href="https://www.nature.com/articles/nrn2012">Towards Multimodal Atlases of the Human Brain</a> <br/>
+    - <a href="https://books.google.com/books?hl=en&lr=&id=69WESyZJNz0C&oi=fnd&pg=PA3&dq=multimodal+images+in+the+brain&ots=Uo0isCq4Vj&sig=tvFijulRosD7QU5PZr04QR4SzPk">Multimodal Images in the Brain</a> <br/>
+    - <a href="https://academic.oup.com/cercor/article/11/12/1110/492310?login=true">Crossmodal Processing in the Human Brain&#58; Insights from Functional Neuroimaging Studies</a> <br/>
+    - <a href="https://ccrma.stanford.edu/courses/155/assignment/resources/Multisensory%20Processes%202.pdf">Modulations of Visual Perception by Sound</a> <br/>
+    - <a href="https://nobaproject.com/modules/multi-modal-perception">Multi-Modal Perception</a> <br/>
+    - <a href="https://arxiv.org/abs/2204.05133">On the link between conscious function and general intelligence in humans and machines</a> <br/>
+    - <a href="https://www.sciencedirect.com/science/article/pii/S0010945217302277">Multimodal Mental Imagery</a> <br/>
+    - <a href="https://pubmed.ncbi.nlm.nih.gov/27347565/">Multimodal fusion of brain imaging data&#58; A key to finding the missing link(s) in complex mental illness</a> <br/>
+    - <a href="https://www.nature.com/articles/s41586-021-03950-0">A multimodal cell census and atlas of the mammalian primary motor cortex</a> <br/>
 
 - date: 4/14
   title: >
