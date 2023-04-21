@@ -208,7 +208,7 @@
   
 - date: 3/31
   title: >
-    Week 11: <strong>Multimodal Language Models and the Future</strong>
+    Week 11: <strong>Multimodal LMs and the Future</strong> <a href="11877_week11.pdf">[synopsis]</a>
   topics:
     - Think of multimodal research problems and technical challenges that are becoming more important and possibly enabled by GPT-like models. Out of these, which problems are academia particularly well suited to work on?
     - Think of multimodal research problems and technical challenges that became less relevant or maybe even solved by GPT-like models.
@@ -231,7 +231,7 @@
 
 - date: 4/7
   title: >
-    Week 12: <strong>Brain and Multimodal Perception</strong>
+    Week 12: <strong>Brain and Multimodal Perception</strong> <a href="11877_week12.pdf">[synopsis]</a>
   topics:
     - What are the main takeaways from neuroscience regarding unimodal and multimodal processing, integration, translation, and co-learning, that are less known in conventional multimodal ML?
     - How can these insights inform our design of multimodal models, following the challenges we covered previously (connections, interactions, co-learning, pre-training, reasoning etc.)?
