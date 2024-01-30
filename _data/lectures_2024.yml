@@ -1,11 +1,13 @@
 - date: 1/16
   title: >
     Week 1: <strong>Introduction</strong> <a href="lecture1-Introduction.pdf">[slides]</a>
+
   slides:
   topics:
     - Course syllabus and requirements
     - Multimodal principles&#58; heterogeneity, connections, and interactions
     - Multimodal technical challenges
+    - Multimodal research problems
   readings:
     - <a href="https://arxiv.org/abs/2209.03430">Foundations and Trends in Multimodal Machine Learning&#58; Principles, Challenges, and Open Questions</a> <br/>
     - <a href="https://arxiv.org/abs/1705.09406">Multimodal Machine Learning&#58; A Survey and Taxonomy</a> <br/>
