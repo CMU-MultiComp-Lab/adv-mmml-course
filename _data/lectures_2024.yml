@@ -15,7 +15,7 @@
 
 - date: 1/23
   title: >
-    Week 2: <strong>Foundation1: Dimensions of Heterogeneity</strong> <a href="*.pdf">[synopsis]</a>
+    Week 2: <strong>Foundation1: Dimensions of Heterogeneity</strong> <a href="11877_week2.pdf">[synopsis]</a>
   slides:
   topics:
     - What is a taxonomy of the dimensions in which modalities can be heterogeneous? What are intuitive definitions of each dimension of heterogeneity?
@@ -35,7 +35,7 @@
 
 - date: 1/30
   title: >
-    Week 3: <strong>Foundation2: Multimodal Connections</strong> <a href="*.pdf">[synopsis]</a>
+    Week 3: <strong>Foundation2: Multimodal Connections</strong> <a href="11877_week3.pdf">[synopsis]</a>
   slides:
   topics:
     - What are the reasons why modalities can be connected with each other? Come up with a taxonomy of various dimensions. Think along both statistical, data-driven dimensions and semantic, hypothesis or knowledge driven dimensions. How can we define estimators, where we can accurately quantify the presence of each type of connection given a dataset?
