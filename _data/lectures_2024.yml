@@ -1,6 +1,6 @@
 - date: 1/16
   title: >
-    Week 1: <strong>Introduction</strong> <a href="lecture1-Introduction.pdf">[slides]</a>
+    Week 1 <strong>Introduction</strong> <a href="lecture1-Introduction.pdf">[slides]</a>
 
   slides:
   topics:
@@ -15,7 +15,7 @@
 
 - date: 1/23
   title: >
-    Week 2: <strong>Foundation1: Dimensions of Heterogeneity</strong> <a href="11877_week2.pdf">[synopsis]</a>
+    Week 2 <strong>Foundation1: Dimensions of Heterogeneity</strong> <a href="11877_week2.pdf">[synopsis]</a>
   slides:
   topics:
     - What is a taxonomy of the dimensions in which modalities can be heterogeneous? What are intuitive definitions of each dimension of heterogeneity?
@@ -35,7 +35,7 @@
 
 - date: 1/30
   title: >
-    Week 3: <strong>Foundation2: Multimodal Connections</strong> <a href="11877_week3.pdf">[synopsis]</a>
+    Week 3 <strong>Foundation2: Multimodal Connections</strong> <a href="11877_week3.pdf">[synopsis]</a>
   slides:
   topics:
     - What are the reasons why modalities can be connected with each other? Come up with a taxonomy of various dimensions. Think along both statistical, data-driven dimensions and semantic, hypothesis or knowledge driven dimensions. How can we define estimators, where we can accurately quantify the presence of each type of connection given a dataset?
@@ -56,7 +56,7 @@
 
 - date: 2/6
   title: >
-    Week 4: <strong>Foundation2: Multimodal Interactions</strong> <a href="*.pdf">[synopsis]</a>
+    Week 4 <strong>Foundation3: Multimodal Interactions</strong> <a href="*.pdf">[synopsis]</a>
   slides:
   topics:
     - What are the different ways in which modalities can interact with each other when used for prediction tasks? Think across both semantic and statistical perspectives. Can we formalize a taxonomy of such interactions, which will enable us to compare and contrast them more precisely? In fact, should we even try creating such a taxonomy?
@@ -81,7 +81,7 @@
 
 - date: 2/13
   title: >
-    Week 5: <strong>Multimodal LLMs1: Data, Pretraining, and Scaling Laws</strong> <a href="*.pdf">[synopsis]</a>
+    Week 5 <strong>Multimodal LLMs1: Data, Pretraining, and Scaling Laws</strong> <a href="*.pdf">[synopsis]</a>
   slides:
   topics:
     - TBD
@@ -90,7 +90,7 @@
 
 - date: 2/20
   title: >
-    Week 6: <strong>Multimodal LLMs2: Fine-tuning, Instructing, Aligning, Model Merging</strong> <a href="*.pdf">[synopsis]</a>
+    Week 6 <strong>Multimodal LLMs2: Fine-tuning, Instructing, Aligning, Model Merging</strong> <a href="*.pdf">[synopsis]</a>
   slides:
   topics:
     - TBD
@@ -99,7 +99,7 @@
 
 - date: 2/27
   title: >
-    Week 7: <strong>Multimodal LLMs3: Generative Models and LLMs</strong> <a href="*.pdf">[synopsis]</a>
+    Week 7 <strong>Multimodal LLMs3: Generative Models and LLMs</strong> <a href="*.pdf">[synopsis]</a>
   slides:
   topics:
     - TBD
@@ -108,7 +108,7 @@
 
 - date: 3/5
   title: >
-    Week 8: <strong>No classes – Spring break</strong>
+    Week 8 <strong>No classes – Spring break</strong>
   topics:
     - None!
   readings:
@@ -116,7 +116,7 @@
 
 - date: 3/12
   title: >
-    Week 9: <strong>Interaction1: Neurosymbolic Reasoning</strong> <a href="*.pdf">[synopsis]</a>
+    Week 9 <strong>Interaction1: Neurosymbolic Reasoning</strong> <a href="*.pdf">[synopsis]</a>
   slides:
   topics:
     - TBD
@@ -125,7 +125,7 @@
 
 - date: 3/19
   title: >
-    Week 10: <strong>Interaction2: Embodied AI</strong> <a href="*.pdf">[synopsis]</a>
+    Week 10 <strong>Interaction2: Embodied AI</strong> <a href="*.pdf">[synopsis]</a>
   slides:
   topics:
     - TBD
@@ -134,7 +134,7 @@
 
 - date: 3/26
   title: >
-    Week 11: <strong>Interaction3: Pragmatics and Human-in-the-loop</strong> <a href="*.pdf">[synopsis]</a>
+    Week 11 <strong>Interaction3: Pragmatics and Human-in-the-loop</strong> <a href="*.pdf">[synopsis]</a>
   slides:
   topics:
     - TBD
@@ -143,7 +143,7 @@
 
 - date: 4/2
   title: >
-    Week 12: <strong>Ethics and Safety</strong> <a href="*.pdf">[synopsis]</a>
+    Week 12 <strong>Ethics and Safety</strong> <a href="*.pdf">[synopsis]</a>
   slides:
   topics:
     - TBD
@@ -152,7 +152,7 @@
 
 - date: 4/9
   title: >
-    Week 12: <strong>Efficiency</strong> <a href="*.pdf">[synopsis]</a>
+    Week 13 <strong>Efficiency</strong> <a href="*.pdf">[synopsis]</a>
   slides:
   topics:
     - TBD
@@ -161,14 +161,14 @@
 
 - date: 4/16
   title: >
-    Week 14: <strong>Open Discussion</strong>
+    Week 14 <strong>Open Discussion</strong>
   topics:
   
   readings:
 
 - date: 4/23
   title: >
-    Week 15: <strong>Project presentations</strong>
+    Week 15 <strong>Project presentations</strong>
   topics:
   
   readings:
