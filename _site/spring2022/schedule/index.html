@@ -1,0 +1,1271 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="content-language" content="en">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>11-877 AMML | Schedule</title>
+  <meta name="description" content="11-877 - Advanced Topics in Multimodal Machine Learning - Carnegie Mellon University - Spring 2022
+">
+
+  <link rel="shortcut icon" href="/adv-mmml-course/assets/img/favicon.ico">
+
+  <link rel="stylesheet" href="/adv-mmml-course/assets/css/main.css">
+  <link rel="canonical" href="/adv-mmml-course/spring2022/schedule/">
+
+  
+  <!-- Load Latex JS -->
+  <script src="https://cdn.jsdelivr.net/npm/latex.js@0.11.1/dist/latex.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/latex.js@0.11.1/dist/latex.component.js"></script>
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <span class="site-title">
+      <a class="page-link" href="http://localhost:4000/adv-mmml-course/spring2023/">11-877 AMML</a>
+    </span>
+
+    <nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+    </nav>
+
+  </div>
+
+</header>
+
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Schedule</h1>
+    <h2 class="post-description"></h2>
+  </header>
+
+  <article class="post-content Schedule clearfix">
+    <table class="table table-hover">
+      <colgroup>
+        <col style="width:5%">
+        <col style="width:55%">
+        <col style="width:40%">
+      </colgroup>
+      <thead class="thead-light">
+        <tr>
+          <th scope="col">Date</th>
+          <th scope="col">Topics</th>
+          <th scope="col">Readings</th>
+        </tr>
+      </thead>
+      <tbody>
+        <p>** Exact topics and schedule subject to change, based on student interests and course discussions. **</p>
+
+<tr class="past">
+    <th scope="row">1/21</th>
+    
+    <td>
+        Week 1: <strong>Course introduction</strong>  <a href="lecture1-Introduction.pdf">[slides]</a> <a href="11877_week1.pdf">[synopsis]</a>
+ <br />
+            <ul>
+               
+                  <li style="font-size:12px;">
+                     Course syllabus and requirements
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     Dimensions of multimodal heterogenity
+                  </li>
+               
+        </ul>
+    </td>
+    <td>
+        <ul>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1705.09406">Multimodal Machine Learning&#58; A Survey and Taxonomy</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1206.5538">Representation Learning&#58; A Review and New Perspectives</a> <br />
+                  </li>
+               
+        </ul>
+    </td>
+    
+</tr>
+
+<tr class="past">
+    <th scope="row">1/28</th>
+    
+    <td>
+        Week 2: <strong>Cross-modal interactions</strong> <a href="11877_week2.pdf">[synopsis]</a>
+ <br />
+            <ul>
+               
+                  <li style="font-size:12px;">
+                     What are the different ways in which modalities can interact with each other in multimodal tasks? Can we formalize a taxonomy of such cross-modal interactions, which will enable us to compare and contrast them more precisely? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     What are the design decisions (aka inductive biases) that can be used when modeling these cross-modal interactions in machine learning models? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     What are the advantages and drawbacks of designing models to capture each type of cross-modal interaction? Consider not just prediction performance, but tradeoffs in time/space complexity, interpretability, etc. <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     Given an arbitrary dataset and prediction task, how can we systematically decide what type of cross-modal interactions exist, and how can that inform our modeling decisions? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     Given trained multimodal models, how can we understand or visualize the nature of cross-modal interactions? <br />
+                  </li>
+               
+        </ul>
+    </td>
+    <td>
+        <ul>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://aclanthology.org/2020.emnlp-main.62/">Does my multimodal model learn cross-modal interactions? It’s harder to tell than you might think!</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://aclanthology.org/2020.acl-main.469/">What Does BERT with Vision Look At?</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://openreview.net/pdf?id=rylnK6VtDH">Multiplicative Interactions and Where to Find Them</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2112.12337">Cooperative Learning for Multi-view Analysis</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2109.04448">Vision-and-Language or Vision-for-Language? On Cross-Modal Influence in Multimodal Transformers</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2012.12352">Seeing past words&#58; Testing the cross-modal capabilities of pretrained V&amp;L models on counting tasks</a> <br />
+                  </li>
+               
+        </ul>
+    </td>
+    
+</tr>
+
+<tr class="past">
+    <th scope="row">2/4</th>
+    
+    <td>
+        Week 3: <strong>Multimodal co-learning</strong> <a href="11877_week3.pdf">[synopsis]</a>
+ <br />
+            <ul>
+               
+                  <li style="font-size:12px;">
+                     What are the types of cross-modal interactions involved to enable such co-learning scenarios where multimodal training ends up generalizing to unimodal testing? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     What are some design decisions (inductive bias) that could be made to promote transfer of information from one modality to another? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     How do we ensure that during co-learning, only useful information is transferred, and not some undesirable bias? This may become a bigger issue in low-resource settings. <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     How can we know if co-learning has succeeded? Or failed? What approaches could we develop to visualize and probe the success of co-learning? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     How can we formally, empirically, or intuitively measure the additional information provided by auxiliary modality? How can we design controlled experiments to test these hypotheses? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     What are the advantages and drawbacks of information transfer during co-learning? Consider not just prediction performance, but also tradeoffs with complexity, interpretability, fairness, etc. <br />
+                  </li>
+               
+        </ul>
+    </td>
+    <td>
+        <ul>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2011.08899">Multimodal Prototypical Networks for Few-shot Learning</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2103.05677">SMIL&#58; Multimodal Learning with Severely Missing Modality</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2107.13782">Multimodal Co-learning&#58; Challenges, Applications with Datasets, Recent Advances and Future Directions</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2010.06775">Vokenization&#58; Improving Language Understanding with Contextualized, Visual-Grounded Supervision</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2106.04538">What Makes Multi-modal Learning Better than Single (Provably)</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1812.07809">Found in Translation&#58; Learning Robust Joint Representations by Cyclic Translations Between Modalities</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1301.3666">Zero-Shot Learning Through Cross-Modal Transfer</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1912.02315">12-in-1&#58; Multi-Task Vision and Language Representation Learning</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1906.03926">A Survey of Reinforcement Learning Informed by Natural Language</a> <br />
+                  </li>
+               
+        </ul>
+    </td>
+    
+</tr>
+
+<tr class="warning">
+    <th scope="row">2/11</th>
+    
+    <td>
+        Week 4: <strong>Pretraining paradigm</strong> <a href="11877_week4.pdf">[synopsis]</a>
+ <br />
+            <ul>
+               
+                  <li style="font-size:12px;">
+                     Is large-scale pretraining the way forward for building general AI models? What information potentially cannot be captured by pretraining? What are the risks of pretraining? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     What are the types of cross-modal interactions that are likely to be modeled by current pretrained models? What are the cross-modal interactions that will be harder to model with these large-scale pretraining methods? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     How can we best integrate multimodality into pretrained language models? What kind of additional data and modeling/optimization decisions do we need? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     What are the different design decisions when integrating multimodal information in pretraining models and objectives? What are the main advantages and drawbacks of these design choices? Consider not just prediction performance, but tradeoffs in time/space complexity, interpretability, and so on. <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     How can we evaluate the type of multimodal information learned in pretrained models? One approach is to look at downstream tasks, but what are other ways to uncover the knowledge stored in pretrained models? <br />
+                  </li>
+               
+        </ul>
+    </td>
+    <td>
+        <ul>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2102.00529">Decoupling the Role of Data, Attention, and Losses in Multimodal Transformers</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2106.13884">Multimodal Few-Shot Learning with Frozen Language Models</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2102.02779">Unifying Vision-and-Language Tasks via Text Generation</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2112.04482">FLAVA&#58; A Foundational Language And Vision Alignment Model</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2103.05247">Pretrained Transformers as Universal Computation Engines</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2108.07258">On the Opportunities and Risks of Foundation Models</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2109.10246">Does Vision-and-Language Pretraining Improve Lexical Grounding?</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2005.07310">Behind the Scene&#58; Revealing the Secrets of Pre-trained Vision-and-Language Models</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1908.05787">Integrating Multimodal Information in Large Pretrained Transformers</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2102.12092">Zero-Shot Text-to-Image Generation</a> <br />
+                  </li>
+               
+        </ul>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">2/18</th>
+    
+    <td>
+        Week 5: <strong>Multimodal reasoning</strong> <a href="11877_week5.pdf">[synopsis]</a>
+ <br />
+            <ul>
+               
+                  <li style="font-size:12px;">
+                     What are the various reasoning processes required in multimodal tasks, where data comes from heterogeneous sources? What could be a taxonomy of the main processes involved in multimodal reasoning? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     Are there unique technical challenges that arise because reasoning is performed on multimodal data? What are these unique challenges? How can we start studying these challenges in future research? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     How should we model cross-modal interactions when performing reasoning over multimodal data? Grounding words with visual objects could be an example of a reasoning step required with multimodal data. Other reasoning involved in modeling the different types of cross-modal interactions (e.g., additive, multiplicative)? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     What are the main advantages of reasoning-based approaches, when compared to the large-scale pre-training methods discussed last week? What are the potential issues with reasoning? Can we perform reasoning on very large datasets? Can pre-training methods eventually learn reasoning processes similar to humans? Or will we still need human and domain knowledge to some extent? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     Can you imagine a way to uncover the reasoning capabilities of black-box model, such as a large-scale pre-trained model? How can one discover specifically the cross-modal reasoning processes in such a black-box model? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     To what extent do we need external knowledge when performing reasoning, specifically multimodal reasoning? What type of external knowledge is likely to be needed to succeed in multimodal reasoning? <br />
+                  </li>
+               
+        </ul>
+    </td>
+    <td>
+        <ul>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1910.01442">CLEVRER&#58; CoLlision Events for Video REpresentation and Reasoning</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2006.11524">Neuro-Symbolic Visual Reasoning&#58; Disentangling “Visual” from “Reasoning”</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1906.01784">Learning to Compose and Reason with Language Tree Structures for Visual Grounding</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1910.11475">Heterogeneous Graph Learning for Visual Commonsense Reasoning</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1906.03952">Multimodal Logical Inference System for Visual-Textual Entailment</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2012.08673">A Closer Look at the Robustness of Vision-and-Language Pre-trained Models</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1612.06890">CLEVR&#58; A Diagnostic Dataset for Compositional Language and Elementary Visual Reasoning</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2002.08325">VQA-LOL&#58; Visual Question Answering under the Lens of Logic</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1511.02799">Deep Compositional Question Answering with Neural Module Networks</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1912.07538">Towards Causal VQA&#58; Revealing and Reducing Spurious Correlations by Invariant and Covariant Semantic Editing</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1507.05670">Building a Large-scale Multimodal Knowledge Base System for Answering Visual Queries</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2112.08614">KAT&#58; A Knowledge Augmented Transformer for Vision-and-Language</a> <br />
+                  </li>
+               
+        </ul>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">2/25</th>
+    
+    <td>
+        Week 6: <strong>Memory and long-term interactions</strong> <a href="11877_week6.pdf">[synopsis]</a>
+ <br />
+            <ul>
+               
+                  <li style="font-size:12px;">
+                     What are the scenarios in which memory for long-term interactions is required in multimodal tasks, where data comes from heterogeneous sources? What could be a taxonomy of long-range cross-modal interactions that may need to be stored in memory? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     What are certain methods of parametrizing memory in unimodal models that may be applied for multimodal settings, and the various strengths/weaknesses of each approach? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     How should we model long-term cross-modal interactions? How can we design models (perhaps with memory mechanisms) to ensure that these long-term cross-modal interactions are captured? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     What are the main advantages of explicitly building memory-based modules into our architectures, as compared to the large-scale pre-training methods/Transformer models discussed in week 4? Do Transformer models already capture memory and long-term interactions implicitly? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     To what extent do we need external knowledge when performing reasoning, specifically multimodal reasoning? What type of external knowledge is likely to be needed to succeed in multimodal reasoning? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     A related topic is multimodal summarization&#58; how to summarize the main events from a long multimodal sequence. How can we summarize long sequences while keeping cross-modal interactions? What is unique about multimodal summarization? <br />
+                  </li>
+               
+        </ul>
+    </td>
+    <td>
+        <ul>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2011.04006">Long Range Arena&#58; A Benchmark for Efficient Transformers</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1907.05242">Large Memory Layers with Product Keys</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1603.01417">Dynamic Memory Networks for Visual and Textual Question Answering</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1611.05592">Multimodal Memory Modelling for Video Captioning</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1906.01076">Episodic Memory in Lifelong Language Learning</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://aclanthology.org/D18-1280.pdf">ICON&#58; Interactive Conversational Memory Network for Multimodal Emotion Detection</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://www.nature.com/articles/nature20101">Hybrid computing using a neural network with dynamic external memory</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2110.13309">History Aware Multimodal Transformer for Vision-and-Language Navigation</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2007.03356">Do Transformers Need Deep Long-Range Memory?</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1901.02860">Transformer-XL&#58; Attentive Language Models Beyond a Fixed-Length Context</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1410.5401">Neural Turing Machines</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://proceedings.mlr.press/v48/santoro16.pdf">Meta-Learning with Memory-Augmented Neural Networks</a> <br />
+                  </li>
+               
+        </ul>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">3/4</th>
+    
+    <td>
+        Week 7: <strong>No classes – Spring break</strong>
+ <br />
+            <ul>
+               
+                  <li style="font-size:12px;">
+                     None!
+                  </li>
+               
+        </ul>
+    </td>
+    <td>
+        <ul>
+               
+                  <li style="font-size:12px;">
+                     None!
+                  </li>
+               
+        </ul>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">3/11</th>
+    
+    <td>
+        Week 8: <strong>No classes – Spring break</strong>
+ <br />
+            <ul>
+               
+                  <li style="font-size:12px;">
+                     None!
+                  </li>
+               
+        </ul>
+    </td>
+    <td>
+        <ul>
+               
+                  <li style="font-size:12px;">
+                     None!
+                  </li>
+               
+        </ul>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">3/18</th>
+    
+    <td>
+        Week 9: <strong>Brain and multimodal perception</strong> <a href="11877_week9.pdf">[synopsis]</a>
+ <br />
+            <ul>
+               
+                  <li style="font-size:12px;">
+                     What are the main takeaways from neuroscience regarding unimodal and multimodal processing, integration, alignment, translation, and co-learning? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     How can these insights inform our design of multimodal models, following the topics we covered previously (cross-modal interactions, co-learning, pre-training, reasoning)? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     To what extent should we design AI models with the explicit goal to mirror human perception and reasoning, versus relying on large-scale pre-training methods and general neural network models? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     What different paradigms for multimodal perception and learning could be better aligned with how the brain processes multiple heterogeneous modalities? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     How does the human brain represent different modalities (visual, acoustic)? Are these different modalities represented in very heterogeneous ways? How is information linked between modalities? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     What are several challenges and opportunities in multimodal learning from high-resolution signals such as fMRI and MEG/EEG? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     What are some ways in which multimodal learning can help in the future analysis of data collected in neuroscience? <br />
+                  </li>
+               
+        </ul>
+    </td>
+    <td>
+        <ul>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://books.google.com/books?hl=en&amp;lr=&amp;id=69WESyZJNz0C&amp;oi=fnd&amp;pg=PA3&amp;dq=multimodal+brain+neuroscience&amp;ots=UoYoruz3_o&amp;sig=HLXOevgpm67Lwqk_sCShHeRqYb8#v=onepage&amp;q=multimodal%20brain%20neuroscience&amp;f=false">Multimodal Images in the Brain</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://www.sciencedirect.com/science/article/pii/S0010945217302277">Multimodal Mental Imagery</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://academic.oup.com/cercor/article/11/12/1110/492310">Crossmodal Processing in the Human Brain&#58; Insights from Functional Neuroimaging Studies</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1711.07998">Deep Sparse Coding for Invariant Multimodal Halle Berry Neurons</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2011.09850">A Theoretical Computer Science Perspective on Consciousness</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1911.03268">Inducing brain-relevant bias in natural language processing models</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://aclanthology.org/2020.lrec-1.85.pdf">The Brain-IHM Dataset&#58; a New Resource for Studying the Brain Basis of Human-Human and Human-Machine Conversations</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://nobaproject.com/modules/multi-modal-perception">Multi-Modal Perception</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1810.10974">Decoding Brain Representations by Multimodal Learning of Neural Activity and Visual Features</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="http://userpage.fu-berlin.de/rmcichy/publication_pdfs/Cichy_et_al_CC_2016.pdf">Similarity-Based Fusion of MEG and fMRI Reveals Spatio-Temporal Dynamics in Human Cortex During Visual Object Recognition</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://www.cs.cmu.edu/~hyunahs/papers/SDM2017_1.pdf">BRAINZOOM&#58; High Resolution Reconstruction from Multi-modal Brain Signals</a> <br />
+                  </li>
+               
+        </ul>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">3/25</th>
+    
+    <td>
+        Week 10: <strong>Beyond language and vision</strong> <a href="11877_week10.pdf">[synopsis]</a>
+ <br />
+            <ul>
+               
+                  <li style="font-size:12px;">
+                     What are the modalities beyond language and vision that are important for real-world applications? What unique structure do they contain, and what are the main challenges in performing multimodal learning with them? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     When reflecting on the heterogeneous aspect of multimodal learning, how are the other modalities different from language, speech, and vision? What dimensions of heterogeneity are important for these other modalities? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     What are the cross-modal interactions that you expect in these other modalities? Could you see ways to model cross-modal interactions with these other modalities and with language and vision? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     How do the core research problems of unimodal and multimodal processing, integration, alignment, translation, and co-learning generalize to modalities beyond language and vision? What core insights from these ‘common’ modalities have yet to be explored in understudied modalities? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     What is the best way to visualize these relatively understudied modalities? How can we best analyze and characterize the multimodal interactions present between these other modalities? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     How to learn models for many modalities (10+ modalities)? What are the chances to create multimodal learning algorithms that work for all modalities? What are the tradeoffs between modality-specific multimodal models and general-purpose multimodal models? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     If two modalities are very far from each other (strong heterogeneity and/or encoding very different information), how can we address the problem of multimodal learning? <br />
+                  </li>
+               
+        </ul>
+    </td>
+    <td>
+        <ul>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://www.sciencedirect.com/science/article/pii/S1566253521001330">A comprehensive survey on multimodal medical signals fusion for smart healthcare systems</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9341579&amp;tag=1">Multimodal Sensor Fusion with Differentiable Filters</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=1657787">Integration of EEG/MEG with MRI and fMRI</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6907100">A Multi-Sensor Fusion System for Moving Object Detection and Tracking in Urban Driving Environments</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9561847">Detect, Reject, Correct&#58; Crossmodal Compensation of Corrupted Sensors</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1907.13098">Making Sense of Vision and Touch&#58; Learning Multimodal Representations for Contact-Rich Tasks</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://www.sciencedirect.com/science/article/pii/S156625351630077X">Multi-sensor fusion in body sensor networks&#58; State-of-the-art and research challenges</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=126184">Multi-Sensor Fusion&#58; A Perspective</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2107.07502">MultiBench&#58; Multiscale Benchmarks for Multimodal Representation Learning</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2203.01311">HighMMT&#58; Towards Modality and Task Generalization for High-Modality Representation Learning</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=554212">Sensor Fusion for Mobile Robot Navigation</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://www.sciencedirect.com/science/article/pii/S1566253520304085">Multi-source information fusion based on rough set theory&#58; A review</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/jmri.20577">Combining EEG and fMRI&#58; A Multimodal Tool for Epilepsy Research</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1905.11436">Kalman Filter, Sensor Fusion, and Constrained Regression&#58; Equivalences and Insights</a> <br />
+                  </li>
+               
+        </ul>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">4/1</th>
+    
+    <td>
+        Week 11: <strong>Dataset and model biases</strong> <a href="11877_week11.pdf">[synopsis]</a>
+ <br />
+            <ul>
+               
+                  <li style="font-size:12px;">
+                     What could be a taxonomy of biases in multimodal datasets and models? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     What are some risks related to biases (e.g., social biases) when creating new datasets? How are these risks potentially amplified or reduced when the dataset is multimodal, with heterogeneous modalities? Are there any biases that are specific to multimodal data? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     What are the imperfections that may arise during human annotations? How do these imperfections in data and labels affect multimodal learning of multimodal representations, cross-modal interactions, co-learning, and pre-training? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     Can biases also emerge not only from the multimodal training data, but also from the modeling design decisions themselves? What aspects of multimodal modeling are most prone to learning and possibly emphasizing biases? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     What are potential solutions for tackling these risks and biases in multimodal datasets and models? How can we properly identify, visualize and eventually reduce these biases in multimodal datasets and models? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     How can we better interpret multimodal datasets and models to check for potential biases? What specific dimensions should we strive to understand? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     What are the tradeoffs between large-scale, noisily-collected and annotated multimodal datasets versus small-scale, carefully-curated and annotated datasets? How do these affect multimodal modeling? How does it relate to the popular pre-training paradigm? <br />
+                  </li>
+               
+        </ul>
+    </td>
+    <td>
+        <ul>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://www.nature.com/articles/s42256-020-00257-z">Shortcut learning in deep neural networks</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://aclanthology.org/2021.naacl-main.78.pdf">Measuring Social Biases in Grounded Vision and Language Embeddings</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2110.01963">Multimodal datasets&#58; misogyny, pornography, and malignant stereotypes</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://www.aaai.org/AAAI21Papers/AAAI-9821.YeK.pdf">A Case Study of the Shortcut Effects in Visual Commonsense Reasoning</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1908.07898">Are We Modeling the Task or the Annotator? An Investigation of Annotator Bias in Natural Language Understanding Datasets</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2202.04053">DALL-Eval&#58; Probing the Reasoning Skills and Social Biases of Text-to-Image Generative Transformers</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1606.08390">Revisiting Visual Question Answering Baselines</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1606.07356">Analyzing the Behavior of Visual Question Answering Models</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2002.04108">Adversarial Filters of Dataset Biases</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2009.10795">Dataset Cartography&#58; Mapping and Diagnosing Datasets with Training Dynamics</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1803.02324">Annotation Artifacts in Natural Language Inference Data</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2111.15366">AI and the Everything in the Whole Wide World Benchmark</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2110.14375">Perceptual Score&#58; What Data Modalities Does Your Model Perceive?</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2108.02922">Mitigating Dataset Harms Requires Stewardship&#58; Lessons from 1000 Papers</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://www.sciencedirect.com/science/article/pii/S0893608005000407">Challenges in real-life emotion annotation and machine learning based detection</a> <br />
+                  </li>
+               
+        </ul>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">4/8</th>
+    
+    <td>
+        Week 12: <strong>No classes – CMU Carnival</strong>
+ <br />
+            <ul>
+               
+                  <li style="font-size:12px;">
+                     None!
+                  </li>
+               
+        </ul>
+    </td>
+    <td>
+        <ul>
+               
+                  <li style="font-size:12px;">
+                     None!
+                  </li>
+               
+        </ul>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">4/15</th>
+    
+    <td>
+        Week 13: <strong>Explainability and interpretability</strong> <a href="11877_week13.pdf">[synopsis]</a>
+ <br />
+            <ul>
+               
+                  <li style="font-size:12px;">
+                     What is a taxonomy of multimodal phenomena we should aim to interpret? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     In a perfect world, what multimodal information would you expect to be available when interpreting a multimodal model? What multimodal phenomena and characteristics would you want from this “perfect” interpretable model? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     What aspects of multimodal interpretability extend beyond the unimodal case? What are the dependencies between unimodal and multimodal interpretability? In other words, what needs to be solved on the unimodal side so that we are successful in multimodal interpretability? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     What approaches and techniques can you imagine being best suited for multimodal interpretation? How should we visualize the results of these multimodal interpretations? Black-box model interpretation vs interpretation by design (white-box)? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     How can we evaluate that a specific multimodal phenomena (e.g., bimodal interactions) was properly interpreted? How do we measure success in multimodal interpretability? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     Separate from model interpretation, there is also the topic of dataset interpretation&#58; characterizing and interpreting the multimodal phenomena present in the data itself, independent of a specific model or prediction task. How can we perform multimodal data interpretation, and are there any differences with multimodal model interpretation? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     What is the best way to visualize relatively understudied modalities beyond language and vision? How can we best analyze and characterize the multimodal interactions present between these other modalities? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     What are the unique challenges to multimodal explainability, where not only the model is multimodal but also the explanation is potentially multimodal? <br />
+                  </li>
+               
+        </ul>
+    </td>
+    <td>
+        <ul>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2107.08264">M2Lens&#58; Visualizing and Explaining Multimodal Models for Sentiment Analysis</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2203.17247">VL-InterpreT&#58; An Interactive Visualization Tool for Interpreting Vision-Language Transformers</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1812.01263">Multimodal Explanations by Predicting Counterfactuality in Videos</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1602.04938">"Why Should I Trust You?"&#58; Explaining the Predictions of Any Classifier</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1606.03490">The Mythos of Model Interpretability</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2103.06254">Interpretable Machine Learning&#58; Moving From Mythos to Diagnostics</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2202.01602">The Disagreement Problem in Explainable Machine Learning&#58; A Practitioner's Perspective</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1810.12366">Do explanations make VQA models more predictable to a human?</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://distill.pub/2021/multimodal-neurons/">Multimodal Neurons in Artificial Neural Networks</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2203.02013">DIME&#58; Fine-grained Interpretations of Multimodal Models via Disentangled Local Explanations</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2004.14198">Multimodal Routing&#58; Improving Local and Global Interpretability of Multimodal Language Analysis</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2006.10965">How does this interaction affect me? Interpretable attribution for feature interactions</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2105.04857">Leveraging Sparse Linear Layers for Debuggable Deep Networks</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2202.01875">Rethinking Explainability as a Dialogue&#58; A Practitioner's Perspective</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2104.06387">ExplainaBoard&#58; An Explainable Leaderboard for NLP</a> <br />
+                  </li>
+               
+        </ul>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">4/22</th>
+    
+    <td>
+        Week 14: <strong>Multimodal generation and ethical concerns</strong> <a href="11877_week14.pdf">[synopsis]</a>
+ <br />
+            <ul>
+               
+                  <li style="font-size:12px;">
+                     What are some challenges in multimodal generation beyond generating each modality individually? How can we synchronize generation across multiple modalities? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     What degree of multimodal modeling is required for these cross-modal generation to be possible? For example, how much do models need to learn regarding cross-modal interactions, alignment, reasoning, etc? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     What are the qualities we should consider when evaluating outputs from multimodal generation? What do you think is the best practice to evaluate these qualities? Can we efficiently evaluate these qualities, at scale? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     What are the opportunities and challenges of automatic and human evaluation? How can we combine the best of both worlds? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     What are the real-world ethical issues regarding generation? How are these risks potentially amplified or reduced when the dataset is multimodal, with heterogeneous modalities? Are there any ethical issues that are specific to multimodal generation? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     How can we build a taxonomy of the main ethical concerns related to multimodal generation? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     How can we update our best practices to help address these ethical concerns? Who is better placed to start this dialogue? How can we make significant changes in this direction of reducing ethical issues? <br />
+                  </li>
+               
+        </ul>
+    </td>
+    <td>
+        <ul>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2102.10407">VisualGPT&#58; Data-efficient Adaptation of Pretrained Language Models for Image Captioning</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://openai.com/blog/dall-e/">DALL·E&#58; Creating Images from Text</a> and <a href="https://openai.com/dall-e-2/">DALL·E 2</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://dl.acm.org/doi/abs/10.1145/3442188.3445922">On the Dangers of Stochastic Parrots&#58; Can Language Models Be Too Big?</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://www.liebertpub.com/doi/full/10.1089/cyber.2021.29208.jth">The Social Impact of Deepfakes</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://www.theverge.com/21298762/face-depixelizer-ai-machine-learning-tool-pulse-stylegan-obama-bias">What a machine learning tool that turns Obama white can (and can’t) tell us about AI bias</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2005.03201">What comprises a good talking-head video generation?&#58; A Survey and Benchmark</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1905.12616">Defending Against Neural Fake News</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://thegradient.pub/pulse-lessons/">Lessons from the PULSE Model and Discussion</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2011.03775">Text-to-Image Generation Grounded by Fine-Grained User Attention</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://aclanthology.org/D18-1084.pdf">Training for Diversity in Image Paragraph Captioning</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1906.07901">Multimodal Abstractive Summarization for How2 Videos</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2012.07805">Extracting Training Data from Large Language Models</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://openaccess.thecvf.com/content_iccv_2015/papers/Suwajanakorn_What_Makes_Tom_ICCV_2015_paper.pdf">What Makes Tom Hanks Look Like Tom Hanks</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1710.00421">Video Generation From Text</a> <br />
+                  </li>
+               
+        </ul>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">4/29</th>
+    
+    <td>
+        Week 15: <strong>Generalization, low-resource, and robustness</strong> <a href="11877_week15.pdf">[synopsis]</a>
+ <br />
+            <ul>
+               
+                  <li style="font-size:12px;">
+                     One general claim is that pre-trained models can help with low-resource settings (e.g., few-shot fine-tuning). What are the multimodal problems where the paradigm of pre-training and fine-tuning may not generalize? What are the technical challenges? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     What are new research paradigms that should be explored to address the challenges of multimodal low-resource problems? Can you propose a taxonomy of the challenges that should be addressed to make progress in this direction, for low-resource modalities? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     How can we develop new models that generalize across many modalities (beyond 2 or 3)? What are the tradeoffs between modality-specific multimodal models and general-purpose multimodal models? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     What are the commonalities and underlying principles shared across diverse modalities and tasks that can enable good generalization? In other words, what are the pre-requirement for generalization to succeed? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     What are the limits of generalization? In other words, in which cases is generalization across modalities and tasks not possible due to possibly to data heterogeneity or some other reasons? What are these scenarios where generalization may not be possible? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     How can we perform generalization in the absence of explicit alignment (e.g., paired data) between modalities? How can we tackle the challenges of learning cross-modal interactions, alignment, reasoning, etc? <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     One other aspect of generalization is with real-world settings where noise is present and modalities may be even missing. How can we robustly handle these noisy situations? How can multimodal help? Can multimodal also make these noisy situations harder? <br />
+                  </li>
+               
+        </ul>
+    </td>
+    <td>
+        <ul>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2204.00598">Socratic Models&#58; Composing Zero-Shot Multimodal Reasoning with Language</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2201.04309">Robust Contrastive Learning against Noisy Views</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2010.12831">Unsupervised Vision-and-Language Pre-training Without Parallel Images and Captions</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1811.10787">Unsupervised Image Captioning</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2111.07991">LiT&#58; Zero-Shot Transfer with Locked-image text Tuning</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://openaccess.thecvf.com/content_cvpr_2017/html/Tran_Missing_Modalities_Imputation_CVPR_2017_paper.html">Missing Modalities Imputation via Cascaded Residual Autoencoder</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://dl.acm.org/doi/pdf/10.1145/3394486.3403234">Multimodal Learning with Incomplete Modalities by Knowledge Distillation</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1811.08615">Unsupervised Multimodal Representation Learning across Medical Images and Reports</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2011.08899">Multimodal Prototypical Networks for Few-shot Learning</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2107.07502">MultiBench&#58; Multiscale Benchmarks for Multimodal Representation Learning</a> <br />
+                  </li>
+               
+        </ul>
+    </td>
+    
+</tr>
+
+
+      </tbody>
+    </table>
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Advanced Topics in Multimodal Machine Learning</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1" style="width:200px;">
+        <ul class="contact-list">
+          <li class="p-name">CMU MultiComp Lab</li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2" style="width:200px;"><ul class="social-media-list"><li><a href="https://github.com/CMU-MultiComp-Lab" target="_blank"><i class="fab fa-github"></i> <span class="username">CMU-MultiComp-Lab</span></a></li><li><a href="https://www.youtube.com/channel/UCqlHIJTGYhiwQpNuPU5e2gg"  target="_blank"><i class="fab fa-youtube"></i> <span class="username">YouTube</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>&copy; Copyright 2024 Carnegie Mellon University. <br />
+        Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+    <!-- Load jQuery -->
+<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+
+<!-- Load Common JS -->
+<script src="/adv-mmml-course/assets/js/common.js"></script>
+
+
+<!-- Load KaTeX -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.1/katex.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.1/katex.min.js"></script>
+<script src="/adv-mmml-course/assets/js/katex.js"></script>
+
+
+
+<!-- Load Anchor JS -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.2/anchor.min.js"></script>
+<script>
+  anchors.options.visible = 'hover';
+  anchors.add('article h2, article h3, article h4, article h5, article h6');
+</script>
+
+
+
+<!-- Adjust LaTeX JS -->
+<script src="/adv-mmml-course/assets/js/latex.js"></script>
+
+
+<!-- Include custom icon fonts -->
+<link rel="stylesheet" href="/adv-mmml-course/assets/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="/adv-mmml-course/assets/css/academicons.min.css">
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-131744305-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+  </body>
+
+</html>

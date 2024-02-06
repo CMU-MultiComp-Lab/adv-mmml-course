@@ -25,11 +25,11 @@
     - Modality heterogeneity often implies the design of specialized models capturing the unique properties of each modality. What are some tradeoffs in modality-specific vs modality-general models?
     - Within each of the 6 multimodal challenges - representation, alignment, reasoning, generation, transference, quantification, how can the study of heterogeneity inform various modeling decisions? What problems could happen in practice if heterogeneity is not properly understood or modeled?
   readings:
-    - <a href="https://arxiv.org/abs/2104.13478">Geometric Deep Learning#58; Grids, Groups, Graphs, Geodesics, and Gauges</a> <br/>
-    - <a href="https://arxiv.org/abs/1804.08328">Taskonomy#58; Disentangling Task Transfer Learning</a> <br/>
+    - <a href="https://arxiv.org/abs/2104.13478">Geometric Deep Learning&#58; Grids, Groups, Graphs, Geodesics, and Gauges</a> <br/>
+    - <a href="https://arxiv.org/abs/1804.08328">Taskonomy&#58; Disentangling Task Transfer Learning</a> <br/>
     - <a href="https://arxiv.org/abs/1905.07553">Which Tasks Should Be Learned Together in Multi-task Learning?</a> <br/>
     - <a href="https://arxiv.org/abs/2002.02923">Geometric Dataset Distances via Optimal Transport</a> <br/>
-    - <a href="https://arxiv.org/abs/2302.08646">AutoFed#58; Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous Driving</a> <br/>
+    - <a href="https://arxiv.org/abs/2302.08646">AutoFed&#58; Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous Driving</a> <br/>
     - <a href="https://openaccess.thecvf.com/content_CVPRW_2019/html/NTIRE/Brummer_Natural_Image_Noise_Dataset_CVPRW_2019_paper.html">Natural Image Noise Dataset</a> <br/>
     - <a href="https://arxiv.org/abs/1711.02173">Synthetic and Natural Noise Both Break Neural Machine Translation</a> <br/>
 
@@ -49,8 +49,8 @@
     - <a href="https://openaccess.thecvf.com/content/WACV2023/papers/Lin_Relaxing_Contrastiveness_in_Multimodal_Representation_Learning_WACV_2023_paper.pdf">Relaxing Contrastiveness in Multimodal Representation Learning</a> <br/>
     - <a href="https://arxiv.org/abs/2210.09304">Non-Contrastive Learning Meets Language-Image Pre-Training</a> <br/>
     - <a href="https://www.emerald.com/insight/content/doi/10.1108/00220410310506303/full/pdf?title=a-taxonomy-of-relationships-between-images-and-text">A Taxonomy of Relationships between Images and Text</a> <br/>
-    - <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Hager_Best_of_Both_Worlds_Multimodal_Contrastive_Learning_With_Tabular_and_CVPR_2023_paper.pdf">Best of Both Worlds#58; Multimodal Contrastive Learning with Tabular and Imaging Data</a> <br/>
-    - <a href="https://arxiv.org/abs/2303.03323">CleanCLIP#58; Mitigating Data Poisoning Attacks in Multimodal Contrastive Learning</a> <br/>
+    - <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Hager_Best_of_Both_Worlds_Multimodal_Contrastive_Learning_With_Tabular_and_CVPR_2023_paper.pdf">Best of Both Worlds&#58; Multimodal Contrastive Learning with Tabular and Imaging Data</a> <br/>
+    - <a href="https://arxiv.org/abs/2303.03323">CleanCLIP&#58; Mitigating Data Poisoning Attacks in Multimodal Contrastive Learning</a> <br/>
     - <a href="https://chinese.wooster.edu/files/barthes.pdf">Image-Music-Text</a> <br/>
     - <a href="https://journals.sagepub.com/doi/epdf/10.1177/1470357205055928">A System for Image–text Relations in New (and Old) Media</a> <br/>
 
@@ -71,13 +71,13 @@
     - <a href="https://dl.acm.org/doi/pdf/10.1145/319382.319398">Ten Myths of Multimodal Interaction</a> <br/>
     - <a href="https://arxiv.org/pdf/2401.01862.pdf">A Vision Check-up for Language Models</a> <br/>
     - <a href="https://arxiv.org/pdf/2303.07226.pdf">Scaling Vision-Language Models with Sparse Mixture of Experts</a> <br/>
-    - <a href="https://arxiv.org/abs/2302.12247">Quantifying & Modeling Multimodal Interactions#58; An Information Decomposition Framework</a> <br/>
+    - <a href="https://arxiv.org/abs/2302.12247">Quantifying & Modeling Multimodal Interactions&#58; An Information Decomposition Framework</a> <br/>
     - <a href="https://aclanthology.org/2020.emnlp-main.62/">Does my multimodal model learn cross-modal interactions? It’s harder to tell than you might think!</a> <br/>
-    - <a href="https://www.sciencedirect.com/science/article/pii/S0167865513002584">Multimodal interaction#58; A review</a> <br/>
-    - <a href="https://dl.acm.org/doi/abs/10.1145/1027933.1027957">When do we interact multimodally?#58; cognitive load and multimodal communication patterns</a> <br/>
-    - <a href="https://www.sciencedirect.com/science/article/abs/pii/S0010027715300858?casa_token=p9q2QcgTKB0AAAAA:g8Z9aww-Ca86HAXX3coq0GPemqVHltlcaFouEWQ7PWM6mZONTdawEkQS9_lQTdrZ0oS_KHMaRQ">A multimodal parallel architecture#58; A cognitive framework for multimodal interactions</a> <br/>
+    - <a href="https://www.sciencedirect.com/science/article/pii/S0167865513002584">Multimodal interaction&#58; A review</a> <br/>
+    - <a href="https://dl.acm.org/doi/abs/10.1145/1027933.1027957">When do we interact multimodally?&#58; cognitive load and multimodal communication patterns</a> <br/>
+    - <a href="https://www.sciencedirect.com/science/article/abs/pii/S0010027715300858?casa_token=p9q2QcgTKB0AAAAA:g8Z9aww-Ca86HAXX3coq0GPemqVHltlcaFouEWQ7PWM6mZONTdawEkQS9_lQTdrZ0oS_KHMaRQ">A multimodal parallel architecture&#58; A cognitive framework for multimodal interactions</a> <br/>
     - <a href="https://arxiv.org/abs/cs/0308002">Quantifying and Visualizing Attribute Interactions</a> <br/>
-    - <a href="https://www.sesp.org/files/The%20Moderator-Baron.pdf">The Moderator-Mediator Variable Distinction in Social Psychological Research#58; Conceptual, Strategic, and Statistical Considerations</a> <br/>
+    - <a href="https://www.sesp.org/files/The%20Moderator-Baron.pdf">The Moderator-Mediator Variable Distinction in Social Psychological Research&#58; Conceptual, Strategic, and Statistical Considerations</a> <br/>
 
 - date: 2/13
   title: >
