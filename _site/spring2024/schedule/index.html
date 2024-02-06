@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="content-language" content="en">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>11-877 AMML | Schedule</title>
+  <meta name="description" content="11-877 - Advanced Topics in Multimodal Machine Learning - Carnegie Mellon University - Spring 2022
+">
+
+  <link rel="shortcut icon" href="/adv-mmml-course/assets/img/favicon.ico">
+
+  <link rel="stylesheet" href="/adv-mmml-course/assets/css/main.css">
+  <link rel="canonical" href="/adv-mmml-course/spring2024/schedule/">
+
+  
+  <!-- Load Latex JS -->
+  <script src="https://cdn.jsdelivr.net/npm/latex.js@0.11.1/dist/latex.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/latex.js@0.11.1/dist/latex.component.js"></script>
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <span class="site-title">
+      <a class="page-link" href="http://localhost:4000/adv-mmml-course/spring2023/">11-877 AMML</a>
+    </span>
+
+    <nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+    </nav>
+
+  </div>
+
+</header>
+
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Schedule</h1>
+    <h2 class="post-description"></h2>
+  </header>
+
+  <article class="post-content Schedule clearfix">
+    <table class="table table-hover">
+      <colgroup>
+        <col style="width:5%">
+        <col style="width:55%">
+        <col style="width:40%">
+      </colgroup>
+      <thead class="thead-light">
+        <tr>
+          <th scope="col">Date</th>
+          <th scope="col">Topics</th>
+          <th scope="col">Readings</th>
+        </tr>
+      </thead>
+      <tbody>
+        <p>** Exact topics and schedule subject to change, based on student interests and course discussions. **</p>
+
+<tr class="past">
+    <th scope="row">1/16</th>
+    
+    <td>
+        Week 1: <strong>Introduction</strong> <a href="lecture1-Introduction.pdf">[slides]</a>
+ <br />
+            <ul>
+               
+                  <li style="font-size:12px;">
+                     Course syllabus and requirements
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     Multimodal principles&#58; heterogeneity, connections, and interactions
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     Multimodal technical challenges
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     Multimodal research problems
+                  </li>
+               
+        </ul>
+    </td>
+    <td>
+        <ul>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2209.03430">Foundations and Trends in Multimodal Machine Learning&#58; Principles, Challenges, and Open Questions</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1705.09406">Multimodal Machine Learning&#58; A Survey and Taxonomy</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1206.5538">Representation Learning&#58; A Review and New Perspectives</a> <br />
+                  </li>
+               
+        </ul>
+    </td>
+    
+</tr>
+
+<tr class="past">
+    <th scope="row">1/23</th>
+    
+    <td>
+        Week 2: <strong>Foundation1: Dimensions of Heterogeneity</strong> <a href="11877_week2.pdf">[synopsis]</a>
+ <br />
+            <ul>
+               
+                  <li style="font-size:12px;">
+                     What is a taxonomy of the dimensions in which modalities can be heterogeneous? What are intuitive definitions of each dimension of heterogeneity?
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     Heterogeneity is also often seen in several other ML subfields (e.g., domain adaptation, domain shift, transfer learning, multitask learning, federated learning, etc). What are some similarities and differences between the notions of heterogeneity between MMML and these fields? Can definitions or methods in each area be adapted to benefit other research areas?
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     How can we formalize these dimensions of heterogeneity, and subsequently estimate these measures to quantify the degree in which modalities are different?
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     Heterogeneity in noise (e.g., due to sensor and system failures) is a relative understudied dimension. How can we reliably understand the unique noise topologies in modalities, to design more robust models?
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     Modality heterogeneity often implies the design of specialized models capturing the unique properties of each modality. What are some tradeoffs in modality-specific vs modality-general models?
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     Within each of the 6 multimodal challenges - representation, alignment, reasoning, generation, transference, quantification, how can the study of heterogeneity inform various modeling decisions? What problems could happen in practice if heterogeneity is not properly understood or modeled?
+                  </li>
+               
+        </ul>
+    </td>
+    <td>
+        <ul>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2104.13478">Geometric Deep Learning&#58; Grids, Groups, Graphs, Geodesics, and Gauges</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1804.08328">Taskonomy&#58; Disentangling Task Transfer Learning</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1905.07553">Which Tasks Should Be Learned Together in Multi-task Learning?</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2002.02923">Geometric Dataset Distances via Optimal Transport</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2302.08646">AutoFed&#58; Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous Driving</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://openaccess.thecvf.com/content_CVPRW_2019/html/NTIRE/Brummer_Natural_Image_Noise_Dataset_CVPRW_2019_paper.html">Natural Image Noise Dataset</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1711.02173">Synthetic and Natural Noise Both Break Neural Machine Translation</a> <br />
+                  </li>
+               
+        </ul>
+    </td>
+    
+</tr>
+
+<tr class="past">
+    <th scope="row">1/30</th>
+    
+    <td>
+        Week 3: <strong>Foundation2: Multimodal Connections</strong> <a href="11877_week3.pdf">[synopsis]</a>
+ <br />
+            <ul>
+               
+                  <li style="font-size:12px;">
+                     What are the reasons why modalities can be connected with each other? Come up with a taxonomy of various dimensions. Think along both statistical, data-driven dimensions and semantic, hypothesis or knowledge driven dimensions. How can we define estimators, where we can accurately quantify the presence of each type of connection given a dataset?
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     Are connections always strong and one-to-one? Reflect on what could make some cross-modal connections stronger or weaker, including many-to-many connections, ambiguity, noises, or adversarial attacks. How can we adapt our learning methods to account for these imperfections?
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     Given trained multimodal models, how can we understand or visualize the nature of connections captured by the model? What benchmarks should we design to probe the quality of learned connections?
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     How can we better learn connections that happen at a very fine-grained and compositional level? Are there new inductive biases we might need to build into vision-language connection models?
+                  </li>
+               
+        </ul>
+    </td>
+    <td>
+        <ul>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2210.01936">When and why vision-language models behave like bags-of-words, and what to do about it?</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://link.springer.com/article/10.1007/s13735-019-00187-6">Characterization and classification of semantic image-text relations</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2005.10243">What Makes for Good Views for Contrastive Learning?</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://openaccess.thecvf.com/content/WACV2023/papers/Lin_Relaxing_Contrastiveness_in_Multimodal_Representation_Learning_WACV_2023_paper.pdf">Relaxing Contrastiveness in Multimodal Representation Learning</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2210.09304">Non-Contrastive Learning Meets Language-Image Pre-Training</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://www.emerald.com/insight/content/doi/10.1108/00220410310506303/full/pdf?title=a-taxonomy-of-relationships-between-images-and-text">A Taxonomy of Relationships between Images and Text</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Hager_Best_of_Both_Worlds_Multimodal_Contrastive_Learning_With_Tabular_and_CVPR_2023_paper.pdf">Best of Both Worlds&#58; Multimodal Contrastive Learning with Tabular and Imaging Data</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2303.03323">CleanCLIP&#58; Mitigating Data Poisoning Attacks in Multimodal Contrastive Learning</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://chinese.wooster.edu/files/barthes.pdf">Image-Music-Text</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://journals.sagepub.com/doi/epdf/10.1177/1470357205055928">A System for Image–text Relations in New (and Old) Media</a> <br />
+                  </li>
+               
+        </ul>
+    </td>
+    
+</tr>
+
+<tr class="warning">
+    <th scope="row">2/6</th>
+    
+    <td>
+        Week 4: <strong>Foundation2: Multimodal Interactions</strong> <a href="*.pdf">[synopsis]</a>
+ <br />
+            <ul>
+               
+                  <li style="font-size:12px;">
+                     What are the different ways in which modalities can interact with each other when used for prediction tasks? Think across both semantic and statistical perspectives. Can we formalize a taxonomy of such interactions, which will enable us to compare and contrast them more precisely? In fact, should we even try creating such a taxonomy?
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     Can you think of ways modalities could interact with each other, even if there is no prediction task? How are modalities interacting during cross-modal translation? During multimodal generation?
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     Linking back to last week’s discussion, are there cases where modalities are connected but do not interact? Or interact but are not connected? Can we design formal experiments to test either hypothesis?
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     What mathematical or empirical frameworks can be used to formalize the meaning of interactions? How can we subsequently define estimators, where we can accurately quantify the presence of each type of interactions given a dataset?
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     Some definitions (from the semantic category) typically require human interactions to detect and quantify interactions. What are some opportunities and limitations of using human judgment to analyze interactions? Can we potentially design estimators to automate the human labeling process?
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     Can you think of ways to utilize large language models or other foundation models to enhance the learning process of multimodal interactions?
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     How to utilize cognitive theory to design a framework that can be used to understand and learn the interactions between multiple modalities that human beings face everyday?
+                  </li>
+               
+        </ul>
+    </td>
+    <td>
+        <ul>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/pdf/2205.09256.pdf">Training Vision-Language Transformers from Captions</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://dl.acm.org/doi/pdf/10.1145/319382.319398">Ten Myths of Multimodal Interaction</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/pdf/2401.01862.pdf">A Vision Check-up for Language Models</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/pdf/2303.07226.pdf">Scaling Vision-Language Models with Sparse Mixture of Experts</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2302.12247">Quantifying &amp; Modeling Multimodal Interactions&#58; An Information Decomposition Framework</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://aclanthology.org/2020.emnlp-main.62/">Does my multimodal model learn cross-modal interactions? It’s harder to tell than you might think!</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://www.sciencedirect.com/science/article/pii/S0167865513002584">Multimodal interaction&#58; A review</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://dl.acm.org/doi/abs/10.1145/1027933.1027957">When do we interact multimodally?&#58; cognitive load and multimodal communication patterns</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://www.sciencedirect.com/science/article/abs/pii/S0010027715300858?casa_token=p9q2QcgTKB0AAAAA:g8Z9aww-Ca86HAXX3coq0GPemqVHltlcaFouEWQ7PWM6mZONTdawEkQS9_lQTdrZ0oS_KHMaRQ">A multimodal parallel architecture&#58; A cognitive framework for multimodal interactions</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/cs/0308002">Quantifying and Visualizing Attribute Interactions</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://www.sesp.org/files/The%20Moderator-Baron.pdf">The Moderator-Mediator Variable Distinction in Social Psychological Research&#58; Conceptual, Strategic, and Statistical Considerations</a> <br />
+                  </li>
+               
+        </ul>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">2/13</th>
+    
+    <td>
+        Week 5: <strong>Multimodal LLMs1: Data, Pretraining, and Scaling Laws</strong> <a href="*.pdf">[synopsis]</a>
+ <br />
+            <ul>
+               
+                  <li style="font-size:12px;">
+                     TBD
+                  </li>
+               
+        </ul>
+    </td>
+    <td>
+        <ul>
+               
+                  <li style="font-size:12px;">
+                     <a href="">TBD</a> <br />
+                  </li>
+               
+        </ul>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">2/20</th>
+    
+    <td>
+        Week 6: <strong>Multimodal LLMs2: Fine-tuning, Instructing, Aligning, Model Merging</strong> <a href="*.pdf">[synopsis]</a>
+ <br />
+            <ul>
+               
+                  <li style="font-size:12px;">
+                     TBD
+                  </li>
+               
+        </ul>
+    </td>
+    <td>
+        <ul>
+               
+                  <li style="font-size:12px;">
+                     <a href="">TBD</a> <br />
+                  </li>
+               
+        </ul>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">2/27</th>
+    
+    <td>
+        Week 7: <strong>Multimodal LLMs3: Generative Models and LLMs</strong> <a href="*.pdf">[synopsis]</a>
+ <br />
+            <ul>
+               
+                  <li style="font-size:12px;">
+                     TBD
+                  </li>
+               
+        </ul>
+    </td>
+    <td>
+        <ul>
+               
+                  <li style="font-size:12px;">
+                     <a href="">TBD</a> <br />
+                  </li>
+               
+        </ul>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">3/5</th>
+    
+    <td>
+        Week 8: <strong>No classes – Spring break</strong>
+ <br />
+            <ul>
+               
+                  <li style="font-size:12px;">
+                     None!
+                  </li>
+               
+        </ul>
+    </td>
+    <td>
+        <ul>
+               
+                  <li style="font-size:12px;">
+                     None!
+                  </li>
+               
+        </ul>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">3/12</th>
+    
+    <td>
+        Week 9: <strong>Interaction1: Neurosymbolic Reasoning</strong> <a href="*.pdf">[synopsis]</a>
+ <br />
+            <ul>
+               
+                  <li style="font-size:12px;">
+                     TBD
+                  </li>
+               
+        </ul>
+    </td>
+    <td>
+        <ul>
+               
+                  <li style="font-size:12px;">
+                     <a href="">TBD</a> <br />
+                  </li>
+               
+        </ul>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">3/19</th>
+    
+    <td>
+        Week 10: <strong>Interaction2: Embodied AI</strong> <a href="*.pdf">[synopsis]</a>
+ <br />
+            <ul>
+               
+                  <li style="font-size:12px;">
+                     TBD
+                  </li>
+               
+        </ul>
+    </td>
+    <td>
+        <ul>
+               
+                  <li style="font-size:12px;">
+                     <a href="">TBD</a> <br />
+                  </li>
+               
+        </ul>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">3/26</th>
+    
+    <td>
+        Week 11: <strong>Interaction3: Pragmatics and Human-in-the-loop</strong> <a href="*.pdf">[synopsis]</a>
+ <br />
+            <ul>
+               
+                  <li style="font-size:12px;">
+                     TBD
+                  </li>
+               
+        </ul>
+    </td>
+    <td>
+        <ul>
+               
+                  <li style="font-size:12px;">
+                     <a href="">TBD</a> <br />
+                  </li>
+               
+        </ul>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">4/2</th>
+    
+    <td>
+        Week 12: <strong>Ethics and Safety</strong> <a href="*.pdf">[synopsis]</a>
+ <br />
+            <ul>
+               
+                  <li style="font-size:12px;">
+                     TBD
+                  </li>
+               
+        </ul>
+    </td>
+    <td>
+        <ul>
+               
+                  <li style="font-size:12px;">
+                     <a href="">TBD</a> <br />
+                  </li>
+               
+        </ul>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">4/9</th>
+    
+    <td>
+        Week 12: <strong>Efficiency</strong> <a href="*.pdf">[synopsis]</a>
+ <br />
+            <ul>
+               
+                  <li style="font-size:12px;">
+                     TBD
+                  </li>
+               
+        </ul>
+    </td>
+    <td>
+        <ul>
+               
+                  <li style="font-size:12px;">
+                     <a href="">TBD</a> <br />
+                  </li>
+               
+        </ul>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">4/16</th>
+    
+    <td>
+        Week 14: <strong>Open Discussion</strong>
+ <br />
+            <ul>
+               
+        </ul>
+    </td>
+    <td>
+        <ul>
+               
+        </ul>
+    </td>
+    
+</tr>
+
+<tr class="upcoming">
+    <th scope="row">4/23</th>
+    
+    <td>
+        Week 15: <strong>Project presentations</strong>
+ <br />
+            <ul>
+               
+        </ul>
+    </td>
+    <td>
+        <ul>
+               
+        </ul>
+    </td>
+    
+</tr>
+
+
+      </tbody>
+    </table>
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Advanced Topics in Multimodal Machine Learning</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1" style="width:200px;">
+        <ul class="contact-list">
+          <li class="p-name">CMU MultiComp Lab</li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2" style="width:200px;"><ul class="social-media-list"><li><a href="https://github.com/CMU-MultiComp-Lab" target="_blank"><i class="fab fa-github"></i> <span class="username">CMU-MultiComp-Lab</span></a></li><li><a href="https://www.youtube.com/channel/UCqlHIJTGYhiwQpNuPU5e2gg"  target="_blank"><i class="fab fa-youtube"></i> <span class="username">YouTube</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>&copy; Copyright 2024 Carnegie Mellon University. <br />
+        Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+    <!-- Load jQuery -->
+<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+
+<!-- Load Common JS -->
+<script src="/adv-mmml-course/assets/js/common.js"></script>
+
+
+<!-- Load KaTeX -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.1/katex.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.1/katex.min.js"></script>
+<script src="/adv-mmml-course/assets/js/katex.js"></script>
+
+
+
+<!-- Load Anchor JS -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.2/anchor.min.js"></script>
+<script>
+  anchors.options.visible = 'hover';
+  anchors.add('article h2, article h3, article h4, article h5, article h6');
+</script>
+
+
+
+<!-- Adjust LaTeX JS -->
+<script src="/adv-mmml-course/assets/js/latex.js"></script>
+
+
+<!-- Include custom icon fonts -->
+<link rel="stylesheet" href="/adv-mmml-course/assets/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="/adv-mmml-course/assets/css/academicons.min.css">
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-131744305-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+  </body>
+
+</html>
