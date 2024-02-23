@@ -84,7 +84,7 @@
     <th scope="row">1/16</th>
     
     <td>
-        Week 1: <strong>Introduction</strong> <a href="lecture1-Introduction.pdf">[slides]</a>
+        Week 1 <strong>Introduction</strong> <a href="lecture1-Introduction.pdf">[slides]</a>
  <br />
             <ul>
                
@@ -130,7 +130,7 @@
     <th scope="row">1/23</th>
     
     <td>
-        Week 2: <strong>Foundation1: Dimensions of Heterogeneity</strong> <a href="11877_week2.pdf">[synopsis]</a>
+        Week 2 <strong>Foundation1: Dimensions of Heterogeneity</strong> <a href="11877_week2.pdf">[synopsis]</a>
  <br />
             <ul>
                
@@ -200,7 +200,7 @@
     <th scope="row">1/30</th>
     
     <td>
-        Week 3: <strong>Foundation2: Multimodal Connections</strong> <a href="11877_week3.pdf">[synopsis]</a>
+        Week 3 <strong>Foundation2: Multimodal Connections</strong> <a href="11877_week3.pdf">[synopsis]</a>
  <br />
             <ul>
                
@@ -270,11 +270,11 @@
     
 </tr>
 
-<tr class="warning">
+<tr class="past">
     <th scope="row">2/6</th>
     
     <td>
-        Week 4: <strong>Foundation2: Multimodal Interactions</strong> <a href="*.pdf">[synopsis]</a>
+        Week 4 <strong>Foundation3: Multimodal Interactions</strong> <a href="11877_week4.pdf">[synopsis]</a>
  <br />
             <ul>
                
@@ -360,16 +360,36 @@
     
 </tr>
 
-<tr class="upcoming">
+<tr class="past">
     <th scope="row">2/13</th>
     
     <td>
-        Week 5: <strong>Multimodal LLMs1: Data, Pretraining, and Scaling Laws</strong> <a href="*.pdf">[synopsis]</a>
+        Week 5 <strong>Multimodal LLMs1: Data, Pretraining, and Scaling Laws</strong> <a href="*.pdf">[synopsis]</a>
  <br />
             <ul>
                
                   <li style="font-size:12px;">
-                     TBD
+                     What types of multimodal data noise are typically present in multimodal datasets, and how can they negatively impact the performance of a model during training? Can you provide examples of multimodal data points that might be considered noisy? Furthermore, how might we develop estimators capable of distinguishing between noisy and noise-free multimodal data pairs? If you have unlimited fundings to use for data filtering and data cleaning, what would be the ideal way to clean the multimodal dataset?
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     Given the demonstrated effectiveness of high-quality pretraining, as evidenced by projects like Mistral, imagine you have access to a large-scale, high-quality multimodal dataset for pre-training purposes. What types of generalization or additional capabilities might this enable the model to acquire compared to those trained on lower-quality data? Why do models trained with high-quality data obtain such abilities?
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     Considering the diversity of model architectures available for multimodal generation, which architecture would be most suitable for scaling general multimodal generation tasks? Moreover, which model architecture is best equipped to learn complex multimodal interactions effectively?
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     What are some pros and cons of treating data from all modalities equally (throwing them into a single large generative Transformer, after tokenizing the data)?
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     If you were leading a multimodal foundation model project equipped with extensive resources, including a skilled team and significant GPU capabilities, what multimodal architecture and types of multimodal data would you prioritize for an initial pilot study?
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     In exploring the scaling laws of multimodal models, different papers have different definitions for scaling law formulas. Which factors should be incorporated into the scaling law formula, and which among these do you believe is the most critical to consider?
                   </li>
                
         </ul>
@@ -378,7 +398,59 @@
         <ul>
                
                   <li style="font-size:12px;">
-                     <a href="">TBD</a> <br />
+                     <a href="https://arxiv.org/abs/2102.03334">ViLT&#58; Vision-and-Language Transformer Without Convolution or Region Supervision</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2301.03728">Scaling Laws for Generative Mixed-Modal Language Models</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://proceedings.neurips.cc/paper_files/paper/2022/file/eacad5b8e67850f2b8dd33d87691d097-Paper-Conference.pdf">Scaling Multimodal Pre-Training via Cross-Modality Gradient Harmonization</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/pdf/2010.14701.pdf">Scaling Laws for Autoregressive Generative Modeling</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/pdf/2401.17377.pdf">Infini-gram&#58; Scaling Unbounded n-gram Language Models to a Trillion Tokens</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/pdf/2311.18775.pdf">CoDi-2&#58; In-Context, Interleaved, and Interactive Any-to-Any Generation</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/pdf/2208.05516.pdf">Quality Not Quantity&#58; On the Interaction between Datase Design and Robustness of CLIP</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/pdf/2304.06939.pdf">Multimodal C4&#58; An Open, Billion-scale Corpus of Images Interleaved with Text</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/pdf/2307.10350.pdf">Improving Multimodal Datasets with Image Captioning</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/pdf/2302.10035.pdf">Large-scale Multi-Modal Pre-trained Models&#58; A Comprehensive Survey</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2203.01311">High-Modality Multimodal Transformer&#58; Quantifying Modality &amp; Interaction Heterogeneity for High-Modality Representation Learning</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/1908.07490">LXMERT&#58; Learning Cross-Modality Encoder Representations from Transformers</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/pdf/2307.05222.pdf">Generative Pretraining in Multimodality</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2102.01293">Scaling Laws for Transfer</a> <br />
                   </li>
                
         </ul>
@@ -386,16 +458,40 @@
     
 </tr>
 
-<tr class="upcoming">
+<tr class="past">
     <th scope="row">2/20</th>
     
     <td>
-        Week 6: <strong>Multimodal LLMs2: Fine-tuning, Instructing, Aligning, Model Merging</strong> <a href="*.pdf">[synopsis]</a>
+        Week 6 <strong>Multimodal LLMs2: Fine-tuning, Instructing, Aligning, Model Merging</strong> <a href="*.pdf">[synopsis]</a>
  <br />
             <ul>
                
                   <li style="font-size:12px;">
-                     TBD
+                     Ensuring the effectiveness of multimodal foundation models through high-quality instruction tuning is vital. A study detailed at <a href="https://arxiv.org/pdf/2402.04333.pdf">here</a>  introduces a strategy for selecting significant data specifically suited for enhancing instruction tuning for language models. A primary challenge in this approach is determining which data are most crucial for targeted instruction tuning. How can we accurately identify and select the most impactful data for enhancing instruction tuning in multimodal foundation models? Given the complexity of diverse and multimodal information, what strategies can ensure the effectiveness of instruction tuning data for specific tasks?
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     For model merging, mixture-of-expert-based models enable a new paradigm to utilize multiple expert models for specific tasks. <a href="https://arxiv.org/pdf/2402.05859.pdf">Here</a> shows a promising method to utilize multiple models together. When it comes to multimodal tasks, how might we design a similar system for multimodal tasks that have human-level intelligence? What methodologies could enable the integration of various multimodal models to perform complex tasks such as social interaction effectively?
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     What is the intuition of utilizing frozen large language models as the backbone for multimodal tasks? Which types of encoders would facilitate the integration of diverse information into a format understandable by LLMs? How do these LLMs process and interpret information from different modalities?
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     Considering the various methods available for LLM alignment, is aligning multimodal models perceived to be more challenging or easier? What factors contribute to the difficulty of multimodal alignment, and how might this be related to those previously discussed fundamental parts of multimodal machine learning like interaction and connection?
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     How can we categorize the taxonomy of general AI alignment? Can we classify the AI alignment categories based on the goal of conducting alignment? Assuming the existence of an oracle alignment method, what behaviors would we expect from an aligned AI model? Please list some behaviors that should be exhibited by AI following successful alignment.
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     What is the taxonomy of general AI alignment? Can we classify based on the goal of alignment? Imagine we have an oracle alignment method, what kind of behavior we expect the model to have after alignment? Please list some of the expected behavior that AI should have after alignment.
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     What distinguishes AI alignment from AI personalization? When focusing on AI alignment and personalization, what are the key differences and considerations to keep in mind? Is personalization an easier or harder thing to conduct compared with alignment?
                   </li>
                
         </ul>
@@ -404,7 +500,59 @@
         <ul>
                
                   <li style="font-size:12px;">
-                     <a href="">TBD</a> <br />
+                     <a href="https://arxiv.org/abs/2102.01293">Case Law Grounding&#58; Aligning Judgments of Humans and AI on Socially-Constructed Concepts</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/pdf/2309.14525.pdf">Aligning AI with shared human values</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/pdf/2310.07019.pdf">Improved Baselines with Visual Instruction Tuning</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/pdf/2008.02275.pdf">Value Alignment for Advanced Artificial Judicial Intelligence</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4252645"></a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/pdf/2310.03744.pdf">Improved Baselines with Visual Instruction Tunin</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/pdf/2106.13884.pdf">Multimodal Few-Shot Learning with Frozen Language Models</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2301.12597">BLIP-2&#58; Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/abs/2310.09478">MiniGPT-v2&#58; large language model as a unified interface for vision-language multi-task learning</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/pdf/2304.14933.pdf">An Empirical Study of Multimodal Model Merging</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://proceedings.mlr.press/v202/wu23t/wu23t.pdf">π-Tuning&#58; Transferring Multimodal Foundation Models with Optimal Multi-task Interpolation</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/pdf/2311.10122.pdf">Video-LLaVA&#58; Learning United Visual Representation by Alignment Before Projection</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/pdf/2303.16200.pdf?trk=public_post_comment-text">Natural Selection&#58; Favors AIs over Humans</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://proceedings.neurips.cc/paper_files/paper/2022/file/702f4db7543a7432431df588d57bc7c9-Paper-Conference.pdf">Mind the Gap&#58; Understanding the Modality Gap in Multi-modal Contrastive Representation Learning</a> <br />
                   </li>
                
         </ul>
@@ -412,16 +560,36 @@
     
 </tr>
 
-<tr class="upcoming">
+<tr class="warning">
     <th scope="row">2/27</th>
     
     <td>
-        Week 7: <strong>Multimodal LLMs3: Generative Models and LLMs</strong> <a href="*.pdf">[synopsis]</a>
+        Week 7 <strong>Multimodal LLMs3: Generative Models and LLMs</strong> <a href="*.pdf">[synopsis]</a>
  <br />
             <ul>
                
                   <li style="font-size:12px;">
-                     TBD
+                     Connecting with multimodal foundation topics discussed in the previous week, what types of multimodal interactions or connections are large-scale generative models learning to capture? How to link multimodal interactions with generative AI architecture? How to combine mathematical theory related to multimodal interactions to design the next generation of generative AI architecture?
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     With the advancement of generative AI, distinguishing between AI-generated and human-created content is becoming increasingly challenging. Besides watermarking, which has its limitations, are there other effective methods to differentiate between AI-generated and human-created content across various modalities (text, audio, video, image)? Or is it becoming virtually impossible to make this distinction?
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     What is the taxonomy of safety issues, social impact, and ethical concerns associated with generative AI development? How should we update best practices to address these ethical concerns? Who should initiate and lead this dialogue? What steps can be taken to mitigate these ethical issues effectively? Imagine we have an oracle multimodal generative AI system that is used on a large scale. What types of data pollution would it have if most of its data were published on the Internet?
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     When assessing the quality of multimodal outputs from generative AI systems, which dimensions should be prioritized? Can we develop metrics that allow for large-scale evaluation while mitigating potential safety and ethical risks?
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     Diffusion models have shown remarkable performance in controllable text-to-image generation. Could you explain the intuition behind why diffusion models are effective, especially in comparison to other generative AI models like GANs/ VAEs / AR-based LLMs? Some works claim that scaling up GANs can beat diffusion models (<a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Kang_Scaling_Up_GANs_for_Text-to-Image_Synthesis_CVPR_2023_paper.pdf">here</a>) and some work claims that language models are better than diffusion models for image generation (<a href="https://arxiv.org/pdf/2310.05737.pdf">here</a>). Which generative model family do you think is the most promising one for multimodal generation?
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     For state-of-the-art video generation models like Sora, Yann Lecun mentioned in <a href="https://twitter.com/ylecun/status/1758740106955952191">here</a> that Sora does not understand the real world and its corresponding physical rules. Do you agree with this view? Can the future development of generative AI systems truly incorporate real-world knowledge, or are they limited in this aspect? Is pursuing generative AI a viable path towards achieving Artificial General Intelligence (AGI)?
                   </li>
                
         </ul>
@@ -430,7 +598,67 @@
         <ul>
                
                   <li style="font-size:12px;">
-                     <a href="">TBD</a> <br />
+                     <a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/43a69d143273bd8215578bde887bb552-Paper-Conference.pdf">Generating Images with Multimodal Language Models</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/dd83eada2c3c74db3c7fe1c087513756-Paper-Datasets_and_Benchmarks.pdf">Holistic Evaluation of Text-to-Image Models</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://openai.com/research/video-generation-models-as-world-simulators">Video generation models as world simulators</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/pdf/2306.01953.pdf">Invisible Image Watermarks Are Provably Removable Using Generative AI</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/pdf/2312.14125.pdf">VideoPoet&#58; A Large Language Model for Zero-Shot Video Generation</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/pdf/2312.17172.pdf">Unified-IO 2&#58; Scaling Autoregressive Multimodal Models with Vision, Language, Audio, and Action</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/971f1e59cd956cc094da4e2f78c6ea7c-Paper-Conference.pdf">StableRep&#58; Synthetic Images from Text-to-Image Models Make Strong Visual Representation Learners</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/html/2401.01335v1">Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/pdf/2112.10752.pdf">High-Resolution Image Synthesis with Latent Diffusion Models</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/pdf/2308.14752.pdf">AI Deception&#58; A Survey of Examples, Risks, and Potential Solutions</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/pdf/2306.05949.pdf">Evaluating the Social Impact of Generative AI Systems in Systems and Society</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://www.sciencedirect.com/science/article/pii/S0160791X2300177X">Generative AI&#58; Here to stay, but for good?</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://www.tandfonline.com/doi/abs/10.1207/s15326985ep2704_8">Generative Learning Processes of the Brain</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://proceedings.neurips.cc/paper_files/paper/2020/file/8171ac2c5544a5cb54ac0f38bf477af4-Paper.pdf">VAEM&#58; a Deep Generative Model for Heterogeneous Mixed Type Data</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/pdf/2305.11846.pdf">Any-to-Any Generation via Composable Diffusion</a> <br />
+                  </li>
+               
+                  <li style="font-size:12px;">
+                     <a href="https://arxiv.org/pdf/2203.02923.pdf">GeoDiff&#58; A Geometric Diffusion Model For Molecular rConformation Generation</a> <br />
                   </li>
                
         </ul>
@@ -442,7 +670,7 @@
     <th scope="row">3/5</th>
     
     <td>
-        Week 8: <strong>No classes – Spring break</strong>
+        Week 8 <strong>No classes – Spring break</strong>
  <br />
             <ul>
                
@@ -468,7 +696,7 @@
     <th scope="row">3/12</th>
     
     <td>
-        Week 9: <strong>Interaction1: Neurosymbolic Reasoning</strong> <a href="*.pdf">[synopsis]</a>
+        Week 9 <strong>Interaction1: Neurosymbolic Reasoning</strong> <a href="*.pdf">[synopsis]</a>
  <br />
             <ul>
                
@@ -494,7 +722,7 @@
     <th scope="row">3/19</th>
     
     <td>
-        Week 10: <strong>Interaction2: Embodied AI</strong> <a href="*.pdf">[synopsis]</a>
+        Week 10 <strong>Interaction2: Embodied AI</strong> <a href="*.pdf">[synopsis]</a>
  <br />
             <ul>
                
@@ -520,7 +748,7 @@
     <th scope="row">3/26</th>
     
     <td>
-        Week 11: <strong>Interaction3: Pragmatics and Human-in-the-loop</strong> <a href="*.pdf">[synopsis]</a>
+        Week 11 <strong>Interaction3: Pragmatics and Human-in-the-loop</strong> <a href="*.pdf">[synopsis]</a>
  <br />
             <ul>
                
@@ -546,7 +774,7 @@
     <th scope="row">4/2</th>
     
     <td>
-        Week 12: <strong>Ethics and Safety</strong> <a href="*.pdf">[synopsis]</a>
+        Week 12 <strong>Ethics and Safety</strong> <a href="*.pdf">[synopsis]</a>
  <br />
             <ul>
                
@@ -572,7 +800,7 @@
     <th scope="row">4/9</th>
     
     <td>
-        Week 12: <strong>Efficiency</strong> <a href="*.pdf">[synopsis]</a>
+        Week 13 <strong>Efficiency</strong> <a href="*.pdf">[synopsis]</a>
  <br />
             <ul>
                
@@ -598,7 +826,7 @@
     <th scope="row">4/16</th>
     
     <td>
-        Week 14: <strong>Open Discussion</strong>
+        Week 14 <strong>Open Discussion</strong>
  <br />
             <ul>
                
@@ -616,7 +844,7 @@
     <th scope="row">4/23</th>
     
     <td>
-        Week 15: <strong>Project presentations</strong>
+        Week 15 <strong>Project presentations</strong>
  <br />
             <ul>
                
