@@ -81,7 +81,7 @@
 
 - date: 2/13
   title: >
-    Week 5 <strong>Multimodal LLMs1: Data, Pretraining, and Scaling Laws</strong> <a href="*.pdf">[synopsis]</a>
+    Week 5 <strong>Multimodal LLMs1: Data, Pretraining, and Scaling Laws</strong> <a href="11877_week5.pdf">[synopsis]</a>
   slides:
   topics:
     - What types of multimodal data noise are typically present in multimodal datasets, and how can they negatively impact the performance of a model during training? Can you provide examples of multimodal data points that might be considered noisy? Furthermore, how might we develop estimators capable of distinguishing between noisy and noise-free multimodal data pairs? If you have unlimited fundings to use for data filtering and data cleaning, what would be the ideal way to clean the multimodal dataset?
@@ -95,21 +95,21 @@
     - <a href="https://arxiv.org/abs/2102.03334">ViLT&#58; Vision-and-Language Transformer Without Convolution or Region Supervision</a> <br/>
     - <a href="https://arxiv.org/abs/2301.03728">Scaling Laws for Generative Mixed-Modal Language Models</a> <br/>
     - <a href="https://proceedings.neurips.cc/paper_files/paper/2022/file/eacad5b8e67850f2b8dd33d87691d097-Paper-Conference.pdf">Scaling Multimodal Pre-Training via Cross-Modality Gradient Harmonization</a> <br/>
-    - <a href="https://arxiv.org/pdf/2010.14701.pdf">Scaling Laws for Autoregressive Generative Modeling</a> <br/>    
-    - <a href="https://arxiv.org/pdf/2401.17377.pdf">Infini-gram&#58; Scaling Unbounded n-gram Language Models to a Trillion Tokens</a> <br/>    
-    - <a href="https://arxiv.org/pdf/2311.18775.pdf">CoDi-2&#58; In-Context, Interleaved, and Interactive Any-to-Any Generation</a> <br/>    
-    - <a href="https://arxiv.org/pdf/2208.05516.pdf">Quality Not Quantity&#58; On the Interaction between Datase Design and Robustness of CLIP</a> <br/>    
-    - <a href="https://arxiv.org/pdf/2304.06939.pdf">Multimodal C4&#58; An Open, Billion-scale Corpus of Images Interleaved with Text</a> <br/>    
-    - <a href="https://arxiv.org/pdf/2307.10350.pdf">Improving Multimodal Datasets with Image Captioning</a> <br/>    
-    - <a href="https://arxiv.org/pdf/2302.10035.pdf">Large-scale Multi-Modal Pre-trained Models&#58; A Comprehensive Survey</a> <br/> 
-    - <a href="https://arxiv.org/abs/2203.01311">High-Modality Multimodal Transformer&#58; Quantifying Modality & Interaction Heterogeneity for High-Modality Representation Learning</a> <br/> 
-    - <a href="https://arxiv.org/abs/1908.07490">LXMERT&#58; Learning Cross-Modality Encoder Representations from Transformers</a> <br/> 
-    - <a href="https://arxiv.org/pdf/2307.05222.pdf">Generative Pretraining in Multimodality</a> <br/> 
-    - <a href="https://arxiv.org/abs/2102.01293">Scaling Laws for Transfer</a> <br/> 
+    - <a href="https://arxiv.org/pdf/2010.14701.pdf">Scaling Laws for Autoregressive Generative Modeling</a> <br/>
+    - <a href="https://arxiv.org/pdf/2401.17377.pdf">Infini-gram&#58; Scaling Unbounded n-gram Language Models to a Trillion Tokens</a> <br/>
+    - <a href="https://arxiv.org/pdf/2311.18775.pdf">CoDi-2&#58; In-Context, Interleaved, and Interactive Any-to-Any Generation</a> <br/>
+    - <a href="https://arxiv.org/pdf/2208.05516.pdf">Quality Not Quantity&#58; On the Interaction between Datase Design and Robustness of CLIP</a> <br/>
+    - <a href="https://arxiv.org/pdf/2304.06939.pdf">Multimodal C4&#58; An Open, Billion-scale Corpus of Images Interleaved with Text</a> <br/>
+    - <a href="https://arxiv.org/pdf/2307.10350.pdf">Improving Multimodal Datasets with Image Captioning</a> <br/>
+    - <a href="https://arxiv.org/pdf/2302.10035.pdf">Large-scale Multi-Modal Pre-trained Models&#58; A Comprehensive Survey</a> <br/>
+    - <a href="https://arxiv.org/abs/2203.01311">High-Modality Multimodal Transformer&#58; Quantifying Modality & Interaction Heterogeneity for High-Modality Representation Learning</a> <br/>
+    - <a href="https://arxiv.org/abs/1908.07490">LXMERT&#58; Learning Cross-Modality Encoder Representations from Transformers</a> <br/>
+    - <a href="https://arxiv.org/pdf/2307.05222.pdf">Generative Pretraining in Multimodality</a> <br/>
+    - <a href="https://arxiv.org/abs/2102.01293">Scaling Laws for Transfer</a> <br/>
 
 - date: 2/20
   title: >
-    Week 6 <strong>Multimodal LLMs2: Fine-tuning, Instructing, Aligning, Model Merging</strong> <a href="*.pdf">[synopsis]</a>
+    Week 6 <strong>Multimodal LLMs2: Fine-tuning, Instructing, Aligning, Model Merging</strong> <a href="11877_week6.pdf">[synopsis]</a>
   slides:
   topics:
     - Ensuring the effectiveness of multimodal foundation models through high-quality instruction tuning is vital. A study detailed at <a href="https://arxiv.org/pdf/2402.04333.pdf">here</a>  introduces a strategy for selecting significant data specifically suited for enhancing instruction tuning for language models. A primary challenge in this approach is determining which data are most crucial for targeted instruction tuning. How can we accurately identify and select the most impactful data for enhancing instruction tuning in multimodal foundation models? Given the complexity of diverse and multimodal information, what strategies can ensure the effectiveness of instruction tuning data for specific tasks?
@@ -117,27 +117,27 @@
     - What is the intuition of utilizing frozen large language models as the backbone for multimodal tasks? Which types of encoders would facilitate the integration of diverse information into a format understandable by LLMs? How do these LLMs process and interpret information from different modalities?
     - Considering the various methods available for LLM alignment, is aligning multimodal models perceived to be more challenging or easier? What factors contribute to the difficulty of multimodal alignment, and how might this be related to those previously discussed fundamental parts of multimodal machine learning like interaction and connection?
     - How can we categorize the taxonomy of general AI alignment? Can we classify the AI alignment categories based on the goal of conducting alignment? Assuming the existence of an oracle alignment method, what behaviors would we expect from an aligned AI model? Please list some behaviors that should be exhibited by AI following successful alignment.
-    - What is the taxonomy of general AI alignment? Can we classify based on the goal of alignment? Imagine we have an oracle alignment method, what kind of behavior we expect the model to have after alignment? Please list some of the expected behavior that AI should have after alignment. 
+    - What is the taxonomy of general AI alignment? Can we classify based on the goal of alignment? Imagine we have an oracle alignment method, what kind of behavior we expect the model to have after alignment? Please list some of the expected behavior that AI should have after alignment.
     - What distinguishes AI alignment from AI personalization? When focusing on AI alignment and personalization, what are the key differences and considerations to keep in mind? Is personalization an easier or harder thing to conduct compared with alignment?
   readings:
-    - <a href="https://arxiv.org/abs/2102.01293">Case Law Grounding&#58; Aligning Judgments of Humans and AI on Socially-Constructed Concepts</a> <br/> 
-    - <a href="https://arxiv.org/pdf/2309.14525.pdf">Aligning AI with shared human values</a> <br/> 
-    - <a href="https://arxiv.org/pdf/2310.07019.pdf">Improved Baselines with Visual Instruction Tuning</a> <br/> 
-    - <a href="https://arxiv.org/pdf/2008.02275.pdf">Value Alignment for Advanced Artificial Judicial Intelligence</a> <br/> 
-    - <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4252645"></a> <br/> 
-    - <a href="https://arxiv.org/pdf/2310.03744.pdf">Improved Baselines with Visual Instruction Tunin</a> <br/> 
-    - <a href="https://arxiv.org/pdf/2106.13884.pdf">Multimodal Few-Shot Learning with Frozen Language Models</a> <br/> 
-    - <a href="https://arxiv.org/abs/2301.12597">BLIP-2&#58; Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models</a> <br/> 
-    - <a href="https://arxiv.org/abs/2310.09478">MiniGPT-v2&#58; large language model as a unified interface for vision-language multi-task learning</a> <br/> 
-    - <a href="https://arxiv.org/pdf/2304.14933.pdf">An Empirical Study of Multimodal Model Merging</a> <br/> 
-    - <a href="https://proceedings.mlr.press/v202/wu23t/wu23t.pdf">π-Tuning&#58; Transferring Multimodal Foundation Models with Optimal Multi-task Interpolation</a> <br/> 
-    - <a href="https://arxiv.org/pdf/2311.10122.pdf">Video-LLaVA&#58; Learning United Visual Representation by Alignment Before Projection</a> <br/> 
-    - <a href="https://arxiv.org/pdf/2303.16200.pdf?trk=public_post_comment-text">Natural Selection&#58; Favors AIs over Humans</a> <br/> 
-    - <a href="https://proceedings.neurips.cc/paper_files/paper/2022/file/702f4db7543a7432431df588d57bc7c9-Paper-Conference.pdf">Mind the Gap&#58; Understanding the Modality Gap in Multi-modal Contrastive Representation Learning</a> <br/> 
+    - <a href="https://arxiv.org/abs/2102.01293">Case Law Grounding&#58; Aligning Judgments of Humans and AI on Socially-Constructed Concepts</a> <br/>
+    - <a href="https://arxiv.org/pdf/2309.14525.pdf">Aligning AI with shared human values</a> <br/>
+    - <a href="https://arxiv.org/pdf/2310.07019.pdf">Improved Baselines with Visual Instruction Tuning</a> <br/>
+    - <a href="https://arxiv.org/pdf/2008.02275.pdf">Value Alignment for Advanced Artificial Judicial Intelligence</a> <br/>
+    - <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4252645"></a> <br/>
+    - <a href="https://arxiv.org/pdf/2310.03744.pdf">Improved Baselines with Visual Instruction Tunin</a> <br/>
+    - <a href="https://arxiv.org/pdf/2106.13884.pdf">Multimodal Few-Shot Learning with Frozen Language Models</a> <br/>
+    - <a href="https://arxiv.org/abs/2301.12597">BLIP-2&#58; Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models</a> <br/>
+    - <a href="https://arxiv.org/abs/2310.09478">MiniGPT-v2&#58; large language model as a unified interface for vision-language multi-task learning</a> <br/>
+    - <a href="https://arxiv.org/pdf/2304.14933.pdf">An Empirical Study of Multimodal Model Merging</a> <br/>
+    - <a href="https://proceedings.mlr.press/v202/wu23t/wu23t.pdf">π-Tuning&#58; Transferring Multimodal Foundation Models with Optimal Multi-task Interpolation</a> <br/>
+    - <a href="https://arxiv.org/pdf/2311.10122.pdf">Video-LLaVA&#58; Learning United Visual Representation by Alignment Before Projection</a> <br/>
+    - <a href="https://arxiv.org/pdf/2303.16200.pdf?trk=public_post_comment-text">Natural Selection&#58; Favors AIs over Humans</a> <br/>
+    - <a href="https://proceedings.neurips.cc/paper_files/paper/2022/file/702f4db7543a7432431df588d57bc7c9-Paper-Conference.pdf">Mind the Gap&#58; Understanding the Modality Gap in Multi-modal Contrastive Representation Learning</a> <br/>
 
 - date: 2/27
   title: >
-    Week 7 <strong>Multimodal LLMs3: Generative Models and LLMs</strong> <a href="*.pdf">[synopsis]</a>
+    Week 7 <strong>Multimodal LLMs3: Generative Models and LLMs</strong> <a href="11877_week7.pdf">[synopsis]</a>
   slides:
   topics:
     - Connecting with multimodal foundation topics discussed in the previous week, what types of multimodal interactions or connections are large-scale generative models learning to capture? How to link multimodal interactions with generative AI architecture? How to combine mathematical theory related to multimodal interactions to design the next generation of generative AI architecture?
@@ -167,19 +167,37 @@
 - date: 3/5
   title: >
     Week 8 <strong>No classes – Spring break</strong>
+  slides:
   topics:
-    - None!
   readings:
-    - None!
+
 
 - date: 3/12
   title: >
-    Week 9 <strong>Interaction1: Neurosymbolic Reasoning</strong> <a href="*.pdf">[synopsis]</a>
+    Week 9 <strong>Interaction1: Reasoning and Large Models</strong> <a href="*.pdf">[synopsis]</a>
   slides:
   topics:
-    - TBD
+    - Currently, most reasoning models are basically limited to vision and language domains. However, in our real world, multimodal reasoning more broadly exists and has more diverse forms. Can you list a few more examples of multimodal reasoning tasks in our daily life that rely on other modalities and how symbolic or unique reasoning methods can be applied to them?
+    - Can you create a taxonomy of all potential symbolic systems that can be helpful for different types of multimodal reasoning tasks like AMR graphs, knowledge graphs and programs? What are their unique advantages and disadvantages?
+    - Based on https://openreview.net/pdf?id=GPKTIktA0k, are there any other complex reasoning tasks besides reverse logic problems that you think the current foundation models might not handle well? How can neural symbolic models be incorporated to help with those hard cases?
+    - Besides https://arxiv.org/pdf/2402.03268.pdf, can you imagine any other potential way to uncover the reasoning capabilities of black-box models, such as large language models and other multimodal foundation models? How can one discover specifically the cross-modal reasoning processes in such a black-box model?
+    - To what extent do we need external knowledge when performing reasoning, specifically multimodal reasoning? What type of external knowledge is likely to be needed to succeed in multimodal reasoning?
+    - What are the main advantages of reasoning-based approaches, when compared to large-scale multimodal models discussed in the previous lectures? What are the potential issues with reasoning? Can we perform reasoning on very large datasets? Why do pre-training methods eventually learn reasoning processes similar to humans? Or will we still need human and domain knowledge to some extent?
+    - Are there unique technical challenges that arise when we consider utilizing neural symbolic methods on multimodal data as performed on multimodal data? What are these unique challenges? How can we start studying these challenges in future research?
   readings:
-    - <a href="">TBD</a> <br/>
+    - <a href="https://arxiv.org/pdf/2305.10601.pdf">Tree of Thoughts&#58; Deliberate Problem Solving with Large Language Models</a><br/>
+    - <a href="https://arxiv.org/pdf/2303.08128.pdf">ViperGPT&#58; Visual Inference via Python Execution for Reasoning</a><br/>
+    - <a href="https://arxiv.org/pdf/2402.03268.pdf">Understanding the Reasoning Ability of Language Models From the Perspective of Reasoning Paths Aggregation</a><br/>
+    - <a href="https://arxiv.org/pdf/2205.09712.pdf">Selection-Inference&#58; Exploiting Large Language Models for Interpretable Logical Reasoning</a><br/>
+    - <a href="https://arxiv.org/abs/2210.15037">Generalization Differences between End-to-End and Neuro-Symbolic Vision-Language Reasoning Systems</a><br/>
+    - <a href="https://arxiv.org/pdf/2210.00312.pdf">Multimodal Analogical Reasoning Over Knowledge Graphs</a><br/>
+    - <a href="https://arxiv.org/pdf/1904.12584.pdf">The Neuro-Symbolic Concept Learner&#58; Interpreting Scenes, Words, and Sentences From Natural Supervision</a><br/>
+    - <a href="https://openaccess.thecvf.com/content_cvpr_2017/papers/Wu_Neural_Scene_De-Rendering_CVPR_2017_paper.pdf">Neural Scene De-rendering</a><br/>
+    - <a href="https://link.springer.com/article/10.1007/s10462-023-10448-w">Neurosymbolic AI&#58; the 3rd wave</a><br/>
+    - <a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Wang_VQA-GNN_Reasoning_with_Multimodal_Knowledge_via_Graph_Neural_Networks_for_ICCV_2023_paper.pdf">VQA-GNN&#58; Reasoning with Multimodal Knowledge via Graph Neural Networks for Visual Question Answering</a><br/>
+    - <a href="https://arxiv.org/pdf/2304.07633.pdf">Detecting Out-of-Context Multimodal Misinformation with interpretable neural-symbolic model</a><br/>
+    - <a href="https://openaccess.thecvf.com/content_cvpr_2016/papers/Andreas_Neural_Module_Networks_CVPR_2016_paper.pdf">Neural Module Networks</a><br/>
+    - <a href="https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/894">Logical Versus Analogical or Symbolic Versus Connectionist or Neat Versus Scruffy</a><br/>
 
 - date: 3/19
   title: >
@@ -221,12 +239,12 @@
   title: >
     Week 14 <strong>Open Discussion</strong>
   topics:
-  
+
   readings:
 
 - date: 4/23
   title: >
     Week 15 <strong>Project presentations</strong>
   topics:
-  
+
   readings:
