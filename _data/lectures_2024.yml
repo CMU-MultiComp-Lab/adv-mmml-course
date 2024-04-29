@@ -1,6 +1,6 @@
 - date: 1/16
   title: >
-    Week 1 <strong>Introduction</strong> <a href="lecture1-Introduction.pdf">[slides]</a>
+    Week 1 <strong>Course Introduction</strong> <a href="11_877_week1_slides.pdf">[slides]</a>
 
   slides:
   topics:
@@ -15,7 +15,7 @@
 
 - date: 1/23
   title: >
-    Week 2 <strong>Foundation Part1: Dimensions of Heterogeneity</strong> <a href="11877_week2.pdf">[synopsis]</a>
+    Week 2 <strong>Foundation Part1: Dimensions of Heterogeneity</strong> <a href="11_877_week2_synopsis.pdf">[synopsis]</a>
   slides:
   topics:
     - What is a taxonomy of the dimensions in which modalities can be heterogeneous? What are intuitive definitions of each dimension of heterogeneity?
@@ -35,7 +35,7 @@
 
 - date: 1/30
   title: >
-    Week 3 <strong>Foundation Part2: Multimodal Connections</strong> <a href="11877_week3.pdf">[synopsis]</a>
+    Week 3 <strong>Foundation Part2: Multimodal Connections</strong> <a href="11_877_week3_synopsis.pdf">[synopsis]</a>
   slides:
   topics:
     - What are the reasons why modalities can be connected with each other? Come up with a taxonomy of various dimensions. Think along both statistical, data-driven dimensions and semantic, hypothesis or knowledge driven dimensions. How can we define estimators, where we can accurately quantify the presence of each type of connection given a dataset?
@@ -56,7 +56,7 @@
 
 - date: 2/6
   title: >
-    Week 4 <strong>Foundation Part3: Multimodal Interactions</strong> <a href="11877_week4.pdf">[synopsis]</a>
+    Week 4 <strong>Foundation Part3: Multimodal Interactions</strong> <a href="11_877_week4_synopsis.pdf">[synopsis]</a>
   slides:
   topics:
     - What are the different ways in which modalities can interact with each other when used for prediction tasks? Think across both semantic and statistical perspectives. Can we formalize a taxonomy of such interactions, which will enable us to compare and contrast them more precisely? In fact, should we even try creating such a taxonomy?
@@ -81,7 +81,7 @@
 
 - date: 2/13
   title: >
-    Week 5 <strong>Multimodal LLMs Part1: Data, Pretraining, and Scaling Laws</strong> <a href="11877_week5.pdf">[synopsis]</a>
+    Week 5 <strong>Multimodal LLMs Part1: Data, Pretraining, and Scaling Laws</strong> <a href="11_877_week5_synopsis.pdf">[synopsis]</a>
   slides:
   topics:
     - What types of multimodal data noise are typically present in multimodal datasets, and how can they negatively impact the performance of a model during training? Can you provide examples of multimodal data points that might be considered noisy? Furthermore, how might we develop estimators capable of distinguishing between noisy and noise-free multimodal data pairs? If you have unlimited fundings to use for data filtering and data cleaning, what would be the ideal way to clean the multimodal dataset?
@@ -109,7 +109,7 @@
 
 - date: 2/20
   title: >
-    Week 6 <strong>Multimodal LLMs Part2: Fine-tuning, Instructing, Aligning, Model Merging</strong> <a href="11877_week6.pdf">[synopsis]</a>
+    Week 6 <strong>Multimodal LLMs Part2: Fine-tuning, Instructing, Aligning, Model Merging</strong> <a href="11_877_week6_synopsis.pdf">[synopsis]</a>
   slides:
   topics:
     - Ensuring the effectiveness of multimodal foundation models through high-quality instruction tuning is vital. A study detailed at <a href="https://arxiv.org/pdf/2402.04333.pdf">here</a>  introduces a strategy for selecting significant data specifically suited for enhancing instruction tuning for language models. A primary challenge in this approach is determining which data are most crucial for targeted instruction tuning. How can we accurately identify and select the most impactful data for enhancing instruction tuning in multimodal foundation models? Given the complexity of diverse and multimodal information, what strategies can ensure the effectiveness of instruction tuning data for specific tasks?
@@ -137,7 +137,7 @@
 
 - date: 2/27
   title: >
-    Week 7 <strong>Multimodal LLMs Part3: Generative Models and LLMs</strong> <a href="11877_week7.pdf">[synopsis]</a>
+    Week 7 <strong>Multimodal LLMs Part3: Generative Models and LLMs</strong> <a href="11_877_week7_synopsis.pdf">[synopsis]</a>
   slides:
   topics:
     - Connecting with multimodal foundation topics discussed in the previous week, what types of multimodal interactions or connections are large-scale generative models learning to capture? How to link multimodal interactions with generative AI architecture? How to combine mathematical theory related to multimodal interactions to design the next generation of generative AI architecture?
@@ -174,13 +174,13 @@
 
 - date: 3/12
   title: >
-    Week 9 <strong>Interaction Part1: Reasoning and Large Models</strong> <a href="*.pdf">[synopsis]</a>
+    Week 9 <strong>Interaction Part1: Reasoning and Large Models</strong> <a href="11_877_week9_synopsis.pdf">[synopsis]</a>
   slides:
   topics:
     - Currently, most reasoning models are basically limited to vision and language domains. However, in our real world, multimodal reasoning more broadly exists and has more diverse forms. Can you list a few more examples of multimodal reasoning tasks in our daily life that rely on other modalities and how symbolic or unique reasoning methods can be applied to them?
     - Can you create a taxonomy of all potential symbolic systems that can be helpful for different types of multimodal reasoning tasks like AMR graphs, knowledge graphs and programs? What are their unique advantages and disadvantages?
-    - Based on https://openreview.net/pdf?id=GPKTIktA0k, are there any other complex reasoning tasks besides reverse logic problems that you think the current foundation models might not handle well? How can neural symbolic models be incorporated to help with those hard cases?
-    - Besides https://arxiv.org/pdf/2402.03268.pdf, can you imagine any other potential way to uncover the reasoning capabilities of black-box models, such as large language models and other multimodal foundation models? How can one discover specifically the cross-modal reasoning processes in such a black-box model?
+    - Based on <a href="https://openreview.net/pdf?id=GPKTIktA0k">here</a>, are there any other complex reasoning tasks besides reverse logic problems that you think the current foundation models might not handle well? How can neural symbolic models be incorporated to help with those hard cases?
+    - Besides <a href="https://arxiv.org/pdf/2402.03268.pdf">here</a>, can you imagine any other potential way to uncover the reasoning capabilities of black-box models, such as large language models and other multimodal foundation models? How can one discover specifically the cross-modal reasoning processes in such a black-box model?
     - To what extent do we need external knowledge when performing reasoning, specifically multimodal reasoning? What type of external knowledge is likely to be needed to succeed in multimodal reasoning?
     - What are the main advantages of reasoning-based approaches, when compared to large-scale multimodal models discussed in the previous lectures? What are the potential issues with reasoning? Can we perform reasoning on very large datasets? Why do pre-training methods eventually learn reasoning processes similar to humans? Or will we still need human and domain knowledge to some extent?
     - Are there unique technical challenges that arise when we consider utilizing neural symbolic methods on multimodal data as performed on multimodal data? What are these unique challenges? How can we start studying these challenges in future research?
@@ -201,15 +201,15 @@
 
 - date: 3/19
   title: >
-    Week 10 <strong>Interaction Part2&#58; Embodiment and Planning</strong> <a href="*.pdf">[synopsis]</a>
+    Week 10 <strong>Interaction Part2&#58; Embodiment and Planning</strong> <a href="11_877_week10_synopsis.pdf">[synopsis]</a>
   slides:
   topics:
     - For what sort of embodied tasks might code be a good representation for? For what tasks would it be a poor representation for?
     - When generating embodied plans from natural language, several dimensions of difficulty are the ambiguity in the language, the difficulty of grounding language in the environment, and the difficulty of carrying out the plan in the environment. Consider one or two of the papers from this week – which of these dimensions (or others) do they mainly address?
     - When building an embodied AI, one key challenge is to define an easy and clear action space to ground. Given any particular task like cooking and housekeeping, how to design an appropriate action space that can be easily and accurately grounded? Provide a task and its corresponding designed action space for grounding.
     - Robotics requires more broad multisensory machine learning techniques besides well-studied vision/language multimodal techniques. What are the potential sensory modalities for embodied agent tasks that are not well studied now? What specific embodied tasks require the information from sensory modality to be completed?
-    - Based on the release of Figure01 (https://www.figure.ai/), what are the three potential main technical challenges for the next steps of embodied AI and why? What are three potential applications like automatic housekeeping that are still not achievable for robotics now?
-    - For embodied AI training, embodied data is widely considered a serious bottleneck. There are a lot of data synthesis works based on virtual or physical environments like https://arxiv.org/pdf/2403.08629.pdf. What are the key challenges for embodied tasks data synthesis and how to make sure that synthesized data are high-quality?
+    - Based on the release of Figure01 (<a href="https://www.figure.ai/">here</a>), what are the three potential main technical challenges for the next steps of embodied AI and why? What are three potential applications like automatic housekeeping that are still not achievable for robotics now?
+    - For embodied AI training, embodied data is widely considered a serious bottleneck. There are a lot of data synthesis works based on virtual or physical environments like <a href="https://arxiv.org/pdf/2403.08629.pdf">here</a>. What are the key challenges for embodied tasks data synthesis and how to make sure that synthesized data are high-quality?
     - What challenges do social settings add beyond standard embodied/robotics tasks?
   readings:
     - <a href="https://voyager.minedojo.org/">Voyager&#58; An Open-Ended Embodied Agent with Large Language Models</a> <br/>
@@ -228,7 +228,7 @@
 
 - date: 3/26
   title: >
-    Week 11 <strong>Interaction Part3: Interaction with People</strong> <a href="*.pdf">[synopsis]</a>
+    Week 11 <strong>Interaction Part3: Interaction with People</strong> <a href="11_877_week11_synopsis.pdf">[synopsis]</a>
   slides:
   topics:
     - Humans can provide many different types of feedback to help models accomplish challenging tasks in NLP, robotics, and multimodal tasks (e.g., ranking, scoring, and instructing). What are other types of feedback that can be useful for model training? Can we create a taxonomy of feedback forms, and describe each of their pros and cons? When should we use each type of feedback?
@@ -263,7 +263,7 @@
 
 - date: 4/2
   title: >
-    Week 12 <strong>Ethics and Safety</strong> <a href="*.pdf">[synopsis]</a>
+    Week 12 <strong>Ethics and Safety</strong> <a href="11_877_week12_synopsis.pdf">[synopsis]</a>
   slides:
   topics:
     - What are some ways to assess the trustworthiness of LLMs? How does the problem become harder when these LLMs are multimodal in the input and output? How can our earlier discussions on multimodal interactions, reasoning, etc give new insights on improving the trust and safety of multimodal LLMs?
@@ -292,7 +292,7 @@
 
 - date: 4/9
   title: >
-    Week 13 <strong>Efficiency and Privacy</strong> <a href="*.pdf">[synopsis]</a>
+    Week 13 <strong>Efficiency and Privacy</strong> <a href="11_877_week13_synopsis.pdf">[synopsis]</a>
   slides:
   topics:
     - Different papers have different definitions of efficiency, including memory, time, space etc. Are there other notions of efficiency that you think current work is missing out on, especially as we build multimodal systems for the real world? How can we make progress on these new notions?
@@ -319,7 +319,7 @@
 
 - date: 4/16
   title: >
-    Week 14 <strong>Open Discussion</strong>
+    Week 14 <strong>Open Discussion</strong> <a href="11_877_week14_synopsis.pdf">[synopsis]</a>
   topics:
 
   readings:
